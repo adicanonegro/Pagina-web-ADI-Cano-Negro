@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const revealElements = document.querySelectorAll(".reveal");
+    const revealElements = document.querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-zoom");
+    const sectionTitles = document.querySelectorAll(".section-title");
     const counters = document.querySelectorAll(".counter");
     const scrollProgress = document.getElementById("scrollProgress");
     const hero = document.querySelector(".hero");
@@ -22,12 +23,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, {
-        threshold: 0.15
+        threshold: 0.12
     });
 
-    revealElements.forEach(element => {
-        revealObserver.observe(element);
-    });
+    revealElements.forEach(element => revealObserver.observe(element));
+
+    /* ================= SECTION TITLES ================= */
+    const titleObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    sectionTitles.forEach(title => titleObserver.observe(title));
 
     /* ================= CONTADORES ================= */
     function animateCounter(counter) {

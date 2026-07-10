@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera Azul Ecológica - Caño Negro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/header.css">
+    <link rel="stylesheet" href="../../CSS/banderaAzul/banderaAzul.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/banderaAzul/banderaAzul.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
+</head>
+
+<body data-page="banderaAzul">
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="main-header">
+        <div class="logo-area">
+            <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img">
+            <div class="logo-text">
+                <span data-i18n="logo_text">ADI Caño Negro</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid p-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="menuNav">
+                    <div class="menu-sidebar-header d-lg-none">
+                        <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="mobile-header-logo">
+                        <span class="mobile-header-title">ADI Caño Negro</span>
+                        <button class="close-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menuNav" aria-label="Cerrar menú">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../Senderos/senderos.html" data-i18n="nav_senderos">Senderos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_videos">Videos</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="#" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                    </ul>
+                    <div class="language-dropdown ms-lg-3">
+                        <button type="button" class="language-toggle" id="languageToggle">
+                            <span id="currentLanguage">ES</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <button class="language-option active" data-lang="es">ES</button>
+                            <button class="language-option" data-lang="en">EN</button>
+                            <button class="language-option" data-lang="fr">FR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero-bandera">
+        <div class="hero-content reveal">
+            <p class="hero-tag">
+                <span data-i18n="hero_tag">Programa AyA · Costa Rica</span>
+            </p>
+            <h1 data-i18n="hero_title">Bandera Azul<br>Ecológica en <span>Caño Negro</span></h1>
+            <p class="description" data-i18n="hero_desc">
+                Un reconocimiento que impulsa la organización comunitaria hacia la sostenibilidad,
+                la conservación del agua y el cuido del entorno natural que nos rodea.
+            </p>
+            <p class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span data-i18n="hero_location">Caño Negro, Los Chiles, Alajuela</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= ¿QUÉ ES? ================= -->
+    <section class="intro-bandera">
+        <div class="container">
+            <span class="section-label center reveal" data-i18n="intro_label">El programa</span>
+            <h2 class="section-title reveal" data-i18n="intro_title">Un reconocimiento que transforma comunidades</h2>
+            <p class="section-subtitle reveal" data-i18n="intro_subtitle">
+                Bandera Azul Ecológica es un programa del AyA que busca organizar a la sociedad
+                para mejorar las condiciones ambientales e higiénicas, adaptado a la realidad local.
+            </p>
+
+            <div class="intro-grid reveal">
+                <!-- Columna izquierda: texto con acento visual -->
+                <div class="intro-quote-col">
+                    <div class="intro-quote-card">
+                        <i class="fa-solid fa-quote-left intro-q-icon"></i>
+                        <p data-i18n="intro_text1">
+                            Nació enfocado en playas y hoy abarca comunidades, centros educativos, espacios naturales
+                            protegidos, microcuencas, eventos, hogares sostenibles y construcción sostenible. Cada
+                            categoría evalúa aspectos clave como la calidad del agua, manejo de residuos, educación
+                            ambiental y eficiencia energética.
+                        </p>
+                        <p data-i18n="intro_text2">
+                            Lo que hace especial a este programa es su compromiso anual constante: no es solo una
+                            certificación, es un proceso continuo de mejora, aprendizaje y acción colectiva que genera
+                            un cambio real en la cultura ambiental de quienes participan.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Columna derecha: hechos clave con íconos -->
+                <div class="intro-facts-col">
+                    <div class="intro-facts-card">
+                        <div class="intro-fact-item">
+                            <div class="intro-fact-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div class="intro-fact-text">
+                                <h4 data-i18n="intro_fact1_title">Múltiples categorías</h4>
+                                <p data-i18n="intro_fact1_text">Comunidades, playas, espacios naturales, hogares sostenibles y más</p>
+                            </div>
+                        </div>
+                        <div class="intro-fact-item">
+                            <div class="intro-fact-icon"><i class="fa-solid fa-rotate"></i></div>
+                            <div class="intro-fact-text">
+                                <h4 data-i18n="intro_fact2_title">Renovación anual</h4>
+                                <p data-i18n="intro_fact2_text">La certificación se renueva cada año con nuevas acciones y evaluaciones</p>
+                            </div>
+                        </div>
+                        <div class="intro-fact-item">
+                            <div class="intro-fact-icon"><i class="fa-solid fa-droplet"></i></div>
+                            <div class="intro-fact-text">
+                                <h4 data-i18n="intro_fact3_title">Calidad del agua</h4>
+                                <p data-i18n="intro_fact3_text">Eje central junto al manejo de residuos y la educación ambiental</p>
+                            </div>
+                        </div>
+                        <div class="intro-fact-item">
+                            <div class="intro-fact-icon"><i class="fa-solid fa-people-group"></i></div>
+                            <div class="intro-fact-text">
+                                <h4 data-i18n="intro_fact4_title">Acción colectiva</h4>
+                                <p data-i18n="intro_fact4_text">Involucra a toda la comunidad en un proceso continuo de mejora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EL CAMINO DE CAÑO NEGRO ================= -->
+    <section class="info-bandera" id="historia">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-12 col-lg-6 info-text reveal-left">
+                    <span class="section-label" data-i18n="hist_label">Nuestra participación</span>
+                    <h2 class="section-title section-title-left" data-i18n="hist_title">El camino de Caño Negro</h2>
+                    <p data-i18n="hist_text1">
+                        En el 2021, con unión y esfuerzo junto a SINAC, la comunidad de Caño Negro
+                        se incorporó al programa generando diversas acciones y controles en la localidad.
+                        En el 2022 se logró obtener la primera Bandera Azul Ecológica.
+                    </p>
+                    <p data-i18n="hist_text2">
+                        Por falta de integración de más manos voluntarias no se continuó la participación
+                        formal, manteniéndose congelada la tramitación. Sin embargo, el trabajo comunitario
+                        no se detuvo: recolección de residuos, charlas ambientales e integración de ideas
+                        siguen activos entre los pobladores.
+                    </p>
+                    <p data-i18n="hist_text3">
+                        El programa generó un cambio significativo en la población al crear conciencia sobre
+                        el manejo de residuos sólidos y el uso responsable de los recursos. Esperamos pronto
+                        retomar la participación formal y seguir sumando hogares al programa.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 info-img reveal-right">
+                    <div class="img-collage">
+                        <img src="../../img/bandera/Bandera1.jpg" alt="Comunidad de Caño Negro">
+                        <img src="../../img/bandera/bandera2.jpg" alt="Trabajo comunitario">
+                        <img src="../../img/bandera/bandera3.jpg" alt="Actividades comunales">
+                        <img src="../../img/bandera/bandera4.jpg" alt="Equipo de trabajo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LOGRO + ESTRELLAS ================= -->
+    <section class="logro-section" id="logro">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="logro_label">Logro destacado</span>
+                <h2 class="section-title" data-i18n="logro_title">Caño Negro con todas las estrellas</h2>
+                <p class="section-subtitle" data-i18n="logro_subtitle">
+                    El Refugio Nacional de Vida Silvestre Mixto Caño Negro obtuvo la Bandera Azul Ecológica
+                    en la categoría Espacios Naturales Protegidos con la distinción más alta posible.
+                </p>
+            </div>
+
+            <div class="logro-card reveal">
+                <div class="logro-card-header">
+                    <i class="fa-solid fa-award logro-icon"></i>
+                    <div>
+                        <p class="logro-categoria" data-i18n="logro_categoria">Espacios Naturales Protegidos</p>
+                        <h3 data-i18n="logro_nombre">Refugio Nacional de Vida Silvestre Mixto Caño Negro</h3>
+                    </div>
+                </div>
+                <div class="logro-stars-row">
+                    <div class="logro-star-group">
+                        <div class="logro-star-icons">
+                            <i class="fa-solid fa-star star-blanca"></i>
+                            <i class="fa-solid fa-star star-blanca"></i>
+                            <i class="fa-solid fa-star star-blanca"></i>
+                            <i class="fa-solid fa-star star-blanca"></i>
+                            <i class="fa-solid fa-star star-blanca"></i>
+                        </div>
+                        <span data-i18n="logro_blancas">5 Estrellas blancas</span>
+                    </div>
+                    <div class="logro-star-group">
+                        <i class="fa-solid fa-star star-verde"></i>
+                        <span data-i18n="logro_verde">Estrella verde</span>
+                    </div>
+                    <div class="logro-star-group">
+                        <i class="fa-solid fa-star star-dorada"></i>
+                        <span data-i18n="logro_dorada">Estrella dorada</span>
+                    </div>
+                    <div class="logro-star-group">
+                        <i class="fa-solid fa-star star-naranja"></i>
+                        <span data-i18n="logro_naranja">Estrella naranja</span>
+                    </div>
+                    <div class="logro-star-group">
+                        <i class="fa-solid fa-star star-gris"></i>
+                        <span data-i18n="logro_gris">Estrella gris</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stars-inner">
+                <!-- Encabezado oscuro con strip de estrellas -->
+                <div class="stars-inner-head reveal">
+                    <span class="section-label center" data-i18n="stars_label">¿Qué representa cada una?</span>
+                    <h2 class="section-title" data-i18n="stars_title">El significado de cada estrella</h2>
+                    <p class="section-subtitle" data-i18n="stars_subtitle">
+                        Cada estrella adicional representa compromisos específicos más allá del puntaje base,
+                        reconociendo acciones concretas en distintas áreas de sostenibilidad.
+                    </p>
+                </div>
+
+                <!-- Tarjetas de cada tipo de estrella -->
+                <div class="stars-cards-wrap">
+                    <div class="stars-grid">
+                        <article class="star-card blanca reveal">
+                            <div class="star-card-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 data-i18n="star_blanca_title">5 Estrellas Blancas</h3>
+                            <p data-i18n="star_blanca_desc">
+                                Se obtienen por alcanzar una nota superior a 90 puntos en la evaluación general
+                                del programa, demostrando un alto nivel de compromiso ambiental.
+                            </p>
+                        </article>
+
+                        <article class="star-card verde reveal">
+                            <div class="star-card-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 data-i18n="star_verde_title">Estrella Verde</h3>
+                            <p data-i18n="star_verde_desc">
+                                Se otorga por contar con un programa Bandera Azul Ecológica Hogar Sostenible
+                                activo dentro de la comunidad.
+                            </p>
+                        </article>
+
+                        <article class="star-card dorada reveal">
+                            <div class="star-card-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 data-i18n="star_dorada_title">Estrella Dorada</h3>
+                            <p data-i18n="star_dorada_desc">
+                                Reconoce las acciones concretas realizadas en la protección
+                                de cuerpos de agua dentro del área.
+                            </p>
+                        </article>
+
+                        <article class="star-card naranja reveal">
+                            <div class="star-card-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 data-i18n="star_naranja_title">Estrella Naranja</h3>
+                            <p data-i18n="star_naranja_desc">
+                                Reconoce las acciones realizadas en favor del bienestar animal
+                                dentro del refugio y su zona de influencia.
+                            </p>
+                        </article>
+
+                        <article class="star-card gris reveal">
+                            <div class="star-card-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 data-i18n="star_gris_title">Estrella Gris</h3>
+                            <p data-i18n="star_gris_desc">
+                                Se obtiene por la participación activa en el programa Ecoins,
+                                que incentiva el reciclaje y la economía circular comunitaria.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ¿POR QUÉ IMPORTA? ================= -->
+    <section class="importancia-section">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="imp_label">Impacto real</span>
+                <h2 class="section-title" data-i18n="imp_title">¿Por qué importa este programa?</h2>
+                <p class="section-subtitle" data-i18n="imp_subtitle">
+                    La Bandera Azul Ecológica genera beneficios concretos para las comunidades, el ambiente
+                    y el desarrollo sostenible del territorio.
+                </p>
+            </div>
+
+            <div class="importancia-grid">
+                <article class="importancia-card reveal">
+                    <div class="importancia-icon">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </div>
+                    <h3 data-i18n="imp_card1_title">Protección de la Salud</h3>
+                    <p data-i18n="imp_card1_desc">
+                        Garantiza la calidad sanitaria del agua y los espacios públicos,
+                        evitando riesgos para la salud de la comunidad y los visitantes.
+                    </p>
+                </article>
+
+                <article class="importancia-card reveal">
+                    <div class="importancia-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 data-i18n="imp_card2_title">Sostenibilidad y Conservación</h3>
+                    <p data-i18n="imp_card2_desc">
+                        Fomenta la protección de los recursos naturales y la acción climática
+                        mediante el trabajo colectivo y organizado.
+                    </p>
+                </article>
+
+                <article class="importancia-card reveal">
+                    <div class="importancia-icon">
+                        <i class="fa-solid fa-compass"></i>
+                    </div>
+                    <h3 data-i18n="imp_card3_title">Turismo de Calidad</h3>
+                    <p data-i18n="imp_card3_desc">
+                        Posiciona a Caño Negro como un destino seguro y sostenible,
+                        atrayendo visitantes conscientes y responsables con el entorno.
+                    </p>
+                </article>
+
+                <article class="importancia-card reveal">
+                    <div class="importancia-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3 data-i18n="imp_card4_title">Educación Ambiental</h3>
+                    <p data-i18n="imp_card4_desc">
+                        Impulsa un cambio real de hábitos en las comunidades y centros educativos
+                        hacia estilos de vida más ecológicos y conscientes.
+                    </p>
+                </article>
+
+                <article class="importancia-card reveal">
+                    <div class="importancia-icon">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
+                    <h3 data-i18n="imp_card5_title">Reconocimiento</h3>
+                    <p data-i18n="imp_card5_desc">
+                        Ofrece un sello de prestigio nacional e internacional que visibiliza
+                        el esfuerzo de toda una comunidad comprometida con el medio ambiente.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= APOYO ================= -->
+    <section class="apoyo-section" id="apoyo">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="apoyo_label">Reconocimiento</span>
+                <h2 class="section-title" data-i18n="apoyo_title">Gracias a quienes hacen posible este logro</h2>
+                <p class="section-subtitle" data-i18n="apoyo_subtitle">
+                    Este reconocimiento es el resultado del esfuerzo conjunto de instituciones, organizaciones
+                    y personas de la comunidad que creyeron en el programa.
+                </p>
+            </div>
+
+            <div class="apoyo-grid reveal">
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-flag"></i>
+                    <span data-i18n="apoyo_1">Bandera Azul Caño Negro</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-water"></i>
+                    <span data-i18n="apoyo_2">Programa Bandera Azul Ecológica (AyA)</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span data-i18n="apoyo_3">ASADA Los Santos</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span data-i18n="apoyo_4">Municipalidad de Los Chiles</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-shield"></i>
+                    <span data-i18n="apoyo_5">Fuerza Pública de Costa Rica</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-tree"></i>
+                    <span data-i18n="apoyo_6">SINAC</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-mountain"></i>
+                    <span data-i18n="apoyo_7">Parque Nacional Volcán Arenal</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-water-ladder"></i>
+                    <span data-i18n="apoyo_8">Parque Nacional del Agua Juan Castro Blanco</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-seedling"></i>
+                    <span data-i18n="apoyo_9">Refugio N.V.S. Mixto Bosque Alegre</span>
+                </div>
+                <div class="apoyo-chip">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span data-i18n="apoyo_10">Personas y negocios locales de Caño Negro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CIERRE ================= -->
+    <section class="banner-section reveal">
+        <div class="container banner-content">
+            <p class="banner-tag" data-i18n="closing_tag">Caño Negro · Bandera Azul</p>
+            <h2 data-i18n="closing_title">Sigamos sumando hogares, manos y compromisos</h2>
+            <p data-i18n="closing_desc">
+                Agradecemos el esfuerzo de todos y los instamos a seguir trabajando. Si querés unirte al
+                programa Bandera Azul Ecológica Hogar Sostenible, tu participación hace la diferencia.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="footer-logo">
+                <p data-i18n="footer_about">
+                    Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación
+                    y el desarrollo sostenible de nuestra comunidad.
+                </p>
+            </div>
+            <div class="footer-col footer-links-col">
+                <h4 data-i18n="footer_links_title">Enlaces rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                    <li><a href="../Senderos/senderos.html" data-i18n="nav_senderos">Senderos</a></li>
+                    <li><a href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                    <li><a href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                    <li><a href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
+                    <li><a href="#" data-i18n="nav_videos">Videos</a></li>
+                    <li><a href="#" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contact_title">Contacto</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span data-i18n="footer_address">Caño Negro, Los Chiles, Alajuela, Costa Rica</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:adicanonegro@gmail.com">adicanonegro@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+50683318263">+506 8331-8263</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Síguenos</h4>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="https://www.facebook.com/adi.canonegro" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_text">© 2026 ADI Caño Negro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- ================= FAB ================= -->
+    <div class="fab-container">
+        <button class="fab-main" id="fabToggle" aria-label="Abrir acciones rápidas">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="fab-options">
+            <a href="#" class="fab-option help" id="openHelp" aria-label="Ayuda">
+                <i class="fa-solid fa-comments"></i>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Refugio+de+Vida+Silvestre+Caño+Negro"
+                target="_blank" class="fab-option map" aria-label="Cómo llegar">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+            <a href="https://wa.me/506XXXXXX" target="_blank" class="fab-option whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- ================= MODAL AYUDA ================= -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-content">
+            <button class="close-modal" id="closeHelp" aria-label="Cerrar ayuda">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 data-i18n="help_title">¿En qué podemos ayudarte?</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q1">🏳️ ¿Qué es la Bandera Azul Ecológica?</h3>
+                    <p data-i18n="faq_a1">Es un programa del AyA que certifica comunidades, espacios naturales y centros educativos comprometidos con la sostenibilidad ambiental.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q2">⭐ ¿Cuántas estrellas tiene Caño Negro?</h3>
+                    <p data-i18n="faq_a2">El Refugio obtuvo todas las estrellas disponibles: 5 blancas por nota superior a 90 puntos, más las estrellas verde, dorada, naranja y gris.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q3">🏠 ¿Cómo unirme al Hogar Sostenible?</h3>
+                    <p data-i18n="faq_a3">Podés comunicarte con la ADI Caño Negro para obtener información sobre cómo incorporar tu hogar al programa Bandera Azul Ecológica.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q4">📍 ¿Dónde está Caño Negro?</h3>
+                    <p data-i18n="faq_a4">Se ubica en Los Chiles, Alajuela, Costa Rica, cerca de la frontera con Nicaragua.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q5">🚗 ¿Cómo llegar?</h3>
+                    <p data-i18n="faq_a5">Podés acceder por la Ruta 138 desde Upala o Los Chiles. Usá el botón de ubicación para ver la ruta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= PESTAÑA IA ================= -->
+    <div class="chat-ia-tab" id="chatIaTab">
+        <button class="chat-ia-toggle" id="chatIaToggle" aria-label="Abrir acceso a IA">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20la%20Bandera%20Azul%20Ecol%C3%B3gica%20de%20Ca%C3%B1o%20Negro"
+            target="_blank" class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
+            <span data-i18n="chat_tab">Acerca de Caño Negro</span>
+        </a>
+    </div>
+
+    <!-- ================= LOADER IDIOMA ================= -->
+    <div class="language-loader" id="languageLoader">
+        <div class="language-loader-box">
+            <div class="language-spinner"></div>
+            <p id="languageLoaderText">Cambiando idioma...</p>
+        </div>
+    </div>
+
+    <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/traducciones/banderaAzul/banderaAzul.js"></script>
+    <script src="../../JS/utilidades/fab.js"></script>
+    <script src="../../JS/utilidades/modal.js"></script>
+    <script src="../../JS/utilidades/chatIA.js"></script>
+    <script src="../../JS/utilidades/banderaAzul/banderaAzul.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

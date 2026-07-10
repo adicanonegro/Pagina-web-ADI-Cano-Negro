@@ -165,8 +165,8 @@ ul { list-style: none; }
 }
 
 .info-muelle .section-title-left.show::after {
-    width: 80%;
-    max-width: 480px;
+    width: 100%;
+    max-width: none;
 }
 
 .section-subtitle {

@@ -1019,6 +1019,44 @@ textarea::placeholder {
     }
 }
 
+/* ── Bandera preview responsive ── */
+@media (max-width: 900px) {
+    .bandera-preview-section {
+        padding: 70px 0;
+    }
+
+    .bandera-logro-row {
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    .bandera-info-title {
+        font-size: 22px;
+    }
+
+    .byear-num {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bandera-logro-card {
+        padding: 32px 22px;
+    }
+
+    .bandera-flag-icon {
+        font-size: 40px;
+    }
+
+    .bstar {
+        font-size: 28px;
+    }
+
+    .bandera-feature-card {
+        padding: 24px 20px;
+    }
+}
+
 /* ── Pantallas cortas: Nest Hub (1024×600), Nest Hub Max (1280×800) ── */
 @media (max-height: 700px) and (min-width: 900px) {
     .hero {

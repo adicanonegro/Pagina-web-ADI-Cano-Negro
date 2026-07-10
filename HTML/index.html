@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADI Caño Negro</title>
 
+    <link rel="stylesheet" href="../CSS/preloader.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
@@ -13,13 +14,61 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../CSS/utlidades/header.css">
-    <link rel="stylesheet" href="../CSS/index.css?v=5">
+    <link rel="stylesheet" href="../CSS/index.css?v=6">
     <link rel="stylesheet" href="../CSS/utlidades/efectos/efectoIdioma.css">
     <link rel="stylesheet" href="../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../CSS/utlidades/efectos/index/index.css">
     <link rel="stylesheet" href="../CSS/utlidades/footer.css">
 </head>
 
 <body data-page="index">
+
+    <!-- ================= PRELOADER ================= -->
+    <div id="preloader" aria-hidden="true">
+        <div class="pl-bg"></div>
+
+        <div class="pl-panel pl-panel-1">
+            <img src="../img/preloader/caiman.jpg" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-panel pl-panel-2">
+            <img src="../img/preloader/zopilote.JPG" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-panel pl-panel-3">
+            <img src="../img/preloader/mono.jpg" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-panel pl-panel-4">
+            <img src="../img/preloader/tortuga.jpg" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-panel pl-panel-5">
+            <img src="../img/preloader/huellas.jpg" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-panel pl-panel-6">
+            <img src="../img/preloader/mariposa.JPG" alt="">
+            <div class="pl-glass-layer"></div>
+        </div>
+
+        <div class="pl-brand">
+            <img src="../img/Logo.png" alt="ADI Caño Negro" class="pl-logo">
+            <div class="pl-name">
+                <span class="pl-name-main">ADI Caño Negro</span>
+                <span class="pl-name-sub">Refugio Nacional de Vida Silvestre</span>
+            </div>
+            <div class="pl-bar-wrap">
+                <div class="pl-bar"></div>
+            </div>
+        </div>
+    </div>
+
     <div class="scroll-progress" id="scrollProgress"></div>
 
     <!-- ================= HEADER ================= -->
@@ -65,7 +114,7 @@
                         <li class="nav-item"><a class="nav-link" href="#"
                                 data-i18n="nav_emprendedores">Emprendedores</a></li>
                         <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_videos">Videos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_bandera">Bandera Azul
+                        <li class="nav-item"><a class="nav-link" href="banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul
                                 Ecológica</a></li>
                     </ul>
 
@@ -116,7 +165,7 @@
     <section class="about-refuge reveal" id="refugio">
         <div class="container">
             <div class="row g-5 align-items-center about-container">
-                <div class="col-12 col-lg-6 about-text reveal">
+                <div class="col-12 col-lg-6 about-text reveal-left">
                     <span class="section-label" data-i18n="about_label">Sobre el refugio</span>
                     <h2 data-i18n="about_title">Refugio de Vida Silvestre Caño Negro</h2>
                     <p data-i18n="about_text_1">
@@ -132,7 +181,7 @@
                     </p>
                 </div>
 
-                <div class="col-12 col-lg-6 about-image reveal">
+                <div class="col-12 col-lg-6 about-image reveal-right">
                     <img src="../img/index/garzaBlanca.JPG" alt="Refugio Caño Negro">
                     <small class="image-credit" data-i18n="about_credit">Garza Blanca (Ardea alba)</small>
                 </div>
@@ -219,7 +268,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
-                    <a href="bandera.html" class="card-item reveal">
+                    <a href="banderaAzul/banderaAzul.html" class="card-item reveal">
                         <div class="card-image">
                             <img src="../img/index/banderaAzul.jpg" alt="Bandera Azul Ecológica">
                             <span class="card-tag" data-i18n="card_tag_3">Sostenibilidad</span>
@@ -322,7 +371,7 @@
                     <li><a href="../HTML/floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
                     <li><a href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
                     <li><a href="#" data-i18n="nav_videos">Videos</a></li>
-                    <li><a href="#" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                    <li><a href="banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
                 </ul>
             </div>
 
@@ -455,6 +504,50 @@
     <script src="../JS/utilidades/fab.js"></script>
     <script src="../JS/utilidades/chatIA.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ================= PRELOADER JS ================= -->
+    <script>
+        (function () {
+            var pl = document.getElementById('preloader');
+            if (!pl) return;
+
+            // Show only once per browser session
+            if (sessionStorage.getItem('plSeen')) {
+                pl.classList.add('pl-hidden');
+                return;
+            }
+
+            // Lock scroll while preloader is active
+            document.body.style.overflow = 'hidden';
+
+            // Trigger panel enter — CSS transition-delay handles the stagger per panel
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    pl.querySelectorAll('.pl-panel').forEach(function (p) {
+                        p.classList.add('pl-in');
+                    });
+                });
+            });
+
+            // Brand card appears slightly after panels
+            setTimeout(function () {
+                var brand = pl.querySelector('.pl-brand');
+                if (brand) brand.classList.add('pl-in');
+            }, 950);
+
+            // Begin exit animation after ~5.2 s
+            setTimeout(function () {
+                pl.classList.add('pl-exit');
+            }, 5200);
+
+            // Fully remove and unlock scroll after exit finishes
+            setTimeout(function () {
+                pl.classList.add('pl-hidden');
+                document.body.style.overflow = '';
+                sessionStorage.setItem('plSeen', '1');
+            }, 6000);
+        })();
+    </script>
 
 </body>
 

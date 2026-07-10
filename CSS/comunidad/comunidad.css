@@ -306,6 +306,8 @@ ul {
 
 .section-title-left {
     text-align: left;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .info-text p {

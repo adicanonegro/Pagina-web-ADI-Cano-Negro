@@ -1,0 +1,238 @@
+/* ================= HERO ================= */
+.hero-bandera {
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-bandera::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(8, 20, 35, 0.10), rgba(10, 25, 18, 0.22));
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    animation: heroFloatBandera 4.5s ease-in-out infinite;
+}
+
+.hero-tag {
+    animation: pulseSoftBandera 2.8s ease-in-out infinite;
+}
+
+/* ================= TITULOS ================= */
+.section-title {
+    position: relative;
+    animation: fadeTitleBandera 1s ease;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    margin: 16px auto 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #71c98a, #1f4d2e);
+    transition: width 0.8s ease;
+}
+
+.section-title.show::after { width: 110px; }
+
+.banner-section .section-title::after,
+.banner-section .section-title.show::after {
+    content: none;
+    display: none;
+}
+
+/* ================= FONDO DECORATIVO ================= */
+.intro-bandera,
+.apoyo-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.intro-bandera::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(113, 201, 138, 0.12), transparent 70%);
+    animation: floatBlobBandera 9s ease-in-out infinite;
+    pointer-events: none;
+    top: -80px;
+    right: -80px;
+}
+
+.apoyo-section::before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(113, 201, 138, 0.10), transparent 70%);
+    animation: floatBlobBandera 11s ease-in-out infinite reverse;
+    pointer-events: none;
+    bottom: -60px;
+    left: -60px;
+}
+
+/* ================= LOGRO CARD ================= */
+.logro-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.logro-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 56px rgba(14, 33, 22, 0.28);
+}
+
+.logro-star-group {
+    transition: transform 0.3s ease;
+}
+
+.logro-star-group:hover {
+    transform: translateY(-4px) scale(1.06);
+}
+
+/* ================= STAR CARDS ================= */
+.star-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.star-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 36px rgba(14, 33, 22, 0.13);
+}
+
+.star-card .star-card-icon {
+    transition: transform 0.35s ease;
+}
+
+.star-card:hover .star-card-icon {
+    transform: scale(1.10) rotate(-4deg);
+}
+
+/* ================= IMPORTANCIA CARDS ================= */
+.importancia-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.importancia-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 36px rgba(14, 33, 22, 0.13);
+    border-color: rgba(83, 181, 60, 0.28);
+}
+
+.importancia-icon {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.importancia-card:hover .importancia-icon {
+    transform: scale(1.08) rotate(-4deg);
+    box-shadow: 0 8px 18px rgba(22, 51, 32, 0.16);
+}
+
+/* ================= HISTORIA (INFO-IMG) ================= */
+.info-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-collage img {
+    transition: transform 0.7s ease, filter 0.45s ease;
+}
+
+.img-collage img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.04);
+}
+
+/* ================= APOYO CHIPS ================= */
+.apoyo-chip {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-left-color 0.3s ease;
+}
+
+.apoyo-chip:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(14, 33, 22, 0.13);
+    border-left-color: var(--naranja-acento);
+}
+
+/* ================= FAB GLOW ================= */
+.fab-main {
+    animation: fabGlowBandera 2.4s ease-in-out infinite;
+}
+
+.fab-container.open .fab-main {
+    animation: none;
+}
+
+/* ================= KEYFRAMES ================= */
+@keyframes heroFloatBandera {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-6px); }
+}
+
+@keyframes pulseSoftBandera {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50%       { transform: scale(1.03); opacity: 0.93; }
+}
+
+@keyframes fadeTitleBandera {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatBlobBandera {
+    0%, 100% { transform: translateY(0) translateX(0); }
+    50%       { transform: translateY(-18px) translateX(12px); }
+}
+
+@keyframes fabGlowBandera {
+    0%, 100% {
+        box-shadow: 0 0 18px rgba(217, 79, 21, 0.15), 0 0 0 0 rgba(217, 79, 21, 0.40);
+    }
+    50% {
+        box-shadow: 0 0 28px rgba(217, 79, 21, 0.28), 0 0 0 14px rgba(217, 79, 21, 0);
+    }
+}
+
+/* ================= MOVIMIENTO REDUCIDO ================= */
+@media (prefers-reduced-motion: reduce) {
+    .hero-content,
+    .hero-tag,
+    .section-title,
+    .fab-main,
+    .intro-bandera::before,
+    .apoyo-section::before,
+    .logro-card,
+    .star-card,
+    .importancia-card,
+    .apoyo-chip,
+    .img-collage img {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+    }
+
+    .hero-bandera {
+        background-attachment: scroll;
+    }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+    .hero-bandera { background-attachment: scroll; }
+
+    .star-card:hover,
+    .importancia-card:hover,
+    .apoyo-chip:hover {
+        transform: translateY(-4px);
+    }
+}

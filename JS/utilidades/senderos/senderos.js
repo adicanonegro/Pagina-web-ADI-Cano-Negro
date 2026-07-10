@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const revealElements = document.querySelectorAll(".reveal");
+    const sectionTitles = document.querySelectorAll(".section-title");
     const scrollProgress = document.getElementById("scrollProgress");
     const hero = document.querySelector(".hero-senderos");
     const infoBoxes = document.querySelectorAll(".info-box");
@@ -14,6 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (elementTop < triggerBottom) {
                 element.classList.add("show");
+            }
+        });
+
+        sectionTitles.forEach((title) => {
+            if (title.getBoundingClientRect().top < triggerBottom) {
+                title.classList.add("show");
             }
         });
     }
