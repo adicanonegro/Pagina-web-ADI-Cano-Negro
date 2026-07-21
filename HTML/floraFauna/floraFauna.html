@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/floraFauna/floraFauna.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
     <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
 </head>
 
@@ -219,7 +220,7 @@
 
             <div class="feature-row reverse">
                 <div class="feature-image reveal-left">
-                    <img src="../../img/floraFauna/bosqueInundado.jpg" alt="Bosque inundado">
+                    <img src="../../img/floraFauna/marrilal.png" alt="Bosque inundado">
                 </div>
 
                 <div class="feature-text reveal-right">
@@ -245,23 +246,34 @@
                         En lagunas y caños aparecen “alfombras” flotantes de plantas que cumplen
                         un papel vital en la oxigenación y el equilibrio del agua.
                     </p>
-                    <ul>
-                        <li data-i18n="flora_panel1_item1">Lirio de agua <em>(Eichhornia crassipes)</em></li>
-                        <li data-i18n="flora_panel1_item2">Pasto Gamalote <em>(Paspalum fasciculatum)</em></li>
-                        <li data-i18n="flora_panel1_item3">Dormilona <em>(Mimosa pigra)</em></li>
-                        <li data-i18n="flora_panel1_item4">Lechuga de agua <em>(Pistia stratiotes)</em></li>
-                        <li data-i18n="flora_panel1_item5">Helechos acuáticos <em>(Salvinia)</em></li>
-                    </ul>
+                    <div class="info-panel-row">
+                        <ul>
+                            <li data-i18n="flora_panel1_item1">Lirio de agua <em>(Eichhornia crassipes)</em></li>
+                            <li data-i18n="flora_panel1_item2">Pasto Gamalote <em>(Paspalum fasciculatum)</em></li>
+                            <li data-i18n="flora_panel1_item3">Dormilona <em>(Mimosa pigra)</em></li>
+                            <li data-i18n="flora_panel1_item4">Lechuga de agua <em>(Pistia stratiotes)</em></li>
+                            <li data-i18n="flora_panel1_item5">Helechos acuáticos <em>(Salvinia)</em></li>
+                        </ul>
+                        <div class="info-panel-images">
+                            <img class="info-panel-image" src="../../img/floraFauna/capa.png" alt="Vegetación herbácea y acuática flotando en el agua">
+                            <img class="info-panel-image" src="../../img/floraFauna/Capa2.jpg" alt="Helechos acuáticos formando una capa sobre el agua">
+                        </div>
+                    </div>
                 </article>
 
                 <article class="info-panel reveal">
-                    <h3 data-i18n="flora_panel2_title">Palma Cuba</h3>
-                    <p class="panel-scientific">Acoelorraphe wrightii</p>
-                    <p data-i18n="flora_panel2_desc">
-                        Es una de las plantas más especiales de Caño Negro. En Costa Rica,
-                        su distribución natural está casi limitada a los humedales de la Zona Norte.
-                        Crece en colonias densas y aporta una imagen única al paisaje.
-                    </p>
+                    <div class="info-panel-row">
+                        <div class="info-panel-body">
+                            <h3 data-i18n="flora_panel2_title">Palma Cuba</h3>
+                            <p class="panel-scientific">Acoelorraphe wrightii</p>
+                            <p data-i18n="flora_panel2_desc">
+                                Es una de las plantas más especiales de Caño Negro. En Costa Rica,
+                                su distribución natural está casi limitada a los humedales de la Zona Norte.
+                                Crece en colonias densas y aporta una imagen única al paisaje.
+                            </p>
+                        </div>
+                        <img class="info-panel-image" src="../../img/floraFauna/PalmaCuba.png" alt="Palma Cuba junto al agua en Caño Negro" style="object-position:50% 62%;">
+                    </div>
                 </article>
 
                 <article class="info-panel reveal">
@@ -443,15 +455,24 @@
                     </a>
                 </div>
 
-                <aside class="animal-side-card reveal-right">
-                    <h3 data-i18n="birds_side_title">Datos clave</h3>
-                    <ul>
-                        <li data-i18n="birds_side_1">315 a 400 especies aproximadas</li>
-                        <li data-i18n="birds_side_2">Grupo más numeroso del humedal</li>
-                        <li data-i18n="birds_side_3">Presencia de residentes y migratorias</li>
-                        <li data-i18n="birds_side_4">Gran valor para observación y fotografía</li>
-                    </ul>
-                </aside>
+                <div class="animal-side reveal-right">
+                    <aside class="animal-side-card">
+                        <h3 data-i18n="birds_side_title">Datos clave</h3>
+                        <ul>
+                            <li data-i18n="birds_side_1">315 a 400 especies aproximadas</li>
+                            <li data-i18n="birds_side_2">Grupo más numeroso del humedal</li>
+                            <li data-i18n="birds_side_3">Presencia de residentes y migratorias</li>
+                            <li data-i18n="birds_side_4">Gran valor para observación y fotografía</li>
+                        </ul>
+                    </aside>
+
+                    <div class="animal-side-gallery">
+                        <img src="../../img/floraFauna/CercetaAliazu.jpg" alt="Cerceta Aliazul">
+                        <img src="../../img/floraFauna/Raca.jpg" alt="Rascón cuelligris">
+                        <img src="../../img/floraFauna/GallinetaMorada.jpg" alt="Gallineta morada">
+                        <img src="../../img/floraFauna/Aguja.jpg" alt="Pato aguja (Anhinga)">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -486,15 +507,24 @@
                     </a>
                 </div>
 
-                <aside class="animal-side-card reveal-right">
-                    <h3 data-i18n="mammals_side_title">Especies representativas</h3>
-                    <ul>
-                        <li data-i18n="mammals_side_1">Mono carablanca</li>
-                        <li data-i18n="mammals_side_2">Mono congo</li>
-                        <li data-i18n="mammals_side_3">Puma</li>
-                        <li data-i18n="mammals_side_4">Danta o tapir</li>
-                    </ul>
-                </aside>
+                <div class="animal-side reveal-right">
+                    <aside class="animal-side-card">
+                        <h3 data-i18n="mammals_side_title">Especies representativas</h3>
+                        <ul>
+                            <li data-i18n="mammals_side_1">Mono carablanca</li>
+                            <li data-i18n="mammals_side_2">Mono congo</li>
+                            <li data-i18n="mammals_side_3">Puma</li>
+                            <li data-i18n="mammals_side_4">Danta o tapir</li>
+                        </ul>
+                    </aside>
+
+                    <div class="animal-side-gallery">
+                        <img src="../../img/floraFauna/nutria.png" alt="Nutria">
+                        <img src="../../img/floraFauna/mono.png" alt="Mono congo">
+                        <img src="../../img/floraFauna/carablanca.png" alt="Mono carablanca">
+                        <img src="../../img/floraFauna/perezoso.jpg" alt="Perezoso">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -528,15 +558,24 @@
                     </a>
                 </div>
 
-                <aside class="animal-side-card reveal-right">
-                    <h3 data-i18n="fish_side_title">Dato destacado</h3>
-                    <ul>
-                        <li data-i18n="fish_side_1">49 a 55 especies aproximadas</li>
-                        <li data-i18n="fish_side_2">Incluye al Gaspar</li>
-                        <li data-i18n="fish_side_3">Relación directa con lagunas y caños</li>
-                        <li data-i18n="fish_side_4">Clave en el equilibrio ecológico acuático</li>
-                    </ul>
-                </aside>
+                <div class="animal-side reveal-right">
+                    <aside class="animal-side-card">
+                        <h3 data-i18n="fish_side_title">Dato destacado</h3>
+                        <ul>
+                            <li data-i18n="fish_side_1">49 a 55 especies aproximadas</li>
+                            <li data-i18n="fish_side_2">Incluye al Gaspar</li>
+                            <li data-i18n="fish_side_3">Relación directa con lagunas y caños</li>
+                            <li data-i18n="fish_side_4">Clave en el equilibrio ecológico acuático</li>
+                        </ul>
+                    </aside>
+
+                    <div class="animal-side-gallery">
+                        <img src="../../img/comunidad/pesca/guapote.JPG" alt="Guapote">
+                        <img src="../../img/comunidad/pesca/mojarra.jpg" alt="Mojarra">
+                        <img src="../../img/comunidad/pesca/roncador.jpg" alt="Roncador">
+                        <img src="../../img/comunidad/pesca/robalo.jpg" alt="Róbalo">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -570,15 +609,24 @@
                     </a>
                 </div>
 
-                <aside class="animal-side-card reveal-right">
-                    <h3 data-i18n="reptiles_side_title">Observación común</h3>
-                    <ul>
-                        <li data-i18n="reptiles_side_1">Caimán de anteojos</li>
-                        <li data-i18n="reptiles_side_2">Tortuga jicotea</li>
-                        <li data-i18n="reptiles_side_3">Basilisco</li>
-                        <li data-i18n="reptiles_side_4">Iguana verde</li>
-                    </ul>
-                </aside>
+                <div class="animal-side reveal-right">
+                    <aside class="animal-side-card">
+                        <h3 data-i18n="reptiles_side_title">Observación común</h3>
+                        <ul>
+                            <li data-i18n="reptiles_side_1">Caimán de anteojos</li>
+                            <li data-i18n="reptiles_side_2">Tortuga jicotea</li>
+                            <li data-i18n="reptiles_side_3">Basilisco</li>
+                            <li data-i18n="reptiles_side_4">Iguana verde</li>
+                        </ul>
+                    </aside>
+
+                    <div class="animal-side-gallery">
+                        <img src="../../img/floraFauna/coco.JPG" alt="Cocodrilo">
+                        <img src="../../img/floraFauna/caima.JPG" alt="Caimán de anteojos">
+                        <img src="../../img/floraFauna/basislico.png" alt="Basilisco">
+                        <img src="../../img/floraFauna/tortu.JPG" alt="Tortuga jicotea">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -606,15 +654,24 @@
                     </a>
                 </div>
 
-                <aside class="animal-side-card reveal-right">
-                    <h3 data-i18n="amphibians_side_title">Importancia ecológica</h3>
-                    <ul>
-                        <li data-i18n="amphibians_side_1">Más de 30 especies</li>
-                        <li data-i18n="amphibians_side_2">Dependencia de humedad constante</li>
-                        <li data-i18n="amphibians_side_3">Control natural de insectos</li>
-                        <li data-i18n="amphibians_side_4">Indicadores del estado ambiental</li>
-                    </ul>
-                </aside>
+                <div class="animal-side reveal-right">
+                    <aside class="animal-side-card">
+                        <h3 data-i18n="amphibians_side_title">Importancia ecológica</h3>
+                        <ul>
+                            <li data-i18n="amphibians_side_1">Más de 30 especies</li>
+                            <li data-i18n="amphibians_side_2">Dependencia de humedad constante</li>
+                            <li data-i18n="amphibians_side_3">Control natural de insectos</li>
+                            <li data-i18n="amphibians_side_4">Indicadores del estado ambiental</li>
+                        </ul>
+                    </aside>
+
+                    <div class="animal-side-gallery">
+                        <img src="../../img/floraFauna/arboleraOjosGrandes.jpg" alt="Rana arborera de ojos grandes" style="object-position:50% 80%;">
+                        <img src="../../img/floraFauna/ranaLechera.png" alt="Rana lechera">
+                        <img src="../../img/floraFauna/arborícola.png" alt="Rana arborícola">
+                        <img src="../../img/floraFauna/dardofresa.png" alt="Rana dardo fresa" style="object-position:50% 35%;">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -850,6 +907,7 @@
     </div>
 
     <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/utilidades/imageZoom.js"></script>
     <script src="../../JS/traducciones/floraFauna/floraFauna.js"></script>
     <script src="../../JS/utilidades/fab.js"></script>
     <script src="../../JS/utilidades/modal.js"></script>

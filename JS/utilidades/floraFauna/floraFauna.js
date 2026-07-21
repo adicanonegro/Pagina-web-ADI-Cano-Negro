@@ -143,4 +143,35 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    /* ================= GALERÍAS LATERALES (no exceder el alto del texto) ================= */
+    function syncSideGalleries() {
+        const sideBySide = window.matchMedia("(min-width: 901px)").matches;
+
+        document.querySelectorAll(".animal-layout").forEach((layout) => {
+            const main = layout.querySelector(".animal-main");
+            const card = layout.querySelector(".animal-side-card");
+            const gallery = layout.querySelector(".animal-side-gallery");
+            if (!main || !card || !gallery) return;
+
+            if (!sideBySide) {
+                gallery.style.height = "";
+                return;
+            }
+
+            const sideGap = parseFloat(getComputedStyle(gallery.parentElement).gap) || 0;
+            const available = main.offsetHeight - card.offsetHeight - sideGap;
+
+            gallery.style.height = Math.max(available, 140) + "px";
+        });
+    }
+
+    syncSideGalleries();
+    window.addEventListener("load", syncSideGalleries);
+
+    let galleryResizeTimeout;
+    window.addEventListener("resize", () => {
+        clearTimeout(galleryResizeTimeout);
+        galleryResizeTimeout = setTimeout(syncSideGalleries, 150);
+    });
 });

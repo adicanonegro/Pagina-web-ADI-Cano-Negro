@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../../CSS/floraFauna/aves.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/floraFauna/aves.css">
     <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
 </head>
@@ -27,7 +28,7 @@
 
     <header class="main-header">
         <div class="logo-area">
-            <img src="../../img/logo_ADI_Blanco.png" alt="Logo ADI Caño Negro" class="logo-img">
+            <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img">
             <div class="logo-text">
                 <span>ADI Caño Negro</span>
             </div>
@@ -809,6 +810,19 @@
                 </article>
 
             </div>
+
+            <!-- ── Paginación ── -->
+            <nav class="species-pagination" aria-label="Paginación de aves">
+                <button class="page-btn prev-btn" id="prevPage" aria-label="Página anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="page-numbers" id="pageNumbers"></div>
+                <button class="page-btn next-btn" id="nextPage" aria-label="Siguiente página">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </nav>
+            <p class="species-pagination-info" id="paginationInfo"></p>
+
         </div>
     </section>
 
@@ -987,6 +1001,7 @@
     </div>
 
     <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/utilidades/imageZoom.js"></script>
     <script src="../../JS/traducciones/floraFauna/aves.js"></script>
     <script src="../../JS/utilidades/fab.js"></script>
     <script src="../../JS/utilidades/modal.js"></script>

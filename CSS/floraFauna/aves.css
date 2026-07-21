@@ -80,7 +80,7 @@ ul {
     min-height: 100vh;
     background:
         linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)),
-        url('../../img/floraFauna/martin.JPG') center center / cover no-repeat;
+        url('../../img/floraFauna/patosChanchos.png') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -102,13 +102,19 @@ ul {
     font-weight: 700;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    color: var(--verde-claro);
+    color: #ffffff;
     margin-bottom: 18px;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(10, 20, 12, 0.42);
+    border: 1px solid rgba(113, 201, 138, 0.45);
+    backdrop-filter: blur(4px);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .hero-chip i {
     color: var(--verde-claro);
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.8));
 }
 
 .birds-hero h1 {
@@ -276,8 +282,8 @@ ul {
 
 .birds-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 34px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
 }
 
 .bird-card {
@@ -304,7 +310,14 @@ ul {
     overflow: hidden;
     border-radius: 28px 28px 0 0;
     background: #dfe7df;
-    height: 500px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.bird-image.slider-container {
+    aspect-ratio: unset;
+    height: 220px;
+    border-radius: 28px 28px 0 0;
 }
 
 .bird-image img {
@@ -351,7 +364,7 @@ ul {
 
 /* ================= CONTENIDO ================= */
 .bird-content {
-    padding: 26px 24px 22px;
+    padding: 20px 20px 18px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -361,46 +374,53 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 18px;
-    min-height: 20px;
+    margin-bottom: 16px;
+    min-height: 76px;
 }
 
-.bird-fact {
-    margin-top: auto;
+/* Solo se muestra el primer párrafo, recortado a 3 líneas, para mantener la card compacta */
+.bird-text p:nth-of-type(n+2) {
+    display: none;
+}
+
+.bird-text p:first-of-type {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 .bird-content h3 {
     margin: 0;
-    font-size: 26px;
-    line-height: 1.2;
+    font-size: 20px;
+    line-height: 1.25;
     color: var(--verde-principal);
     font-weight: 800;
 }
 
 .bird-scientific {
     color: var(--texto-muted);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-style: italic;
     margin-bottom: 4px;
 }
 
 .bird-content p {
     color: var(--texto-suave);
-    font-size: 15.5px;
-    line-height: 1.8;
+    font-size: 14.5px;
+    line-height: 1.7;
     margin: 0;
 }
 
 /* ================= DATO CURIOSO ================= */
 .bird-fact {
-    margin-top: auto;
+    margin-top: 4px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 190px;
-    padding: 24px 24px 22px;
-    border-radius: 20px;
+    padding: 16px 18px 15px;
+    border-radius: 16px;
     background: #ffffff;
     border: 1px solid rgba(31, 77, 46, 0.10);
     box-shadow: 0 12px 26px rgba(31, 77, 46, 0.06);
@@ -420,30 +440,30 @@ ul {
 .fact-top {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 16px;
+    gap: 10px;
+    margin-bottom: 10px;
     position: relative;
     z-index: 2;
 }
 
 .fact-icon {
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
-    border-radius: 12px;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--verde-suave);
     color: var(--verde-principal);
     border: 1px solid rgba(31, 77, 46, 0.10);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .fact-label {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 800;
-    letter-spacing: 1.6px;
+    letter-spacing: 1.4px;
     text-transform: uppercase;
     color: var(--verde-principal);
     line-height: 1;
@@ -451,11 +471,90 @@ ul {
 
 .bird-fact p {
     margin: 0;
-    font-size: 15.5px;
-    line-height: 1.85;
+    font-size: 14px;
+    line-height: 1.7;
     color: var(--texto-suave);
     position: relative;
     z-index: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* ================= PAGINACIÓN DEL CATÁLOGO ================= */
+.species-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 52px;
+    flex-wrap: wrap;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid rgba(31, 77, 46, 0.18);
+    background: rgba(31, 77, 46, 0.06);
+    color: #1f4d2e;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.page-btn:hover:not(:disabled) {
+    background: rgba(217, 79, 21, 0.10);
+    border-color: var(--naranja-acento);
+    color: var(--naranja-acento);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(217, 79, 21, 0.18);
+}
+
+.page-btn.active {
+    background: #163822;
+    color: white;
+    border-color: #163822;
+    box-shadow: 0 4px 14px rgba(22, 56, 34, 0.38);
+    pointer-events: none;
+}
+
+.page-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.page-btn.prev-btn,
+.page-btn.next-btn {
+    background: transparent;
+    border: 2px solid rgba(31, 77, 46, 0.22);
+    color: #1f4d2e;
+}
+
+.species-pagination-info {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--texto-suave);
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.3px;
 }
 
 /* ================= FAB ================= */
@@ -831,13 +930,19 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 }
 
-@media (max-width:900px) {
-    .birds-highlight {
+@media (max-width:1100px) {
+    .birds-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .birds-grid {
-        grid-template-columns: 1fr;
+    .bird-image {
+        height: 260px;
+    }
+}
+
+@media (max-width:900px) {
+    .birds-highlight {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     body {
@@ -867,10 +972,6 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
         font-size: 18px;
         max-width: 540px;
     }
-
-    .bird-image {
-        height: 290px;
-    }
 }
 
 @media (max-width:768px) {
@@ -885,6 +986,10 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 
     .birds-highlight {
+        grid-template-columns: 1fr;
+    }
+
+    .birds-grid {
         grid-template-columns: 1fr;
     }
 

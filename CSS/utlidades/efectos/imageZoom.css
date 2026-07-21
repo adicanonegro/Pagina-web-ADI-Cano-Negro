@@ -1,0 +1,83 @@
+img:not(a img){
+    cursor:zoom-in;
+}
+
+.logo-img,
+.pl-logo,
+.mobile-header-logo,
+.footer-logo,
+.sendero-cta-logo{
+    cursor:default;
+}
+
+body.img-zoom-lock{
+    overflow:hidden;
+}
+
+.img-zoom-overlay{
+    position:fixed;
+    inset:0;
+    z-index:99999;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:40px;
+    background:rgba(10,20,12,0.92);
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.img-zoom-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+.img-zoom-content{
+    max-width:90vw;
+    max-height:90vh;
+    width:auto;
+    height:auto;
+    border-radius:12px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.5);
+    cursor:zoom-out;
+    transform:scale(0.92);
+    transition:transform 0.3s ease;
+}
+
+.img-zoom-overlay.active .img-zoom-content{
+    transform:scale(1);
+}
+
+.img-zoom-close{
+    position:absolute;
+    top:24px;
+    right:32px;
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.12);
+    border:none;
+    color:#fff;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:background 0.2s ease;
+}
+
+.img-zoom-close:hover{
+    background:rgba(255,255,255,0.25);
+}
+
+@media (max-width:600px){
+    .img-zoom-overlay{
+        padding:20px;
+    }
+
+    .img-zoom-close{
+        top:14px;
+        right:14px;
+    }
+}

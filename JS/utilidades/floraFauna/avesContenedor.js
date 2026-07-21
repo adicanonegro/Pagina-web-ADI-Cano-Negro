@@ -81,4 +81,66 @@ document.addEventListener("DOMContentLoaded", () => {
             showSlide(currentIndex);
         });
     });
+
+    /* ================= PAGINACIÓN DEL CATÁLOGO DE AVES ================= */
+    const ITEMS_PER_PAGE = 9;
+    const cards = Array.from(document.querySelectorAll(".birds-grid .bird-card"));
+    const numbersEl = document.getElementById("pageNumbers");
+    const prevPageBtn = document.getElementById("prevPage");
+    const nextPageBtn = document.getElementById("nextPage");
+    const infoEl = document.getElementById("paginationInfo");
+
+    if (cards.length && numbersEl && prevPageBtn && nextPageBtn) {
+        const totalPages = Math.ceil(cards.length / ITEMS_PER_PAGE);
+        let currentPage = 1;
+
+        for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement("button");
+            btn.className = "page-btn" + (i === 1 ? " active" : "");
+            btn.textContent = i;
+            btn.dataset.page = i;
+            btn.addEventListener("click", () => goToPage(i, true));
+            numbersEl.appendChild(btn);
+        }
+
+        function goToPage(page, scroll) {
+            currentPage = page;
+
+            cards.forEach((card, idx) => {
+                card.style.display = Math.floor(idx / ITEMS_PER_PAGE) + 1 === page ? "" : "none";
+            });
+
+            numbersEl.querySelectorAll(".page-btn").forEach((btn) => {
+                btn.classList.toggle("active", parseInt(btn.dataset.page) === page);
+            });
+
+            prevPageBtn.disabled = page === 1;
+            nextPageBtn.disabled = page === totalPages;
+
+            const start = (page - 1) * ITEMS_PER_PAGE + 1;
+            const end = Math.min(page * ITEMS_PER_PAGE, cards.length);
+            if (infoEl) {
+                infoEl.textContent = `Mostrando ${start}–${end} de ${cards.length} aves`;
+            }
+
+            if (scroll) {
+                const section = document.querySelector(".birds-catalog");
+                if (section) {
+                    window.scrollTo({
+                        top: section.getBoundingClientRect().top + window.scrollY - 110,
+                        behavior: "smooth",
+                    });
+                }
+            }
+        }
+
+        prevPageBtn.addEventListener("click", () => {
+            if (currentPage > 1) goToPage(currentPage - 1, true);
+        });
+        nextPageBtn.addEventListener("click", () => {
+            if (currentPage < totalPages) goToPage(currentPage + 1, true);
+        });
+
+        goToPage(1, false);
+    }
 });
