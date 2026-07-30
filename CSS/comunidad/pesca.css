@@ -314,6 +314,15 @@ h1, h2, h3, p, span, h4, a, small, button {
     margin-bottom:18px;
 }
 
+.costos-note{
+    margin-top:18px;
+    padding-top:16px;
+    border-top:1px dashed rgba(73, 104, 79, 0.25);
+    color:var(--texto-suave, #3A4D3C);
+    font-size:14px;
+    font-style:italic;
+}
+
 /* ================= IMPORTANT NOTE ================= */
 .important-note{
     display:flex;

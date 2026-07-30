@@ -28,20 +28,23 @@ window.translations.pesca = {
         carnet_title: "Carnet de Pesca",
 
         doc_title: "Documentos necesarios",
-        doc_1: "Fotografía tamaño pasaporte.",
-        doc_2: "Documento de identificación válido.",
-        doc_3: "Portar el carnet durante toda la actividad.",
+        doc_1: "Foto tamaño pasaporte.",
+        doc_2: "Presentar documento de identidad.",
+        doc_3: "Carta de solicitud (disponible en las oficinas del Refugio Caño Negro).",
+        doc_4: "Pago con tarjeta o transferencia al Banco Nacional (cuenta CR26015100010011121562).",
 
         costos_title: "Costos",
-        costo_1: "<strong>Visitantes nacionales:</strong> ₡3.500 colones.",
-        costo_2: "<strong>Visitantes extranjeros:</strong> $33.50 dólares.",
+        costo_1: "<strong>Visitantes nacionales:</strong> ₡3.390 (1 año de vigencia).",
+        costo_2: "<strong>Visitantes extranjeros:</strong> $33.90 (2 meses de vigencia).",
+        costos_note: "IVA incluido. Menores de edad exonerados.",
 
         veda_label: "Conservación",
         veda_title: "Periodo de Veda",
         veda_note: "La veda protege la reproducción de las especies y ayuda a conservar el equilibrio del ecosistema del Refugio de Vida Silvestre Caño Negro.",
         veda_text1: "La veda es un periodo en el que se prohíbe o se limita la pesca de ciertas especies con el fin de proteger su reproducción y asegurar la conservación de los recursos naturales del refugio.",
         veda_text2: "Durante este tiempo, los peces se encuentran en su etapa de reproducción, por lo que capturarlos podría afectar el equilibrio del ecosistema.",
-        veda_text3: "En Caño Negro, el periodo de veda generalmente se establece entre los meses de <strong>marzo y mayo</strong>.",
+        veda_text3: "<strong>Veda general:</strong> del 1 de abril al 31 de julio de cada año, la pesca deportiva general está prohibida por completo en el refugio.",
+        veda_text3b: "<strong>Veda del pez gaspar:</strong> aplica un cierre más extenso para esta especie específica, desde el 1 de marzo hasta el 31 de agosto, protegiendo su etapa de desove con el inicio de las lluvias.",
         veda_text4: "Respetar este periodo es una forma directa de contribuir a la conservación de la biodiversidad.",
 
         restric_label: "Normativa",
@@ -52,16 +55,17 @@ window.translations.pesca = {
         r3: "Respetar el tamaño mínimo de captura.",
         r4: "Prohibido el uso de atarraya, chinchorro y arbaleta.",
         r5: "No contaminar el entorno natural.",
+        r6: "Horario de pesca permitido: 6:00 a.m. – 8:00 a.m. y 4:00 p.m. – 6:00 p.m.",
 
         especies_label: "Biodiversidad acuática",
         especies_title: "Especies en el Río Caño Negro",
         especies_desc: "Conoce algunas de las especies presentes en el río y sus condiciones de captura o protección.",
 
         pez_1_nombre: "Guapote",
-        pez_1_desc: "Máximo 5 piezas por persona.",
+        pez_1_desc: "Mínimo 25 cm. Máximo 5 piezas por persona (hasta 15 en 3 días consecutivos).",
 
         pez_2_nombre: "Mojarra",
-        pez_2_desc: "Máximo 5 piezas por persona.",
+        pez_2_desc: "Mínimo 25 cm. Máximo 5 piezas por persona (hasta 15 en 3 días consecutivos).",
 
         pez_3_nombre: "Tilapia",
         pez_3_badge: "Especie invasora",
@@ -75,7 +79,7 @@ window.translations.pesca = {
         pez_5_desc: "Máximo 5 piezas por persona.",
 
         pez_6_nombre: "Robalo",
-        pez_6_desc: "Máximo 5 piezas por persona.",
+        pez_6_desc: "Mínimo 25 cm. Máximo 5 piezas por persona (hasta 15 en 3 días consecutivos).",
 
         pez_7_nombre: "Guabina",
         pez_7_desc: "Máximo 5 piezas por persona.",
@@ -84,8 +88,8 @@ window.translations.pesca = {
         pez_8_desc: "Pesca libre.",
 
         pez_9_nombre: "Gaspar",
-        pez_9_desc_1: "1 pieza por familia.",
-        pez_9_desc_2: "Tamaño mínimo 1.20 m.",
+        pez_9_desc_1: "2 piezas por persona, mayores a 60 cm.",
+        pez_9_desc_2: "Máximo 6 piezas durante 3 días consecutivos.",
 
         pez_10_nombre: "Sábalo",
         pez_10_desc: "Permitido únicamente para pesca deportiva.",
@@ -168,19 +172,22 @@ window.translations.pesca = {
 
         doc_title: "Required documents",
         doc_1: "Passport-size photo.",
-        doc_2: "Valid identification document.",
-        doc_3: "Carry the license during the entire activity.",
+        doc_2: "Present a valid ID document.",
+        doc_3: "Request letter (available at the Caño Negro Refuge offices).",
+        doc_4: "Payment by card or bank transfer to Banco Nacional (account CR26015100010011121562).",
 
         costos_title: "Costs",
-        costo_1: "<strong>National visitors:</strong> ₡3,500 colones.",
-        costo_2: "<strong>Foreign visitors:</strong> $33.50 USD.",
+        costo_1: "<strong>National visitors:</strong> ₡3,390 (valid for 1 year).",
+        costo_2: "<strong>Foreign visitors:</strong> $33.90 (valid for 2 months).",
+        costos_note: "VAT included. Minors are exempt.",
 
         veda_label: "Conservation",
         veda_title: "Closed Season",
         veda_note: "The closed season protects species reproduction and helps preserve the ecological balance of the Caño Negro Wildlife Refuge ecosystem.",
         veda_text1: "The closed season is a period during which fishing for certain species is prohibited or limited in order to protect reproduction and ensure the conservation of the refuge’s natural resources.",
         veda_text2: "During this time, fish are in their reproductive stage, so catching them could affect the ecosystem balance.",
-        veda_text3: "In Caño Negro, the closed season is generally established between the months of <strong>March and May</strong>.",
+        veda_text3: "<strong>General closed season:</strong> from April 1 to July 31 each year, general sport fishing is completely prohibited in the refuge.",
+        veda_text3b: "<strong>Gaspar closed season:</strong> a longer closure applies to this specific species, from March 1 to August 31, protecting its spawning stage at the start of the rainy season.",
         veda_text4: "Respecting this period is a direct way to contribute to biodiversity conservation.",
 
         restric_label: "Regulations",
@@ -191,16 +198,17 @@ window.translations.pesca = {
         r3: "Respect the minimum catch size.",
         r4: "The use of cast nets, seine nets, and spearguns is prohibited.",
         r5: "Do not pollute the natural environment.",
+        r6: "Permitted fishing hours: 6:00–8:00 a.m. and 4:00–6:00 p.m.",
 
         especies_label: "Aquatic biodiversity",
         especies_title: "Species in the Caño Negro River",
         especies_desc: "Learn about some of the species present in the river and their catch or protection conditions.",
 
         pez_1_nombre: "Guapote",
-        pez_1_desc: "Maximum 5 pieces per person.",
+        pez_1_desc: "Minimum 25 cm. Maximum 5 pieces per person (up to 15 within 3 consecutive days).",
 
         pez_2_nombre: "Mojarra",
-        pez_2_desc: "Maximum 5 pieces per person.",
+        pez_2_desc: "Minimum 25 cm. Maximum 5 pieces per person (up to 15 within 3 consecutive days).",
 
         pez_3_nombre: "Tilapia",
         pez_3_badge: "Invasive species",
@@ -214,7 +222,7 @@ window.translations.pesca = {
         pez_5_desc: "Maximum 5 pieces per person.",
 
         pez_6_nombre: "Robalo",
-        pez_6_desc: "Maximum 5 pieces per person.",
+        pez_6_desc: "Minimum 25 cm. Maximum 5 pieces per person (up to 15 within 3 consecutive days).",
 
         pez_7_nombre: "Guabina",
         pez_7_desc: "Maximum 5 pieces per person.",
@@ -223,8 +231,8 @@ window.translations.pesca = {
         pez_8_desc: "Free fishing.",
 
         pez_9_nombre: "Gaspar",
-        pez_9_desc_1: "1 piece per family.",
-        pez_9_desc_2: "Minimum size 1.20 m.",
+        pez_9_desc_1: "2 pieces per person, larger than 60 cm.",
+        pez_9_desc_2: "Maximum 6 pieces during 3 consecutive days.",
 
         pez_10_nombre: "Tarpon",
         pez_10_desc: "Allowed only for sport fishing.",
@@ -307,19 +315,22 @@ window.translations.pesca = {
 
         doc_title: "Documents requis",
         doc_1: "Photo de format passeport.",
-        doc_2: "Document d’identité valide.",
-        doc_3: "Porter le permis pendant toute la durée de l’activité.",
+        doc_2: "Présenter une pièce d'identité valide.",
+        doc_3: "Lettre de demande (disponible aux bureaux du Refuge Caño Negro).",
+        doc_4: "Paiement par carte ou virement à la Banco Nacional (compte CR26015100010011121562).",
 
         costos_title: "Tarifs",
-        costo_1: "<strong>Visiteurs nationaux :</strong> ₡3 500 colones.",
-        costo_2: "<strong>Visiteurs étrangers :</strong> 33,50 $ USD.",
+        costo_1: "<strong>Visiteurs nationaux :</strong> ₡3 390 (validité 1 an).",
+        costo_2: "<strong>Visiteurs étrangers :</strong> 33,90 $ (validité 2 mois).",
+        costos_note: "TVA incluse. Les mineurs sont exonérés.",
 
         veda_label: "Conservation",
         veda_title: "Période de Fermeture",
         veda_note: "La période de fermeture protège la reproduction des espèces et contribue à préserver l’équilibre écologique de l’écosystème du Refuge de Vie Sauvage de Caño Negro.",
         veda_text1: "La période de fermeture est une période durant laquelle la pêche de certaines espèces est interdite ou limitée afin de protéger leur reproduction et d’assurer la conservation des ressources naturelles du refuge.",
         veda_text2: "Durant cette période, les poissons sont en phase de reproduction, et les capturer pourrait affecter l’équilibre de l’écosystème.",
-        veda_text3: "À Caño Negro, la période de fermeture est généralement établie entre les mois de <strong>mars et mai</strong>.",
+        veda_text3: "<strong>Fermeture générale :</strong> du 1er avril au 31 juillet de chaque année, la pêche sportive générale est totalement interdite dans le refuge.",
+        veda_text3b: "<strong>Fermeture du gaspar :</strong> une fermeture plus longue s’applique à cette espèce spécifique, du 1er mars au 31 août, protégeant sa période de fraie au début des pluies.",
         veda_text4: "Respecter cette période est une façon directe de contribuer à la conservation de la biodiversité.",
 
         restric_label: "Réglementation",
@@ -330,16 +341,17 @@ window.translations.pesca = {
         r3: "Respecter la taille minimale de capture.",
         r4: "L’utilisation d’épervier, de filet de pêche et de harpon est interdite.",
         r5: "Ne pas polluer l’environnement naturel.",
+        r6: "Horaire de pêche autorisé : 6h00–8h00 et 16h00–18h00.",
 
         especies_label: "Biodiversité aquatique",
         especies_title: "Espèces dans la Rivière Caño Negro",
         especies_desc: "Découvrez quelques-unes des espèces présentes dans la rivière et leurs conditions de capture ou de protection.",
 
         pez_1_nombre: "Guapote",
-        pez_1_desc: "Maximum 5 pièces par personne.",
+        pez_1_desc: "Minimum 25 cm. Maximum 5 pièces par personne (jusqu'à 15 en 3 jours consécutifs).",
 
         pez_2_nombre: "Mojarra",
-        pez_2_desc: "Maximum 5 pièces par personne.",
+        pez_2_desc: "Minimum 25 cm. Maximum 5 pièces par personne (jusqu'à 15 en 3 jours consécutifs).",
 
         pez_3_nombre: "Tilapia",
         pez_3_badge: "Espèce envahissante",
@@ -353,7 +365,7 @@ window.translations.pesca = {
         pez_5_desc: "Maximum 5 pièces par personne.",
 
         pez_6_nombre: "Robalo",
-        pez_6_desc: "Maximum 5 pièces par personne.",
+        pez_6_desc: "Minimum 25 cm. Maximum 5 pièces par personne (jusqu'à 15 en 3 jours consécutifs).",
 
         pez_7_nombre: "Guabina",
         pez_7_desc: "Maximum 5 pièces par personne.",
@@ -362,8 +374,8 @@ window.translations.pesca = {
         pez_8_desc: "Pêche libre.",
 
         pez_9_nombre: "Gaspar",
-        pez_9_desc_1: "1 pièce par famille.",
-        pez_9_desc_2: "Taille minimale 1,20 m.",
+        pez_9_desc_1: "2 pièces par personne, de plus de 60 cm.",
+        pez_9_desc_2: "Maximum 6 pièces durant 3 jours consécutifs.",
 
         pez_10_nombre: "Sábalo",
         pez_10_desc: "Autorisé uniquement pour la pêche sportive.",
