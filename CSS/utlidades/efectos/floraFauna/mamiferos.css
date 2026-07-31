@@ -1,0 +1,323 @@
+/* ================= HERO DE AVES ================= */
+.mammals-hero {
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.mammals-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(10, 20, 14, 0.10),
+        rgba(10, 20, 14, 0.28)
+    );
+    pointer-events: none;
+}
+
+.mammals-hero-content {
+    position: relative;
+    z-index: 2;
+    animation: heroFloatBirds 4.5s ease-in-out infinite;
+}
+
+.hero-chip,
+.section-label {
+    animation: pulseSoftBirds 2.8s ease-in-out infinite;
+}
+
+/* ================= TITULOS DE AVES ================= */
+.section-title {
+    position: relative;
+    animation: fadeTitleBirds 1s ease;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    margin: 14px auto 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #71c98a, #53B53C, #1f4d2e, #53B53C, #71c98a);
+    background-size: 200% auto;
+    animation: shimmerLine 4s linear infinite;
+    transition: width 0.8s ease;
+}
+
+.section-title.show::after {
+    width: 100%;
+}
+
+/* ================= FONDOS DECORATIVOS ================= */
+.mammals-intro,
+.mammals-catalog {
+    position: relative;
+    overflow: hidden;
+}
+
+.mammals-intro::before,
+.mammals-catalog::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(113, 201, 138, 0.14), transparent 70%);
+    animation: floatBlobBirds 8s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.mammals-intro::before {
+    top: -90px;
+    right: -100px;
+}
+
+.mammals-catalog::before {
+    bottom: -90px;
+    left: -100px;
+}
+
+/* ================= TARJETAS DESTACADAS ================= */
+.highlight-card {
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.highlight-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 34px rgba(31, 77, 46, 0.14);
+    border-color: rgba(113, 201, 138, 0.35);
+}
+
+.highlight-icon {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.highlight-card:hover .highlight-icon {
+    transform: scale(1.08) rotate(-4deg);
+    box-shadow: 0 10px 20px rgba(31, 77, 46, 0.18);
+}
+
+/* ================= TARJETAS DE AVES ================= */
+.mammal-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.mammal-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+        135deg,
+        rgba(113, 201, 138, 0.12),
+        rgba(255, 255, 255, 0)
+    );
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.mammal-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.22),
+        transparent
+    );
+    transition: left 0.8s ease;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.mammal-card:hover::before {
+    opacity: 1;
+}
+
+.mammal-card:hover::after {
+    left: 130%;
+}
+
+.mammal-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 34px rgba(31, 77, 46, 0.14);
+}
+
+/* ================= IMAGENES ================= */
+.mammal-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.mammal-image img,
+.mammal-slider img {
+    transition: transform 0.7s ease, filter 0.45s ease;
+}
+
+.mammal-card:hover .mammal-image > img,
+.mammal-card:hover .mammal-slider img.active {
+    transform: scale(1.06);
+    filter: brightness(1.03);
+}
+
+.mammal-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.24),
+        transparent
+    );
+    transition: left 0.8s ease;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.mammal-card:hover .mammal-image::after {
+    left: 130%;
+}
+
+/* ================= CREDITOS ================= */
+.photo-credit,
+.mammal-credit {
+    position: relative;
+    z-index: 4;
+}
+
+/* ================= DATO CURIOSO ================= */
+.mammal-fact {
+    transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.mammal-card:hover .mammal-fact {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 28px rgba(31, 77, 46, 0.10);
+    border-color: rgba(113, 201, 138, 0.28);
+}
+
+.fact-icon {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mammal-card:hover .fact-icon {
+    transform: scale(1.08) rotate(-4deg);
+}
+
+/* ================= BOTONES DEL SLIDER ================= */
+.slider-btn {
+    backdrop-filter: blur(6px);
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 30, 20, 0.18);
+    transition: all 0.3s ease;
+}
+
+.slider-btn:hover {
+    background: rgba(31, 77, 46, 0.75);
+    transform: translateY(-50%) scale(1.08);
+}
+
+/* ================= KEYFRAMES DE AVES ================= */
+@keyframes shimmerLine {
+    0%   { background-position: -200% 0; }
+    100% { background-position:  200% 0; }
+}
+
+@keyframes heroFloatBirds {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes pulseSoftBirds {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.03);
+        opacity: 0.94;
+    }
+}
+
+@keyframes fadeTitleBirds {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floatBlobBirds {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+    }
+    50% {
+        transform: translateY(-18px) translateX(12px);
+    }
+}
+
+/* ================= MOVIMIENTO REDUCIDO SOLO AVES ================= */
+@media (prefers-reduced-motion: reduce) {
+    .mammals-hero-content,
+    .hero-chip,
+    .section-label,
+    .section-title::after,
+    .mammals-intro::before,
+    .mammals-catalog::before,
+    .mammal-card,
+    .mammal-card::before,
+    .mammal-card::after,
+    .mammal-image img,
+    .mammal-slider img,
+    .fact-icon,
+    .highlight-icon {
+        transition: none !important;
+        animation: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+
+    .mammals-hero {
+        background-attachment: scroll;
+    }
+}
+
+/* ================= RESPONSIVE SOLO AVES ================= */
+@media (max-width: 900px) {
+    .mammals-hero {
+        background-attachment: scroll;
+    }
+
+    .mammal-card:hover,
+    .highlight-card:hover {
+        transform: translateY(-4px);
+    }
+}

@@ -1,0 +1,1104 @@
+/* ================= VARIABLES ================= */
+:root {
+    --verde-principal: #163320;
+    --verde-medio: #2A6038;
+    --verde-secundario: #3D7A4E;
+    --verde-claro: #53B53C;
+    --verde-hover: #4E9A5A;
+    --verde-oscuro: #0E2116;
+    --verde-suave: #E8F2E9;
+    --naranja-acento: #D94F15;
+    --naranja-hover: #B84010;
+    --naranja-suave: #FCE9DF;
+    --ambar: #C8900E;
+    --fondo: #F3F1EB;
+    --fondo-suave: #E9F0EA;
+    --fondo-claro: #fcfbf7;
+    --blanco: #FFFFFF;
+    --texto: #151F16;
+    --texto-suave: #3A4D3C;
+    --texto-muted: #637065;
+    --sombra: 0 10px 28px rgba(14, 33, 22, 0.11);
+    --sombra-hover: 0 18px 40px rgba(14, 33, 22, 0.19);
+    --sombra-img: 0 18px 38px rgba(20, 45, 28, 0.18);
+}
+
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    line-height: 1.6;
+    padding-top: 90px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, p, span, h4, a, small, button {
+    font-family: 'Fraunces', serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: min(1200px, 90%);
+    margin: auto;
+}
+
+/* CRÉDITO DE FOTO */
+.photo-credit {
+    font-size: 12px;
+    color: #6b746e;
+    margin-top: 6px;
+    margin-left: 4px;
+    font-style: italic;
+    min-height: 18px;
+}
+
+/* ================= HERO ================= */
+.reptiles-hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)),
+        url('../../img/floraFauna/reptiles/caima.JPG') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 90px;
+    color: white;
+}
+
+.reptiles-hero-content {
+    max-width: 760px;
+    animation: fadeUp 1s ease;
+    transform: translateY(-40px);
+}
+
+.hero-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 18px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(10, 20, 12, 0.42);
+    border: 1px solid rgba(113, 201, 138, 0.45);
+    backdrop-filter: blur(4px);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.hero-chip i {
+    color: var(--verde-claro);
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.8));
+}
+
+.reptiles-hero h1 {
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 1.02;
+    margin-bottom: 22px;
+    letter-spacing: -1px;
+    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.60), 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.reptiles-hero h1 span {
+    color: var(--naranja-acento);
+}
+
+.hero-description {
+    max-width: 680px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #eef0ee;
+    margin-bottom: 28px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.55);
+}
+
+.location {
+    color: var(--verde-claro);
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.location i {
+    margin-right: 8px;
+    color: var(--naranja-acento);
+}
+
+/* ================= INTRO ================= */
+.reptiles-intro {
+    background: linear-gradient(180deg, var(--fondo-suave) 0%, var(--fondo) 100%);
+    padding: 90px 0 40px;
+}
+
+.section-heading {
+    max-width: 820px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.section-label {
+    display: inline-block;
+    color: var(--verde-claro);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-size: 40px;
+    margin-bottom: 14px;
+    color: var(--verde-principal);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    margin: 14px auto 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--verde-claro), var(--verde-principal));
+    transition: width 0.8s ease;
+}
+
+.section-title.show::after {
+    width: 110px;
+}
+
+.section-subtitle {
+    max-width: 760px;
+    margin: 0 auto;
+    color: var(--texto-suave);
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* ================= HIGHLIGHTS ================= */
+.reptiles-highlight {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.highlight-card {
+    background: var(--blanco);
+    padding: 35px 30px;
+    border-radius: 22px;
+    box-shadow: var(--sombra);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Transición suave solo para posición y sombra */
+    border: 1px solid rgba(73, 104, 79, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+/* EFECTO HOVER: Movimiento hacia arriba sin Zoom */
+.highlight-card:hover {
+    transform: translateY(-6px);
+    /* Movimiento leve hacia arriba */
+    box-shadow: var(--sombra-hover);
+    /* IMPORTANTE: No incluimos 'scale' para evitar el zoom */
+}
+
+/* Bloqueo total de zoom para cualquier imagen dentro de la card */
+.highlight-card:hover img {
+    transform: none !important;
+    scale: 1 !important;
+}
+
+.highlight-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #edf7ef, #dcecdf);
+    color: #10722e;
+    font-size: 1.35rem;
+    margin-bottom: 18px;
+}
+
+.highlight-card h3 {
+    margin-bottom: 14px;
+    color: var(--texto);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.highlight-card p {
+    color: var(--texto-suave);
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+/* Anulación extra para seguridad en reptile-cards si comparten clases */
+.reptile-card:hover {
+    transform: translateY(-10px) !important;
+    scale: 1 !important;
+}
+
+.reptile-card:hover img {
+    transform: none !important;
+    scale: 1 !important;
+}
+
+/* ================= CATALOGO ================= */
+.reptiles-catalog {
+    padding: 45px 0 100px;
+    background: linear-gradient(180deg, var(--fondo-suave) 0%, var(--fondo) 100%);
+}
+
+.reptiles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.reptile-card {
+    background: var(--blanco);
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: var(--sombra);
+    transition: 0.35s ease;
+    border: 1px solid rgba(73, 104, 79, 0.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.reptile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--sombra-hover);
+}
+
+/* ================= IMAGEN DEL AVE ================= */
+.reptile-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 28px 28px 0 0;
+    background: #dfe7df;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.reptile-image.slider-container {
+    aspect-ratio: unset;
+    height: 220px;
+    border-radius: 28px 28px 0 0;
+}
+
+.reptile-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    transition: transform 0.6s ease;
+}
+
+.reptile-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to top,
+            rgba(15, 44, 24, 0.18) 0%,
+            rgba(15, 44, 24, 0.06) 40%,
+            rgba(15, 44, 24, 0.01) 100%);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.reptile-card:hover .reptile-image img {
+    transform: scale(1.04);
+}
+
+.img-espatula {
+    object-position: center 35%;
+}
+
+.img-jabiru {
+    object-fit: contain;
+    object-position: center top;
+    background: #dfe7df;
+}
+
+.img-garza {
+    object-fit: cover !important;
+    object-position: center 30% !important;
+    padding: 0 !important;
+}
+
+/* ================= CONTENIDO ================= */
+.reptile-content {
+    padding: 20px 20px 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.reptile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 16px;
+    min-height: 76px;
+}
+
+/* Solo se muestra el primer párrafo, recortado a 3 líneas, para mantener la card compacta */
+.reptile-text p:nth-of-type(n+2) {
+    display: none;
+}
+
+.reptile-text p:first-of-type {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.reptile-content h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--verde-principal);
+    font-weight: 800;
+}
+
+.reptile-scientific {
+    color: var(--texto-muted);
+    font-size: 0.85rem;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.reptile-content p {
+    color: var(--texto-suave);
+    font-size: 14.5px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ================= DATO CURIOSO ================= */
+.reptile-fact {
+    margin-top: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 16px 18px 15px;
+    border-radius: 16px;
+    background: #ffffff;
+    border: 1px solid rgba(31, 77, 46, 0.10);
+    box-shadow: 0 12px 26px rgba(31, 77, 46, 0.06);
+    overflow: hidden;
+}
+
+.reptile-fact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--verde-claro), var(--verde-principal));
+}
+
+.fact-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.fact-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--verde-suave);
+    color: var(--verde-principal);
+    border: 1px solid rgba(31, 77, 46, 0.10);
+    font-size: 13px;
+}
+
+.fact-label {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--verde-principal);
+    line-height: 1;
+}
+
+.reptile-fact p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--texto-suave);
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* ================= PAGINACIÓN DEL CATÁLOGO ================= */
+.species-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 52px;
+    flex-wrap: wrap;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid rgba(31, 77, 46, 0.18);
+    background: rgba(31, 77, 46, 0.06);
+    color: #1f4d2e;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.page-btn:hover:not(:disabled) {
+    background: rgba(217, 79, 21, 0.10);
+    border-color: var(--naranja-acento);
+    color: var(--naranja-acento);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(217, 79, 21, 0.18);
+}
+
+.page-btn.active {
+    background: #163822;
+    color: white;
+    border-color: #163822;
+    box-shadow: 0 4px 14px rgba(22, 56, 34, 0.38);
+    pointer-events: none;
+}
+
+.page-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.page-btn.prev-btn,
+.page-btn.next-btn {
+    background: transparent;
+    border: 2px solid rgba(31, 77, 46, 0.22);
+    color: #1f4d2e;
+}
+
+.species-pagination-info {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--texto-suave);
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.3px;
+}
+
+/* ================= FAB ================= */
+.fab-container {
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+    z-index: 1000;
+}
+
+.fab-main {
+    width: 60px;
+    height: 60px;
+    border-radius: 22px;
+    background: rgba(20, 40, 20, 0.95);
+    border: 1.5px solid rgba(217, 79, 21, 0.8);
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 18px rgba(217, 79, 21, 0.15);
+    transition: all 0.3s ease;
+}
+
+.fab-main:hover {
+    background: rgba(30, 55, 30, 0.98);
+    box-shadow: 0 0 25px rgba(217, 79, 21, 0.3);
+    transform: translateY(-2px);
+}
+
+.fab-main i { transition: 0.3s ease; }
+.fab-container.open .fab-main i { transform: rotate(45deg); }
+
+.fab-options {
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: 0.3s ease;
+}
+
+.fab-container.open .fab-options {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.fab-option {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+    transition: 0.3s ease;
+}
+
+.fab-option:hover { transform: scale(1.12); }
+
+.fab-option.whatsapp { background: white; color: #25d366; border: 2px solid #25d366; }
+.fab-option.whatsapp:hover { background: #25d366; color: #ffffff; }
+
+.fab-option.map { background: white; color: var(--naranja-acento); border: 2px solid var(--naranja-acento); }
+.fab-option.map:hover { background: var(--naranja-acento); color: #ffffff; }
+
+.fab-option.help { background: white; color: var(--verde-principal); border: 2px solid var(--verde-principal); }
+.fab-option.help:hover { background: var(--verde-principal); color: #ffffff; }
+
+/* ================= MODAL AYUDA ================= */
+.help-modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(11, 28, 16, 0.62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: 2000;
+}
+
+.help-modal.active { opacity: 1; pointer-events: auto; }
+
+.help-content {
+    background: white;
+    width: min(600px, 90%);
+    max-height: 80vh;
+    overflow-y: auto;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 20px 50px rgba(11, 28, 16, 0.32);
+    border-top: 4px solid var(--naranja-acento);
+    animation: fadeUp 0.4s ease;
+}
+
+.help-content h2 { margin-bottom: 20px; color: var(--verde-principal); }
+
+.close-modal {
+    position: absolute;
+    top: 15px; right: 15px;
+    border: none; background: none;
+    font-size: 22px; cursor: pointer;
+    color: var(--texto-muted);
+    transition: 0.2s;
+}
+
+.close-modal:hover { color: var(--naranja-acento); }
+
+.faq-list { display: flex; flex-direction: column; gap: 18px; }
+
+.faq-item h3 { font-size: 16px; margin-bottom: 6px; color: var(--verde-principal); }
+.faq-item p  { font-size: 14px; color: var(--texto-suave); }
+
+/* ================= PESTAÑA IA VERTICAL ================= */
+.chat-ia-tab {
+    position: fixed;
+    top: 50%; right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    z-index: 1500;
+}
+
+.chat-ia-toggle {
+    width: 22px; height: 380px;
+    border: 2px solid rgba(217, 79, 21, 0.95);
+    border-right: none;
+    border-radius: 18px 0 0 18px;
+    background: rgba(20, 40, 20, 0.95);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+    box-shadow: -5px 0 14px rgba(0, 0, 0, 0.55), 0 0 20px rgba(217, 79, 21, 0.22);
+}
+
+.chat-ia-toggle:hover {
+    background: rgba(30, 55, 30, 0.98);
+    box-shadow: 0 0 25px rgba(217, 79, 21, 0.3);
+}
+
+.chat-ia-toggle i { font-size: 13px; transition: 0.3s ease; }
+
+.chat-ia-link {
+    width: 0; height: 500px;
+    overflow: hidden; opacity: 0;
+    pointer-events: none;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(20, 40, 20, 0.95);
+    color: white;
+    border-top: 1.5px solid rgba(217, 79, 21, 0.8);
+    border-left: 1.5px solid rgba(217, 79, 21, 0.8);
+    border-bottom: 1.5px solid rgba(217, 79, 21, 0.8);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    box-shadow: 0 0 18px rgba(217, 79, 21, 0.15);
+    transition: all 0.3s ease;
+}
+
+.chat-ia-link:hover { background: rgba(30, 55, 30, 0.98); color: white; }
+
+.chat-ia-link span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px; font-weight: 700; letter-spacing: 0.3px;
+}
+
+.chat-ia-tab.open .chat-ia-link { width: 28px; opacity: 1; pointer-events: auto; }
+.chat-ia-tab.open .chat-ia-toggle { background: var(--naranja-acento); }
+.chat-ia-tab.open .chat-ia-toggle i { transform: rotate(180deg); }
+
+/* --- SLIDER DEFINITIVO Y ESTABLE --- */
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background-color: #000;
+    /* Fondo negro por si la foto no llena todo */
+    border-radius: 8px 8px 0 0;
+    /* Ajusta según el borde de tus cards */
+}
+
+.reptile-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* --- CSS GLOBAL ESTABLE --- */
+.reptile-slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Centra y llena la tarjeta */
+
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/* --- CLASES ESPECIALES PARA CADA AVE --- */
+
+/* Para el Pájaro Serpiente (Anhinga): Enfocamos arriba */
+.encuadre-anhinga {
+    object-position: center !important;
+}
+
+/* Para el Pato Cantil (Sungrebe): Enfocamos abajo */
+.encuadre-pato-cantil {
+    object-position: center !important;
+}
+
+.reptile-slider img.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* FLECHAS MINIMALISTAS */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 10;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+
+    /* Invisibles por defecto */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+/* Solo aparecen al pasar el mouse por la imagen */
+.slider-container:hover .slider-btn {
+    opacity: 0.8;
+    visibility: visible;
+}
+
+.slider-btn:hover {
+    opacity: 1 !important;
+}
+
+.slider-container:hover .reptile-slider img {
+    transform: none !important;
+    /* Evita que la imagen crezca o se mueva */
+    scale: 1 !important;
+    /* Asegura que se mantenga en su tamaño real */
+}
+
+.slider-btn.prev {
+    left: 5px;
+}
+
+.slider-btn.next {
+    right: 5px;
+}
+
+/* ================= CIERRE ================= */
+.reptiles-closing {
+    background: linear-gradient(180deg, #edf4ee 0%, #f7f5ef 100%);
+    padding: 90px 0;
+}
+
+.reptiles-closing-content {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+/* etiqueta superior */
+.reptiles-closing-label {
+    color: var(--verde-claro);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+/* título */
+.reptiles-closing h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    color: var(--verde-principal);
+    font-weight: 800;
+}
+
+/* descripción */
+.reptiles-closing p {
+    font-size: 18px;
+    color: var(--texto-suave);
+    max-width: 720px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .reptiles-closing {
+        padding: 80px 20px;
+    }
+
+    .reptiles-closing h2 {
+        font-size: 32px;
+    }
+
+    .reptiles-closing p {
+        font-size: 16px;
+    }
+}
+
+/* ================= ANIMACIONES ================= */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================= NAVBAR MÓVIL ================= */
+body:has(#menuNav.show) .fab-container { display: none !important; }
+
+/* ================= RESPONSIVE ================= */
+@media (max-width:1200px) {
+    .reptiles-hero {
+        padding: 0 40px;
+        background-position: center center;
+    }
+
+    .reptiles-hero h1 {
+        font-size: 58px;
+    }
+
+    .hero-description {
+        font-size: 19px;
+    }
+
+    .reptiles-hero-content {
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width:1100px) {
+    .reptiles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reptile-image {
+        height: 260px;
+    }
+}
+
+@media (max-width:900px) {
+    .reptiles-highlight {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .reptiles-hero {
+        min-height: 100vh;
+        padding: 120px 28px 60px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-position: center center;
+    }
+
+    .reptiles-hero-content {
+        max-width: 100%;
+        transform: translateY(0);
+    }
+
+    .reptiles-hero h1 {
+        font-size: 56px;
+    }
+
+    .hero-description {
+        margin-inline: auto;
+        font-size: 18px;
+        max-width: 540px;
+    }
+}
+
+@media (max-width:768px) {
+    .reptiles-hero h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    body {
+        padding-top: 0;
+    }
+
+    .reptiles-highlight {
+        grid-template-columns: 1fr;
+    }
+
+    .reptiles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reptiles-hero {
+        min-height: 100dvh;
+        padding: 90px 28px 32px;
+        background-position: center center;
+    }
+
+    .reptiles-hero h1 {
+        font-size: 42px;
+        line-height: 1.06;
+    }
+
+    .hero-description {
+        font-size: 17px;
+        line-height: 1.7;
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .reptile-image {
+        height: 230px;
+    }
+
+    .reptile-content h3 {
+        font-size: 24px;
+    }
+
+    .reptile-content {
+        padding: 22px 18px 18px;
+    }
+
+    .reptile-fact {
+        padding: 18px 16px 16px;
+        border-radius: 16px;
+        min-height: auto;
+    }
+
+    .hero-chip {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+/* ── 480px: Surface Duo, Galaxy S20 Ultra ── */
+@media (max-width:480px) {
+    .reptiles-hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+}
+
+/* ── 390px: iPhone 12/14 Pro, Pixel 7 ── */
+@media (max-width:390px) {
+    .reptiles-hero {
+        padding: 110px 24px 50px;
+    }
+
+    .reptiles-hero h1 {
+        font-size: 32px;
+    }
+}
+
+/* ── 344px: Galaxy Z Fold 5, pantallas muy estrechas ── */
+@media (max-width:344px) {
+    .reptiles-hero {
+        padding: 100px 20px 40px;
+    }
+
+    .reptiles-hero h1 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-chip {
+        font-size: 11px;
+    }
+}
+
+/* ── Nest Hub (1024×600), Nest Hub Max (1280×800) ── */
+@media (max-height:700px) and (min-width:900px) {
+    .reptiles-hero {
+        min-height: 100dvh;
+        padding: 90px 40px 30px;
+    }
+
+    .reptiles-hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ================= FIX SCROLL NAV ================= */
+[id] {
+    scroll-margin-top: 110px;
+}

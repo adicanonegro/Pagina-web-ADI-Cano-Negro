@@ -83,7 +83,7 @@ footer{
         rgba(0,0,0,0.25),
         rgba(0,0,0,0.55)
     ),
-    url('../../img/floraFauna/fondo.png') center/cover no-repeat;
+    url('../../img/floraFauna/naturaleza/fondo.png') center/cover no-repeat;
     display:flex;
     align-items:center;
     justify-content:flex-start;

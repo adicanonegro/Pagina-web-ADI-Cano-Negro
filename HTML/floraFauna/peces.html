@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peces de Caño Negro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/header.css">
+    <link rel="stylesheet" href="../../CSS/floraFauna/floraFauna.css">
+    <link rel="stylesheet" href="../../CSS/floraFauna/peces.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/floraFauna/peces.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
+</head>
+
+<body data-page="peces">
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="main-header">
+        <div class="logo-area">
+            <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img">
+            <div class="logo-text">
+                <span>ADI Caño Negro</span>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid p-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="menuNav">
+                    <div class="menu-sidebar-header d-lg-none">
+                        <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="mobile-header-logo">
+                        <span class="mobile-header-title">ADI Caño Negro</span>
+                        <button class="close-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menuNav" aria-label="Cerrar menú">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../Senderos/senderos.html" data-i18n="nav_senderos">Senderos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="floraFauna.html" data-i18n="nav_flora">Flora y Fauna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_videos">Videos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                    </ul>
+                    <div class="language-dropdown ms-lg-3">
+                        <button type="button" class="language-toggle" id="languageToggle">
+                            <span id="currentLanguage">ES</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <button class="language-option active" data-lang="es">ES</button>
+                            <button class="language-option" data-lang="en">EN</button>
+                            <button class="language-option" data-lang="fr">FR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="fish-hero">
+        <div class="fish-hero-content reveal">
+            <span class="hero-chip">
+                <span data-i18n="hero_chip">Río Frío • Biodiversidad • Humedal Ramsar</span>
+            </span>
+
+            <h1 data-i18n="hero_title">Peces de <br><span>Caño Negro</span></h1>
+
+            <p class="hero-description" data-i18n="hero_desc">
+                El sistema hídrico del Río Frío sostiene una notable diversidad de peces, desde el
+                gaspar, considerado un fósil viviente, hasta especies clave para la pesca artesanal
+                y deportiva de la comunidad.
+            </p>
+            <p class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span data-i18n="hero_location">Caño Negro, Los Chiles, Alajuela</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="fish-intro">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label" data-i18n="intro_label">Guía visual del humedal</span>
+                <h2 class="section-title" data-i18n="intro_title">Vida acuática del Río Frío</h2>
+                <p class="section-subtitle" data-i18n="intro_subtitle">
+                    Cada una de estas especies forma parte de la red alimenticia del humedal y de la
+                    relación histórica entre la comunidad de Caño Negro y su río.
+                </p>
+            </div>
+
+            <div class="fish-highlight">
+                <article class="highlight-card reveal-left">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-water"></i>
+                    </div>
+                    <h3 data-i18n="highlight1_title">Un río, muchas especies</h3>
+                    <p data-i18n="highlight1_desc">
+                        Entre 49 y 55 especies de peces habitan los ríos y lagunas del refugio, desde
+                        depredadores grandes hasta pequeños peces de cardumen.
+                    </p>
+                </article>
+
+                <article class="highlight-card reveal">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-hand-holding-droplet"></i>
+                    </div>
+                    <h3 data-i18n="highlight2_title">Pesca tradicional</h3>
+                    <p data-i18n="highlight2_desc">
+                        Muchas de estas especies son parte de la pesca artesanal y deportiva que
+                        practica la comunidad desde hace generaciones.
+                    </p>
+                </article>
+
+                <article class="highlight-card reveal-right">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h3 data-i18n="highlight3_title">Especies introducidas</h3>
+                    <p data-i18n="highlight3_desc">
+                        Algunas especies, como la tilapia o el pez diablo, no son nativas y compiten
+                        con la fauna acuática original del refugio.
+                    </p>
+                </article>
+
+                <article class="highlight-card reveal-zoom">
+                    <div class="highlight-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 data-i18n="highlight4_title">Conservación esencial</h3>
+                    <p data-i18n="highlight4_desc">
+                        Cuidar el río y respetar las regulaciones de pesca es clave para conservar
+                        esta diversidad para las próximas generaciones.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATÁLOGO -->
+    <section class="fish-catalog">
+        <div class="container">
+            <div class="fish-grid">
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/gaspar.jpg" alt="Gaspar">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish1_name">Gaspar</h3>
+                        <span class="fish-scientific">Atractosteus tropicus</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish1_desc1">
+                                Conocido como "fósil viviente" por su aspecto prehistórico, es una de
+                                las especies más emblemáticas y protegidas del Río Frío.
+                            </p>
+                            <p data-i18n="fish1_desc2">
+                                Su cuerpo alargado y sus escamas duras en forma de placas lo hacen
+                                único entre los peces de agua dulce de la zona.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-lungs"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish1_fact">
+                                Puede respirar aire directamente en la superficie gracias a una
+                                vejiga natatoria muy vascularizada, una adaptación de millones de años.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/guapote.JPG" alt="Guapote">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish2_name">Guapote</h3>
+                        <span class="fish-scientific">Parachromis dovii</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish2_desc1">
+                                Es uno de los cíclidos más grandes y buscados del refugio, reconocido
+                                por su fuerza y su comportamiento territorial.
+                            </p>
+                            <p data-i18n="fish2_desc2">
+                                Ambos padres cuidan activamente de las crías, defendiéndolas de otros
+                                peces mientras nadan cerca del fondo.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-shield"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish2_fact">
+                                Es una de las especies más apreciadas de la pesca deportiva local por
+                                la fuerza con la que resiste al ser capturado.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/guapote_lagunero.png" alt="Guapote Lagunero">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish3_name">Guapote Lagunero</h3>
+                        <span class="fish-scientific">Parachromis managuensis</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish3_desc1">
+                                Se distingue del guapote común por su patrón de manchas oscuras
+                                irregulares sobre un cuerpo plateado.
+                            </p>
+                            <p data-i18n="fish3_desc2">
+                                Prefiere las aguas más tranquilas de las lagunas, donde caza otros
+                                peces pequeños entre la vegetación acuática.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-otter"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish3_fact">
+                                En otras partes del mundo se le conoce como "jaguar guapote", en
+                                referencia a las manchas de su cuerpo.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/mojarra.jpg" alt="Mojarra">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish4_name">Mojarra</h3>
+                        <span class="fish-scientific">Amphilophus sp.</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish4_desc1">
+                                Nombre común para varios cíclidos de tamaño mediano que forman parte
+                                importante de la dieta acuática del río.
+                            </p>
+                            <p data-i18n="fish4_desc2">
+                                Se alimenta de algas, pequeños invertebrados y restos vegetales que
+                                encuentra entre las piedras y raíces sumergidas.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-users"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish4_fact">
+                                Suele nadar en cardúmenes, una estrategia que le ayuda a protegerse
+                                de depredadores más grandes como el guapote.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/robalo.jpg" alt="Róbalo">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish5_name">Róbalo</h3>
+                        <span class="fish-scientific">Centropomus sp.</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish5_desc1">
+                                Es un pez plateado y alargado que se desplaza entre aguas dulces y
+                                salobres según su etapa de vida.
+                            </p>
+                            <p data-i18n="fish5_desc2">
+                                En el Río Frío se le encuentra sobre todo en sectores con corriente,
+                                donde caza peces más pequeños.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish5_fact">
+                                Es una especie migratoria: puede pasar parte de su vida en el mar y
+                                remontar ríos como el Frío para crecer y alimentarse.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/sabalo.jpg" alt="Sábalo">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish6_name">Sábalo</h3>
+                        <span class="fish-scientific">Megalops atlanticus</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish6_desc1">
+                                De cuerpo plateado y escamas grandes, es uno de los peces más grandes
+                                e impresionantes que se pueden encontrar en el río.
+                            </p>
+                            <p data-i18n="fish6_desc2">
+                                Es muy valorado en la pesca deportiva, principalmente por la fuerza y
+                                los saltos espectaculares que da al ser enganchado.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-bolt"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish6_fact">
+                                Puede respirar aire atmosférico gracias a su vejiga natatoria,
+                                lo que le permite sobrevivir en aguas con poco oxígeno.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/machaca.png" alt="Machaca">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish7_name">Sabalete o Machaca</h3>
+                        <span class="fish-scientific">Brycon guatemalensis</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish7_desc1">
+                                Es un pez ágil y plateado que nada en cardúmenes cerca de la
+                                superficie, muy activo durante todo el día.
+                            </p>
+                            <p data-i18n="fish7_desc2">
+                                Se alimenta de frutas, semillas e insectos que caen al agua desde los
+                                árboles que bordean el río.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-seedling"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish7_fact">
+                                Es capaz de saltar fuera del agua para atrapar frutos e insectos que
+                                cuelgan de las ramas bajas junto al río.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/guabina.jpg" alt="Guabina">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish8_name">Guabina</h3>
+                        <span class="fish-scientific">Gobiomorus dormitor</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish8_desc1">
+                                Es un pez de cuerpo robusto y cabeza ancha que pasa gran parte del
+                                tiempo inmóvil, esperando a sus presas.
+                            </p>
+                            <p data-i18n="fish8_desc2">
+                                Se oculta entre piedras, raíces y vegetación sumergida, desde donde
+                                emboscada a peces e invertebrados pequeños.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-crosshairs"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish8_fact">
+                                Su nombre en inglés, "sleeper", hace referencia a su comportamiento de
+                                permanecer casi inmóvil durante largos periodos antes de atacar.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/Barbudo.jpeg" alt="Barbudo">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish9_name">Barbudo</h3>
+                        <span class="fish-scientific">Rhamdia sp.</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish9_desc1">
+                                Es un bagre de hábitos nocturnos, reconocible por los barbillones
+                                alrededor de la boca que le dan su nombre.
+                            </p>
+                            <p data-i18n="fish9_desc2">
+                                Se mueve por el fondo del río, donde utiliza sus barbillones para
+                                detectar alimento incluso en aguas turbias.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-moon"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish9_fact">
+                                Sus barbillones funcionan como órganos del gusto y el tacto, lo que le
+                                permite "saborear" el fondo del río en busca de comida.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/roncador.jpg" alt="Roncador">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish10_name">Roncador</h3>
+                        <span class="fish-scientific">&nbsp;</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish10_desc1">
+                                Es una especie introducida en el sistema del Río Frío, reconocible por
+                                el sonido similar a un ronquido que puede producir.
+                            </p>
+                            <p data-i18n="fish10_desc2">
+                                Se adapta con facilidad a distintos ambientes acuáticos, lo que le ha
+                                permitido establecerse en varios sectores del refugio.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-volume-high"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish10_fact">
+                                Su nombre viene precisamente del sonido similar a un ronquido que
+                                produce, un rasgo poco común entre los peces del refugio.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/tilapia.jpg" alt="Tilapia">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish11_name">Tilapia</h3>
+                        <span class="fish-scientific">Oreochromis sp.</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish11_desc1">
+                                Originaria de África, es una de las especies introducidas más
+                                extendidas en los ríos y lagunas de Costa Rica.
+                            </p>
+                            <p data-i18n="fish11_desc2">
+                                Se reproduce con facilidad y compite por alimento y espacio con
+                                especies nativas del refugio.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-egg"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish11_fact">
+                                Las hembras incuban los huevos y a las crías recién nacidas dentro de
+                                su propia boca para protegerlas de depredadores.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/bobito.png" alt="Bobito">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish12_name">Bobito</h3>
+                        <span class="fish-scientific">&nbsp;</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish12_desc1">
+                                Es un pez pequeño que se desplaza en grandes cardúmenes cerca de la
+                                superficie del agua.
+                            </p>
+                            <p data-i18n="fish12_desc2">
+                                Es una pieza clave de la cadena alimenticia del río, al servir de
+                                alimento para peces y aves más grandes.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-hook"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish12_fact">
+                                Por su tamaño y abundancia, es una de las carnadas naturales más
+                                usadas por los pescadores locales.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/sardina.png" alt="Sardina">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish13_name">Sardina</h3>
+                        <span class="fish-scientific">&nbsp;</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish13_desc1">
+                                Pequeña y plateada, es una de las especies más abundantes del río,
+                                donde se mueve en cardúmenes densos.
+                            </p>
+                            <p data-i18n="fish13_desc2">
+                                Su presencia sostiene a numerosos depredadores, desde peces grandes
+                                hasta aves acuáticas que se alimentan de ella.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-fish-fins"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish13_fact">
+                                Al igual que el bobito, es utilizada tradicionalmente como carnada
+                                para pescar especies más grandes en el refugio.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="fish-card reveal highlight-card">
+                    <div class="fish-image">
+                        <img src="../../img/comunidad/pesca/pez-diablo.jpg" alt="Pez Diablo">
+                    </div>
+                    <div class="fish-credit">&nbsp;</div>
+                    <div class="fish-content">
+                        <h3 data-i18n="fish14_name">Pez Diablo</h3>
+                        <span class="fish-scientific">Pterygoplichthys sp.</span>
+                        <div class="fish-text">
+                            <p data-i18n="fish14_desc1">
+                                Reconocible por su cuerpo cubierto de placas óseas, es una especie
+                                introducida que se ha vuelto muy común en el sistema del río.
+                            </p>
+                            <p data-i18n="fish14_desc2">
+                                Se alimenta raspando algas y materia orgánica del fondo con su boca en
+                                forma de ventosa.
+                            </p>
+                        </div>
+                        <div class="fish-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon"><i class="fa-solid fa-triangle-exclamation"></i></span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="fish14_fact">
+                                Su consumo no es recomendado y su presencia se considera perjudicial
+                                para el equilibrio de las especies nativas del refugio.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- ── Paginación ── -->
+            <nav class="species-pagination" aria-label="Paginación de peces">
+                <button class="page-btn prev-btn" id="prevPage" aria-label="Página anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="page-numbers" id="pageNumbers"></div>
+                <button class="page-btn next-btn" id="nextPage" aria-label="Siguiente página">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </nav>
+            <p class="species-pagination-info" id="paginationInfo"></p>
+
+        </div>
+    </section>
+
+    <!-- ================= CIERRE FINAL ================= -->
+    <section class="fish-closing reveal">
+        <div class="container fish-closing-content">
+
+            <span class="fish-closing-label" data-i18n="closing_tag">
+                CAÑO NEGRO
+            </span>
+
+            <h2 data-i18n="closing_title">
+                Un río que sostiene la vida y la tradición de la comunidad
+            </h2>
+
+            <p data-i18n="closing_desc">
+                Descubre a los peces de Caño Negro, protagonistas silenciosos de un río que une la
+                biodiversidad del refugio con la historia de su gente.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-grid">
+
+            <div class="footer-col footer-brand">
+                <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="footer-logo">
+                <p data-i18n="footer_about">
+                    Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación
+                    y el desarrollo sostenible de nuestra comunidad.
+                </p>
+            </div>
+
+            <div class="footer-col footer-links-col">
+                <h4 data-i18n="footer_links_title">Enlaces rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                    <li><a href="../Senderos/senderos.html" data-i18n="nav_senderos">Senderos</a></li>
+                    <li><a href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                    <li><a href="floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                    <li><a href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
+                    <li><a href="#" data-i18n="nav_videos">Videos</a></li>
+                    <li><a href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="footer_contact_title">Contacto</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span data-i18n="footer_address">Caño Negro, Los Chiles, Alajuela, Costa Rica</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:adicanonegro@gmail.com">adicanonegro@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+50683318263">+506 8331-8263</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Síguenos</h4>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="https://www.facebook.com/adi.canonegro" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p data-i18n="footer_text">© 2026 ADI Caño Negro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <div class="fab-container">
+        <button class="fab-main" id="fabToggle" aria-label="Abrir acciones rápidas">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+        <div class="fab-options">
+            <a href="#" class="fab-option help" id="openHelp" aria-label="Ayuda">
+                <i class="fa-solid fa-comments"></i>
+            </a>
+
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Refugio+de+Vida+Silvestre+Caño+Negro"
+                target="_blank" class="fab-option map" aria-label="Cómo llegar">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+
+            <a href="https://wa.me/506XXXXXX" target="_blank" class="fab-option whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="help-modal" id="helpModal">
+        <div class="help-content">
+            <button class="close-modal" id="closeHelp" aria-label="Cerrar ayuda">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 data-i18n="help_title">¿En qué podemos ayudarte?</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q1">📍 ¿Dónde está Caño Negro?</h3>
+                    <p data-i18n="faq_a1">Se ubica en Los Chiles, Alajuela, Costa Rica, cerca de la frontera con
+                        Nicaragua.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q2">🚗 ¿Cómo llegar?</h3>
+                    <p data-i18n="faq_a2">Puedes acceder por la Ruta 138 desde Upala o Los Chiles. Usa el botón de
+                        ubicación para ver la ruta.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q3">🦜 ¿Qué se puede ver?</h3>
+                    <p data-i18n="faq_a3">Más de 300 especies de aves, además de reptiles, mamíferos y una gran
+                        diversidad de flora.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q4">📅 ¿Mejor época para visitar?</h3>
+                    <p data-i18n="faq_a4">Durante la estación seca para senderismo, o época lluviosa para ver aves
+                        migratorias.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q5">🎒 ¿Qué llevar?</h3>
+                    <p data-i18n="faq_a5">Ropa cómoda, repelente, agua, cámara y protección solar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-ia-tab" id="chatIaTab">
+        <button class="chat-ia-toggle" id="chatIaToggle" aria-label="Abrir acceso a IA">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro" target="_blank"
+            class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
+            <span data-i18n="chat_tab">Acerca de Caño Negro</span>
+        </a>
+    </div>
+
+    <div class="language-loader" id="languageLoader">
+        <div class="language-loader-box">
+            <div class="language-spinner"></div>
+            <p id="languageLoaderText">Cambiando idioma...</p>
+        </div>
+    </div>
+
+    <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/utilidades/imageZoom.js"></script>
+    <script src="../../JS/traducciones/floraFauna/peces.js"></script>
+    <script src="../../JS/utilidades/fab.js"></script>
+    <script src="../../JS/utilidades/modal.js"></script>
+    <script src="../../JS/utilidades/chatIA.js"></script>
+    <script src="../../JS/utilidades/floraFauna/pecesContenedor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
