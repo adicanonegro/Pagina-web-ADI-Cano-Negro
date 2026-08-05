@@ -5,6 +5,10 @@ window.translations.aves = {
         nav_inicio: "Inicio",
         nav_flora: "Flora y Fauna",
         nav_aves: "Aves",
+        nav_mamiferos: "Mamíferos",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Anfibios",
+        nav_peces: "Peces",
         "photo_by": "Foto:",
 
         hero_chip: "Avistamiento • Biodiversidad • Humedal Ramsar",
@@ -99,6 +103,71 @@ window.translations.aves = {
         bird14_desc2: "En el refugio, suele desplazarse en pequeños grupos, volando de forma ágil mientras captura insectos en el aire, siendo parte importante del equilibrio natural del ecosistema.",
         bird14_fact: "A diferencia de otras golondrinas, puede posarse con frecuencia en ramas expuestas, desde donde descansa antes de volver a volar para continuar cazando insectos.",
 
+        bird15_name: "Martinete Coroninegro",
+        bird15_desc1: "Es una garza nocturna robusta y de cuello corto, fácilmente reconocible por su capa negra en la cabeza y espalda que contrasta con su cuerpo gris claro.",
+        bird15_desc2: "Durante el día permanece inmóvil y oculta entre la vegetación cercana al agua, y se vuelve mucho más activa al anochecer, cuando sale a cazar.",
+        bird15_fact: "Sus ojos de color rojo intenso le permiten ver con claridad en condiciones de muy poca luz, una ventaja clave para cazar durante la noche.",
+
+        bird16_name: "Garceta Tricolor",
+        bird16_desc1: "Es una garza esbelta que combina tonos azul pizarra, blanco y vino tinto, con un cuello largo y sinuoso que suele mantener en forma de \"S\" mientras camina por el agua.",
+        bird16_desc2: "Camina activamente por lagunas y orillas poco profundas, con movimientos rápidos y erráticos muy distintos a la quietud de otras garzas del humedal.",
+        bird16_fact: "A diferencia de casi todas las demás garzas, su vientre blanco contrasta fuertemente con el resto de su plumaje oscuro, por lo que también se le conoce como \"garza de vientre blanco\".",
+
+        bird17_name: "Gavilán Cangrejero",
+        bird17_desc1: "Es una rapaz de tamaño mediano, fácilmente identificable por su cabeza color crema, su pecho oscuro y su plumaje rojizo en el resto del cuerpo.",
+        bird17_desc2: "Frecuenta lagunas, esteros y zonas inundadas del refugio, donde caza principalmente cangrejos y otros crustáceos que atrapa con sus garras cerca de la orilla.",
+        bird17_fact: "A pesar de ser un ave rapaz, se alimenta casi por completo de cangrejos y caracoles, una dieta poco común entre los gavilanes de la región.",
+
+        bird18_name: "Ibis Verde",
+        bird18_desc1: "Es un ave de plumaje oscuro con reflejos verdes y bronceados que solo se aprecian bien bajo luz directa, y un largo pico curvado hacia abajo.",
+        bird18_desc2: "A diferencia del Ibis Blanco, prefiere ambientes boscosos junto al agua, donde se mueve con discreción entre la vegetación densa de las orillas.",
+        bird18_fact: "Su llamado, un silbido agudo y particular, suele escucharse al amanecer o al atardecer, incluso antes de lograr ver al ave entre el follaje.",
+
+        bird19_name: "Pájaro Estaca",
+        bird19_desc1: "Es un ave nocturna con un camuflaje extraordinario: su plumaje moteado en tonos grises y cafés imita a la perfección la corteza de un tronco seco.",
+        bird19_desc2: "Durante el día permanece perfectamente inmóvil, erguido sobre la punta de una rama o tocón, pasando prácticamente inadvertido para depredadores y visitantes.",
+        bird19_fact: "Puede permanecer tan quieto que muchos visitantes pasan justo frente a él sin notar que se trata de un ave y no de un pedazo de madera.",
+
+        bird20_name: "Zanate Grande",
+        bird20_desc1: "Es un ave muy común y adaptable, de plumaje negro con brillos azulados o violáceos y una cola larga que suele mantener en forma de quilla.",
+        bird20_desc2: "Se le observa con frecuencia en grupos ruidosos, tanto en los alrededores del humedal como en zonas abiertas y poblados cercanos a Caño Negro.",
+        bird20_fact: "Los machos son notablemente más grandes que las hembras y tienen un repertorio de sonidos y silbidos muy variado, que usan para comunicarse dentro del grupo.",
+
+        bird21_name: "Trogón Coliplomizo",
+        bird21_desc1: "Es el trogón de mayor tamaño que puede observarse en la zona, con un pecho rojo intenso, cabeza y espalda verde azulado, y un anillo naranja alrededor del ojo.",
+        bird21_desc2: "Suele permanecer quieto y erguido sobre ramas medias del bosque, lo que lo hace parecer casi inmóvil mientras vigila su entorno en busca de frutos e insectos.",
+        bird21_fact: "Como otros trogones, no construye nido propio: aprovecha huecos de árboles o nidos abandonados de termitas e insectos para poner sus huevos.",
+
+        bird22_name: "Bienteveo Grande",
+        bird22_desc1: "Es una de las aves más ruidosas y visibles del humedal, con su pecho amarillo brillante, cabeza con una franja blanca y una llamativa mancha amarilla oculta en la corona.",
+        bird22_desc2: "Es sumamente adaptable y territorial: se alimenta de insectos, frutas e incluso pequeños peces que captura al vuelo sobre el agua.",
+        bird22_fact: "Su nombre imita su canto, que muchas personas describen como \"bien-te-veo\", uno de los sonidos más característicos del amanecer en Caño Negro.",
+
+        bird23_name: "Espátula Rosada",
+        bird23_desc1: "Es una de las aves más llamativas del humedal gracias a su intenso plumaje rosado y su característico pico en forma de espátula o cuchara.",
+        bird23_desc2: "Se alimenta moviendo el pico de lado a lado dentro del agua poco profunda, detectando pequeños peces y crustáceos al tacto entre el sedimento.",
+        bird23_fact: "Su color rosado no proviene de sus plumas en sí, sino de los pigmentos de los crustáceos que consume, el mismo mecanismo que da color a los flamencos.",
+
+        bird24_name: "Saltarín Cuelliblanco",
+        bird24_desc1: "Es un ave pequeña e inconfundible del sotobosque, con el macho luciendo un antifaz negro, dorso y alas oscuras, garganta blanca y un vientre amarillo brillante.",
+        bird24_desc2: "Los machos se reúnen en pequeños grupos llamados \"leks\" donde realizan despliegues de cortejo muy llamativos para atraer a las hembras.",
+        bird24_fact: "Durante su danza de cortejo, el macho puede producir un característico chasquido seco con las alas, un sonido mecánico poco común entre las aves.",
+
+        bird25_name: "Tordo Sargento",
+        bird25_desc1: "El macho es fácilmente reconocible por su plumaje completamente negro y una llamativa mancha rojo-anaranjada en el hombro, que recuerda a una insignia militar y le da su nombre popular.",
+        bird25_desc2: "Es habitual verlo perchado en la punta de juncos, cañas o vegetación alta en zonas pantanosas y anegadas, defendiendo activamente su territorio.",
+        bird25_fact: "Durante la época reproductiva, un macho territorial puede tener varias hembras anidando dentro de su mismo territorio, cada una con su propio nido.",
+
+        bird26_name: "Jacana Centroamericana",
+        bird26_desc1: "Es un ave acuática de patas y dedos extremadamente largos, adaptados para caminar sobre las hojas flotantes de lirios y plantas acuáticas sin hundirse.",
+        bird26_desc2: "Su plumaje es principalmente oscuro, con un llamativo escudo frontal amarillo sobre el pico y parches dorados en las alas, muy visibles cuando vuela.",
+        bird26_fact: "A diferencia de la mayoría de las aves, es la hembra quien defiende un territorio con varios machos, mientras que son ellos quienes incuban los huevos y cuidan a las crías.",
+
+        bird27_name: "Tordo Pechirrojo",
+        bird27_desc1: "El macho es inconfundible por su pecho y garganta de un rojo intenso, que contrasta fuertemente con el resto de su plumaje negro.",
+        bird27_desc2: "Prefiere potreros, pastizales húmedos y zonas abiertas cercanas al humedal, donde se alimenta principalmente de semillas e insectos en el suelo.",
+        bird27_fact: "A pesar de su color tan llamativo, puede resultar sorprendentemente difícil de ver cuando se posa entre la vegetación alta, ya que suele mantenerse de espaldas al observador.",
+
         help_title: "¿En qué podemos ayudarte?",
 
         faq_q1: "📍 ¿Dónde está Caño Negro?",
@@ -133,6 +202,10 @@ window.translations.aves = {
         nav_inicio: "Home",
         nav_flora: "Flora & Fauna",
         nav_aves: "Birds",
+        nav_mamiferos: "Mammals",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibians",
+        nav_peces: "Fish",
         "photo_by": "Photo:",
 
         hero_chip: "Birdwatching • Biodiversity • Ramsar Wetland",
@@ -227,6 +300,71 @@ window.translations.aves = {
         bird14_desc2: "In the refuge, it often moves in small groups, flying agilely while catching insects in the air, playing an important role in the ecosystem’s natural balance.",
         bird14_fact: "Unlike other swallows, it frequently perches on exposed branches, where it rests before taking flight again to continue hunting insects.",
 
+        bird15_name: "Black-crowned Night Heron",
+        bird15_desc1: "A stocky, short-necked night heron easily recognized by its black cap and back, which contrast sharply with its pale gray body.",
+        bird15_desc2: "During the day it stays still and hidden among vegetation near the water, becoming much more active at dusk when it heads out to hunt.",
+        bird15_fact: "Its bright red eyes allow it to see clearly in very low light, a key advantage for hunting after dark.",
+
+        bird16_name: "Tricolored Heron",
+        bird16_desc1: "A slender heron that combines slate blue, white, and maroon tones, with a long, sinuous neck usually held in an S-shape as it walks through the water.",
+        bird16_desc2: "It moves actively through lagoons and shallow shores, with quick, erratic movements very different from the stillness of other wetland herons.",
+        bird16_fact: "Unlike almost all other herons, its white belly contrasts sharply with the rest of its dark plumage, which is why it is also known as the \"white-bellied heron.\"",
+
+        bird17_name: "Black-collared Hawk",
+        bird17_desc1: "A medium-sized raptor easily identified by its cream-colored head, dark chest patch, and rufous plumage over the rest of its body.",
+        bird17_desc2: "It frequents lagoons, marshes, and flooded areas of the refuge, where it hunts mainly crabs and other crustaceans that it snatches with its talons near the shore.",
+        bird17_fact: "Despite being a bird of prey, it feeds almost entirely on crabs and snails, an unusual diet among the region's hawks.",
+
+        bird18_name: "Green Ibis",
+        bird18_desc1: "A dark-plumaged bird with green and bronze iridescence that is only clearly visible in direct light, along with a long, downward-curved bill.",
+        bird18_desc2: "Unlike the White Ibis, it prefers wooded areas near water, moving discreetly through the dense vegetation along the banks.",
+        bird18_fact: "Its call, a sharp and distinctive whistle, is often heard at dawn or dusk, even before the bird can be spotted among the foliage.",
+
+        bird19_name: "Common Potoo",
+        bird19_desc1: "A nocturnal bird with extraordinary camouflage: its mottled gray and brown plumage perfectly mimics the bark of a dry stump.",
+        bird19_desc2: "During the day it stays perfectly still, perched upright on the tip of a branch or snag, going virtually unnoticed by predators and visitors alike.",
+        bird19_fact: "It can remain so still that many visitors walk right past it without realizing it is a bird and not a piece of wood.",
+
+        bird20_name: "Great-tailed Grackle",
+        bird20_desc1: "A very common and adaptable bird with black plumage showing blue or purple iridescence, and a long tail usually held in a keel shape.",
+        bird20_desc2: "It is frequently seen in noisy groups, both around the wetland and in open areas and towns near Caño Negro.",
+        bird20_fact: "Males are noticeably larger than females and have a wide repertoire of calls and whistles, which they use to communicate within the group.",
+
+        bird21_name: "Slaty-tailed Trogon",
+        bird21_desc1: "The largest trogon found in the area, with a deep red chest, blue-green head and back, and an orange ring around the eye.",
+        bird21_desc2: "It usually stays still and upright on mid-level forest branches, appearing almost motionless while it watches its surroundings for fruit and insects.",
+        bird21_fact: "Like other trogons, it does not build its own nest: it takes advantage of tree cavities or abandoned termite and insect nests to lay its eggs.",
+
+        bird22_name: "Great Kiskadee",
+        bird22_desc1: "One of the wetland's noisiest and most visible birds, with a bright yellow chest, a white-striped head, and a hidden yellow crown patch.",
+        bird22_desc2: "It is extremely adaptable and territorial, feeding on insects, fruit, and even small fish that it snatches in flight over the water.",
+        bird22_fact: "Its Spanish name, \"bienteveo,\" imitates its call, which many people describe as sounding like \"I-see-you-well\" — one of the most characteristic sounds of dawn in Caño Negro.",
+
+        bird23_name: "Roseate Spoonbill",
+        bird23_desc1: "One of the wetland's most striking birds thanks to its vivid pink plumage and distinctive spoon-shaped bill.",
+        bird23_desc2: "It feeds by sweeping its bill side to side through shallow water, detecting small fish and crustaceans by touch among the sediment.",
+        bird23_fact: "Its pink color does not come from the feathers themselves but from the pigments in the crustaceans it eats — the same mechanism that gives flamingos their color.",
+
+        bird24_name: "White-collared Manakin",
+        bird24_desc1: "A small, unmistakable bird of the understory, with the male showing a black mask, dark back and wings, a white throat, and a bright yellow belly.",
+        bird24_desc2: "Males gather in small groups called \"leks,\" where they perform very striking courtship displays to attract females.",
+        bird24_fact: "During its courtship dance, the male can produce a distinctive dry snapping sound with its wings, a mechanical sound uncommon among birds.",
+
+        bird25_name: "Red-winged Blackbird",
+        bird25_desc1: "The male is easily recognized by its entirely black plumage and a striking red-orange patch on the shoulder, resembling a military badge and giving it its popular name.",
+        bird25_desc2: "It is commonly seen perched on the tips of reeds, cane, or tall vegetation in marshy, flooded areas, actively defending its territory.",
+        bird25_fact: "During the breeding season, a single territorial male may have several females nesting within his territory, each with her own nest.",
+
+        bird26_name: "Northern Jacana",
+        bird26_desc1: "A waterbird with extremely long legs and toes, adapted for walking across floating lily pads and aquatic plants without sinking.",
+        bird26_desc2: "Its plumage is mostly dark, with a striking yellow frontal shield above the bill and golden wing patches that are very visible in flight.",
+        bird26_fact: "Unlike most birds, it is the female who defends a territory with several males, while the males are the ones who incubate the eggs and raise the chicks.",
+
+        bird27_name: "Red-breasted Blackbird",
+        bird27_desc1: "The male is unmistakable, with a bright red chest and throat that contrast sharply with the rest of its black plumage.",
+        bird27_desc2: "It prefers pastures, wet grasslands, and open areas near the wetland, where it feeds mainly on seeds and insects on the ground.",
+        bird27_fact: "Despite its striking color, it can be surprisingly hard to spot when perched among tall vegetation, since it tends to face away from the observer.",
+
         faq_q1: "📍 Where is Caño Negro located?",
         faq_a1: "It is located in Los Chiles, Alajuela, Costa Rica, near the border with Nicaragua.",
 
@@ -259,6 +397,10 @@ window.translations.aves = {
         nav_inicio: "Accueil",
         nav_flora: "Flore et Faune",
         nav_aves: "Oiseaux",
+        nav_mamiferos: "Mammifères",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibiens",
+        nav_peces: "Poissons",
         "photo_by": "Photo :",
 
         hero_chip: "Ornithologie • Biodiversité • Zone Humide Ramsar",
@@ -351,6 +493,71 @@ window.translations.aves = {
         bird14_desc1: "L'hirondelle à ailes rugueuses du sud est une espèce active et sociable que l'on observe fréquemment dans les cieux ouverts de Caño Negro, notamment près des rivières, des lagunes et des zones dégagées de la zone humide.",
         bird14_desc2: "Dans le refuge, elle se déplace souvent en petits groupes, volant de manière agile tout en capturant des insectes en vol, jouant un rôle important dans l'équilibre naturel de l'écosystème.",
         bird14_fact: "Contrairement à d'autres hirondelles, elle peut se percher fréquemment sur des branches exposées, d'où elle se repose avant de reprendre son vol pour continuer à chasser les insectes.",
+
+        bird15_name: "Bihoreau Gris",
+        bird15_desc1: "Un héron nocturne trapu et à cou court, facilement reconnaissable à sa calotte et son dos noirs qui contrastent avec son corps gris clair.",
+        bird15_desc2: "Pendant la journée, il reste immobile et caché parmi la végétation proche de l'eau, devenant beaucoup plus actif à la tombée de la nuit pour chasser.",
+        bird15_fact: "Ses yeux rouge vif lui permettent de bien voir dans des conditions de très faible luminosité, un avantage clé pour chasser la nuit.",
+
+        bird16_name: "Aigrette Tricolore",
+        bird16_desc1: "Un héron élancé qui combine des tons bleu ardoise, blanc et bordeaux, avec un long cou sinueux souvent maintenu en forme de « S » lorsqu'il marche dans l'eau.",
+        bird16_desc2: "Il se déplace activement dans les lagunes et les rives peu profondes, avec des mouvements rapides et erratiques bien différents de l'immobilité des autres hérons de la zone humide.",
+        bird16_fact: "Contrairement à presque tous les autres hérons, son ventre blanc contraste fortement avec le reste de son plumage sombre, ce qui lui vaut aussi le nom de « héron à ventre blanc ».",
+
+        bird17_name: "Buse à Collier Noir",
+        bird17_desc1: "Un rapace de taille moyenne facilement identifiable par sa tête couleur crème, sa tache sombre sur la poitrine et son plumage roux sur le reste du corps.",
+        bird17_desc2: "Elle fréquente les lagunes, les marais et les zones inondées du refuge, où elle chasse principalement des crabes et d'autres crustacés qu'elle capture avec ses serres près du rivage.",
+        bird17_fact: "Bien qu'il s'agisse d'un rapace, elle se nourrit presque exclusivement de crabes et d'escargots, un régime alimentaire inhabituel parmi les rapaces de la région.",
+
+        bird18_name: "Ibis Vert",
+        bird18_desc1: "Un oiseau au plumage sombre aux reflets verts et bronze, visibles seulement en pleine lumière, et doté d'un long bec courbé vers le bas.",
+        bird18_desc2: "Contrairement à l'Ibis Blanc, il préfère les zones boisées proches de l'eau, se déplaçant discrètement dans la végétation dense des berges.",
+        bird18_fact: "Son cri, un sifflement aigu et particulier, s'entend souvent à l'aube ou au crépuscule, avant même de pouvoir repérer l'oiseau parmi le feuillage.",
+
+        bird19_name: "Ibijau Gris",
+        bird19_desc1: "Un oiseau nocturne au camouflage extraordinaire : son plumage tacheté de gris et de brun imite parfaitement l'écorce d'une souche sèche.",
+        bird19_desc2: "Pendant la journée, il reste parfaitement immobile, dressé sur la pointe d'une branche ou d'une souche, passant pratiquement inaperçu aux yeux des prédateurs et des visiteurs.",
+        bird19_fact: "Il peut rester si immobile que de nombreux visiteurs passent juste devant lui sans se rendre compte qu'il s'agit d'un oiseau et non d'un morceau de bois.",
+
+        bird20_name: "Quiscale à Longue Queue",
+        bird20_desc1: "Un oiseau très commun et adaptable, au plumage noir aux reflets bleus ou violacés, et à la longue queue souvent maintenue en forme de quille.",
+        bird20_desc2: "On l'observe fréquemment en groupes bruyants, aussi bien autour de la zone humide que dans les zones ouvertes et les localités proches de Caño Negro.",
+        bird20_fact: "Les mâles sont nettement plus grands que les femelles et possèdent un répertoire de cris et de sifflements très varié, qu'ils utilisent pour communiquer au sein du groupe.",
+
+        bird21_name: "Trogon Massu",
+        bird21_desc1: "Le plus grand trogon que l'on puisse observer dans la région, avec une poitrine rouge intense, une tête et un dos vert bleuté, et un anneau orange autour de l'œil.",
+        bird21_desc2: "Il reste généralement immobile et bien droit sur les branches moyennes de la forêt, semblant presque figé pendant qu'il surveille son environnement à la recherche de fruits et d'insectes.",
+        bird21_fact: "Comme les autres trogons, il ne construit pas son propre nid : il profite de cavités d'arbres ou de nids abandonnés de termites et d'insectes pour pondre ses œufs.",
+
+        bird22_name: "Tyran Quiquivi",
+        bird22_desc1: "L'un des oiseaux les plus bruyants et les plus visibles de la zone humide, avec sa poitrine jaune vif, sa tête rayée de blanc et une tache jaune cachée sur la calotte.",
+        bird22_desc2: "Il est extrêmement adaptable et territorial, se nourrissant d'insectes, de fruits et même de petits poissons qu'il capture en vol au-dessus de l'eau.",
+        bird22_fact: "Son nom espagnol, « bienteveo », imite son chant, que beaucoup décrivent comme un « bien-te-veo » (« je te vois bien ») — l'un des sons les plus caractéristiques de l'aube à Caño Negro.",
+
+        bird23_name: "Spatule Rosée",
+        bird23_desc1: "L'un des oiseaux les plus remarquables de la zone humide grâce à son plumage rose vif et à son bec caractéristique en forme de spatule.",
+        bird23_desc2: "Elle se nourrit en balayant son bec de gauche à droite dans l'eau peu profonde, détectant au toucher de petits poissons et crustacés dans le sédiment.",
+        bird23_fact: "Sa couleur rose ne provient pas directement de ses plumes, mais des pigments des crustacés qu'elle consomme — le même mécanisme qui donne leur couleur aux flamants roses.",
+
+        bird24_name: "Manakin à Col Blanc",
+        bird24_desc1: "Un petit oiseau du sous-bois, facilement reconnaissable : le mâle arbore un masque noir, un dos et des ailes sombres, une gorge blanche et un ventre jaune vif.",
+        bird24_desc2: "Les mâles se rassemblent en petits groupes appelés « leks », où ils réalisent des parades nuptiales très spectaculaires pour attirer les femelles.",
+        bird24_fact: "Pendant sa danse nuptiale, le mâle peut produire un claquement sec caractéristique avec ses ailes, un son mécanique peu commun chez les oiseaux.",
+
+        bird25_name: "Carouge à Épaulettes",
+        bird25_desc1: "Le mâle est facilement reconnaissable à son plumage entièrement noir et à une tache rouge-orangé frappante sur l'épaule, rappelant un insigne militaire, d'où son nom populaire.",
+        bird25_desc2: "On le voit fréquemment perché au sommet de roseaux, de cannes ou de végétation haute dans les zones marécageuses et inondées, défendant activement son territoire.",
+        bird25_fact: "Pendant la saison de reproduction, un seul mâle territorial peut avoir plusieurs femelles nichant dans son territoire, chacune avec son propre nid.",
+
+        bird26_name: "Jacana Noire",
+        bird26_desc1: "Un oiseau aquatique aux pattes et aux doigts extrêmement longs, adaptés pour marcher sur les feuilles flottantes des nénuphars et des plantes aquatiques sans s'enfoncer.",
+        bird26_desc2: "Son plumage est principalement sombre, avec un bouclier frontal jaune frappant au-dessus du bec et des taches dorées sur les ailes, très visibles en vol.",
+        bird26_fact: "Contrairement à la plupart des oiseaux, c'est la femelle qui défend un territoire avec plusieurs mâles, tandis que ce sont eux qui couvent les œufs et élèvent les poussins.",
+
+        bird27_name: "Sturnelle Militaire",
+        bird27_desc1: "Le mâle est reconnaissable entre tous grâce à sa poitrine et sa gorge d'un rouge intense, qui contrastent fortement avec le reste de son plumage noir.",
+        bird27_desc2: "Il préfère les pâturages, les prairies humides et les zones ouvertes proches de la zone humide, où il se nourrit principalement de graines et d'insectes au sol.",
+        bird27_fact: "Malgré sa couleur si frappante, il peut être étonnamment difficile à repérer lorsqu'il est perché parmi la végétation haute, car il a tendance à tourner le dos à l'observateur.",
 
         help_title: "Comment pouvons-nous vous aider ?",
 

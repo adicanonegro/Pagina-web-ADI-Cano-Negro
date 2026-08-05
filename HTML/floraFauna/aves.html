@@ -49,13 +49,12 @@
                         </button>
                     </div>
                     <ul class="navbar-nav align-items-lg-center">
-                        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../Senderos/senderos.html" data-i18n="nav_senderos">Senderos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
-                        <li class="nav-item active-page"><a class="nav-link active" href="floraFauna.html" data-i18n="nav_flora">Flora y Fauna</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_videos">Videos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                        <li class="nav-item"><a class="nav-link" href="floraFauna.html" data-i18n="nav_flora">Flora y Fauna</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="aves.html" data-i18n="nav_aves">Aves</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mamiferos.html" data-i18n="nav_mamiferos">Mamíferos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reptiles.html" data-i18n="nav_reptiles">Reptiles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="anfibios.html" data-i18n="nav_anfibios">Anfibios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="peces.html" data-i18n="nav_peces">Peces</a></li>
                     </ul>
                     <div class="language-dropdown ms-lg-3">
                         <button type="button" class="language-toggle" id="languageToggle">
@@ -234,8 +233,18 @@
                 </article>
 
                 <article class="bird-card reveal highlight-card">
-                    <div class="bird-image">
-                        <img src="../../img/floraFauna/aves/jabiru.JPG" alt="Jabirú" class="img-jabiru">
+                    <div class="bird-image slider-container">
+                        <div class="bird-slider">
+                            <img src="../../img/floraFauna/aves/jabiru.JPG" alt="Jabirú" class="active img-jabiru">
+                            <img src="../../img/floraFauna/aves/jabiruJuvenil.png" alt="Jabirú juvenil" class="img-jabiru">
+                        </div>
+
+                        <button class="slider-btn prev" aria-label="Anterior">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Siguiente">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
                     </div>
 
                     <span class="photo-credit">
@@ -386,6 +395,8 @@
                             <img src="../../img/floraFauna/aves/patoAguja.jpg" alt="Pájaro Serpiente"
                                 class="active encuadre-anhinga">
                             <img src="../../img/floraFauna/aves/patoAguja2.jpg" alt="Pájaro Serpiente 2"
+                                class="encuadre-anhinga">
+                            <img src="../../img/floraFauna/aves/agujaMacho.png" alt="Pájaro Serpiente macho"
                                 class="encuadre-anhinga">
                         </div>
 
@@ -801,6 +812,516 @@
                                 A diferencia de otras golondrinas, puede posarse con frecuencia en ramas expuestas,
                                 desde donde descansa
                                 antes de volver a volar para continuar cazando insectos.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/cabecinegro.jpg" alt="Martinete Coroninegro">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird15_name">Martinete Coroninegro</h3>
+                        <span class="bird-scientific">Nycticorax nycticorax</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird15_desc1">
+                                Es una garza nocturna robusta y de cuello corto, fácilmente reconocible por su capa
+                                negra en la cabeza y espalda que contrasta con su cuerpo gris claro.
+                            </p>
+
+                            <p data-i18n="bird15_desc2">
+                                Durante el día permanece inmóvil y oculta entre la vegetación cercana al agua, y se
+                                vuelve mucho más activa al anochecer, cuando sale a cazar.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-moon"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird15_fact">
+                                Sus ojos de color rojo intenso le permiten ver con claridad en condiciones de muy poca
+                                luz, una ventaja clave para cazar durante la noche.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/garzaTricolor.png" alt="Garceta Tricolor">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird16_name">Garceta Tricolor</h3>
+                        <span class="bird-scientific">Egretta tricolor</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird16_desc1">
+                                Es una garza esbelta que combina tonos azul pizarra, blanco y vino tinto, con un
+                                cuello largo y sinuoso que suele mantener en forma de "S" mientras camina por el agua.
+                            </p>
+
+                            <p data-i18n="bird16_desc2">
+                                Camina activamente por lagunas y orillas poco profundas, con movimientos rápidos y
+                                erráticos muy distintos a la quietud de otras garzas del humedal.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-water"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird16_fact">
+                                A diferencia de casi todas las demás garzas, su vientre blanco contrasta fuertemente
+                                con el resto de su plumaje oscuro, por lo que también se le conoce como "garza de
+                                vientre blanco".
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/gavilanColorado.png" alt="Gavilán Cangrejero">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird17_name">Gavilán Cangrejero</h3>
+                        <span class="bird-scientific">Busarellus nigricollis</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird17_desc1">
+                                Es una rapaz de tamaño mediano, fácilmente identificable por su cabeza color crema, su
+                                pecho oscuro y su plumaje rojizo en el resto del cuerpo.
+                            </p>
+
+                            <p data-i18n="bird17_desc2">
+                                Frecuenta lagunas, esteros y zonas inundadas del refugio, donde caza principalmente
+                                cangrejos y otros crustáceos que atrapa con sus garras cerca de la orilla.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-fish"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird17_fact">
+                                A pesar de ser un ave rapaz, se alimenta casi por completo de cangrejos y caracoles,
+                                una dieta poco común entre los gavilanes de la región.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/ibisVerde.png" alt="Ibis Verde">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird18_name">Ibis Verde</h3>
+                        <span class="bird-scientific">Mesembrinibis cayennensis</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird18_desc1">
+                                Es un ave de plumaje oscuro con reflejos verdes y bronceados que solo se aprecian bien
+                                bajo luz directa, y un largo pico curvado hacia abajo.
+                            </p>
+
+                            <p data-i18n="bird18_desc2">
+                                A diferencia del Ibis Blanco, prefiere ambientes boscosos junto al agua, donde se
+                                mueve con discreción entre la vegetación densa de las orillas.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-leaf"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird18_fact">
+                                Su llamado, un silbido agudo y particular, suele escucharse al amanecer o al
+                                atardecer, incluso antes de lograr ver al ave entre el follaje.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/pajaroEstaca.png" alt="Pájaro Estaca" class="img-estaca">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird19_name">Pájaro Estaca</h3>
+                        <span class="bird-scientific">Nyctibius griseus</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird19_desc1">
+                                Es un ave nocturna con un camuflaje extraordinario: su plumaje moteado en tonos grises
+                                y cafés imita a la perfección la corteza de un tronco seco.
+                            </p>
+
+                            <p data-i18n="bird19_desc2">
+                                Durante el día permanece perfectamente inmóvil, erguido sobre la punta de una rama o
+                                tocón, pasando prácticamente inadvertido para depredadores y visitantes.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-tree"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird19_fact">
+                                Puede permanecer tan quieto que muchos visitantes pasan justo frente a él sin notar
+                                que se trata de un ave y no de un pedazo de madera.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image slider-container">
+                        <div class="bird-slider">
+                            <img src="../../img/floraFauna/aves/zanate.png" alt="Zanate Grande, macho" class="active">
+                            <img src="../../img/floraFauna/aves/zanateMexicano.png" alt="Zanate Grande, hembra">
+                        </div>
+
+                        <button class="slider-btn prev" aria-label="Anterior">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn next" aria-label="Siguiente">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird20_name">Zanate Grande</h3>
+                        <span class="bird-scientific">Quiscalus mexicanus</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird20_desc1">
+                                Es un ave muy común y adaptable, de plumaje negro con brillos azulados o violáceos y
+                                una cola larga que suele mantener en forma de quilla.
+                            </p>
+
+                            <p data-i18n="bird20_desc2">
+                                Se le observa con frecuencia en grupos ruidosos, tanto en los alrededores del humedal
+                                como en zonas abiertas y poblados cercanos a Caño Negro.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-volume-high"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird20_fact">
+                                Los machos son notablemente más grandes que las hembras y tienen un repertorio de
+                                sonidos y silbidos muy variado, que usan para comunicarse dentro del grupo.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/trogonGrande.png" alt="Trogón Coliplomizo">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird21_name">Trogón Coliplomizo</h3>
+                        <span class="bird-scientific">Trogon massena</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird21_desc1">
+                                Es el trogón de mayor tamaño que puede observarse en la zona, con un pecho rojo
+                                intenso, cabeza y espalda verde azulado, y un anillo naranja alrededor del ojo.
+                            </p>
+
+                            <p data-i18n="bird21_desc2">
+                                Suele permanecer quieto y erguido sobre ramas medias del bosque, lo que lo hace
+                                parecer casi inmóvil mientras vigila su entorno en busca de frutos e insectos.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-egg"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird21_fact">
+                                Como otros trogones, no construye nido propio: aprovecha huecos de árboles o nidos
+                                abandonados de termitas e insectos para poner sus huevos.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/pechoAmarrillo.png" alt="Bienteveo Grande"
+                            class="img-pecho-amarillo">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird22_name">Bienteveo Grande</h3>
+                        <span class="bird-scientific">Pitangus sulphuratus</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird22_desc1">
+                                Es una de las aves más ruidosas y visibles del humedal, con su pecho amarillo
+                                brillante, cabeza con una franja blanca y una llamativa mancha amarilla oculta en la
+                                corona.
+                            </p>
+
+                            <p data-i18n="bird22_desc2">
+                                Es sumamente adaptable y territorial: se alimenta de insectos, frutas e incluso
+                                pequeños peces que captura al vuelo sobre el agua.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-music"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird22_fact">
+                                Su nombre imita su canto, que muchas personas describen como "bien-te-veo", uno de los
+                                sonidos más característicos del amanecer en Caño Negro.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/aves.jpg" alt="Espátula Rosada" class="img-espatula">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird23_name">Espátula Rosada</h3>
+                        <span class="bird-scientific">Platalea ajaja</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird23_desc1">
+                                Es una de las aves más llamativas del humedal gracias a su intenso plumaje rosado y su
+                                característico pico en forma de espátula o cuchara.
+                            </p>
+
+                            <p data-i18n="bird23_desc2">
+                                Se alimenta moviendo el pico de lado a lado dentro del agua poco profunda, detectando
+                                pequeños peces y crustáceos al tacto entre el sedimento.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-fish"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird23_fact">
+                                Su color rosado no proviene de sus plumas en sí, sino de los pigmentos de los
+                                crustáceos que consume, el mismo mecanismo que da color a los flamencos.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/manakin.JPG" alt="Saltarín Cuelliblanco">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird24_name">Saltarín Cuelliblanco</h3>
+                        <span class="bird-scientific">Manacus candei</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird24_desc1">
+                                Es un ave pequeña e inconfundible del sotobosque, con el macho luciendo un
+                                antifaz negro, dorso y alas oscuras, garganta blanca y un vientre amarillo brillante.
+                            </p>
+
+                            <p data-i18n="bird24_desc2">
+                                Los machos se reúnen en pequeños grupos llamados "leks" donde realizan
+                                despliegues de cortejo muy llamativos para atraer a las hembras.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-drum"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird24_fact">
+                                Durante su danza de cortejo, el macho puede producir un característico
+                                chasquido seco con las alas, un sonido mecánico poco común entre las aves.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/tordoSargento.JPG" alt="Tordo Sargento">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird25_name">Tordo Sargento</h3>
+                        <span class="bird-scientific">Agelaius phoeniceus</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird25_desc1">
+                                El macho es fácilmente reconocible por su plumaje completamente negro y una
+                                llamativa mancha rojo-anaranjada en el hombro, que recuerda a una insignia
+                                militar y le da su nombre popular.
+                            </p>
+
+                            <p data-i18n="bird25_desc2">
+                                Es habitual verlo perchado en la punta de juncos, cañas o vegetación alta en
+                                zonas pantanosas y anegadas, defendiendo activamente su territorio.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird25_fact">
+                                Durante la época reproductiva, un macho territorial puede tener varias
+                                hembras anidando dentro de su mismo territorio, cada una con su propio nido.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/jarcana1.png" alt="Jacana Centroamericana">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird26_name">Jacana Centroamericana</h3>
+                        <span class="bird-scientific">Jacana spinosa</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird26_desc1">
+                                Es un ave acuática de patas y dedos extremadamente largos, adaptados para
+                                caminar sobre las hojas flotantes de lirios y plantas acuáticas sin hundirse.
+                            </p>
+
+                            <p data-i18n="bird26_desc2">
+                                Su plumaje es principalmente oscuro, con un llamativo escudo frontal amarillo
+                                sobre el pico y parches dorados en las alas, muy visibles cuando vuela.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-water"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird26_fact">
+                                A diferencia de la mayoría de las aves, es la hembra quien defiende un
+                                territorio con varios machos, mientras que son ellos quienes incuban los
+                                huevos y cuidan a las crías.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bird-card reveal highlight-card">
+                    <div class="bird-image">
+                        <img src="../../img/floraFauna/aves/tordoPechirrojo.png" alt="Tordo Pechirrojo">
+                    </div>
+
+                    <div class="bird-credit">&nbsp;</div>
+
+                    <div class="bird-content">
+                        <h3 data-i18n="bird27_name">Tordo Pechirrojo</h3>
+                        <span class="bird-scientific">Sturnella militaris</span>
+
+                        <div class="bird-text">
+                            <p data-i18n="bird27_desc1">
+                                El macho es inconfundible por su pecho y garganta de un rojo intenso, que
+                                contrasta fuertemente con el resto de su plumaje negro.
+                            </p>
+
+                            <p data-i18n="bird27_desc2">
+                                Prefiere potreros, pastizales húmedos y zonas abiertas cercanas al humedal,
+                                donde se alimenta principalmente de semillas e insectos en el suelo.
+                            </p>
+                        </div>
+
+                        <div class="bird-fact">
+                            <div class="fact-top">
+                                <span class="fact-icon">
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </span>
+                                <span class="fact-label" data-i18n="fact_label">Dato curioso</span>
+                            </div>
+                            <p data-i18n="bird27_fact">
+                                A pesar de su color tan llamativo, puede resultar sorprendentemente difícil
+                                de ver cuando se posa entre la vegetación alta, ya que suele mantenerse de
+                                espaldas al observador.
                             </p>
                         </div>
                     </div>

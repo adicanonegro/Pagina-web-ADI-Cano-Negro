@@ -10,6 +10,11 @@ window.translations.mamiferos = {
         nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
         nav_flora_fauna: "Flora y Fauna",
+        nav_aves: "Aves",
+        nav_mamiferos: "Mamíferos",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Anfibios",
+        nav_peces: "Peces",
 
         hero_chip: "Rastreo • Biodiversidad • Humedal Ramsar",
         hero_title: "Mamíferos de <br><span>Caño Negro</span>",
@@ -54,6 +59,21 @@ window.translations.mamiferos = {
         mammal4_desc2: "Su lentitud y camuflaje lo protegen de depredadores, aunque también lo hacen difícil de detectar entre el follaje del bosque inundado.",
         mammal4_fact: "Baja al suelo apenas una vez por semana, principalmente para hacer sus necesidades, uno de los comportamientos más estudiados de la especie.",
 
+        mammal5_name: "Mono Araña",
+        mammal5_desc1: "Es el primate más ágil del refugio, reconocible por sus extremidades largas y delgadas y por su cola prensil, que utiliza casi como una quinta extremidad.",
+        mammal5_desc2: "Se desplaza a gran velocidad entre las copas de los árboles más altos, saltando de rama en rama en busca de frutos maduros, su alimento principal.",
+        mammal5_fact: "Es capaz de colgarse únicamente de la cola mientras usa las cuatro extremidades para alcanzar fruta, un comportamiento que pocos primates del continente pueden igualar.",
+
+        mammal6_name: "Murciélago Narigudo",
+        mammal6_desc1: "Es un murciélago pequeño e insectívoro que se distingue por su hocico alargado y puntiagudo, y por el patrón ondulado de pelo claro sobre su pelaje oscuro.",
+        mammal6_desc2: "Durante el día descansa en grupos alineados sobre troncos, raíces o ramas que cuelgan directamente sobre el agua, camuflándose entre la corteza.",
+        mammal6_fact: "Suele posarse en fila junto a varios individuos más, todos mirando en la misma dirección, lo que hace que parezcan parte de la textura del propio tronco.",
+
+        mammal7_name: "Ardilla Variegada",
+        mammal7_desc1: "Es el roedor arborícola más común y visible del refugio, con un pelaje que combina tonos grises, cafés y rojizos según la subespecie.",
+        mammal7_desc2: "Se alimenta principalmente de frutos, semillas y nueces, y cumple un papel clave en el bosque al dispersar semillas mientras las entierra para almacenarlas.",
+        mammal7_fact: "Suele enterrar más semillas de las que llega a recuperar, convirtiéndose sin saberlo en una de las principales sembradoras de árboles del bosque.",
+
         help_title: "¿En qué podemos ayudarte?",
 
         faq_q1: "📍 ¿Dónde está Caño Negro?",
@@ -95,6 +115,11 @@ window.translations.mamiferos = {
         nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
         nav_flora_fauna: "Flora & Fauna",
+        nav_aves: "Birds",
+        nav_mamiferos: "Mammals",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibians",
+        nav_peces: "Fish",
 
         hero_chip: "Tracking • Biodiversity • Ramsar Wetland",
         hero_title: "Mammals of <br><span>Caño Negro</span>",
@@ -139,6 +164,21 @@ window.translations.mamiferos = {
         mammal4_desc2: "Its slowness and camouflage protect it from predators, though they also make it hard to spot among the flooded forest's foliage.",
         mammal4_fact: "It comes down to the ground only about once a week, mainly to relieve itself, one of the most studied behaviors of the species.",
 
+        mammal5_name: "Spider Monkey",
+        mammal5_desc1: "The most agile primate in the refuge, recognizable by its long, slender limbs and prehensile tail, which it uses almost like a fifth limb.",
+        mammal5_desc2: "It moves quickly through the canopy of the tallest trees, leaping from branch to branch in search of ripe fruit, its main food source.",
+        mammal5_fact: "It can hang by its tail alone while using all four limbs to reach fruit, a behavior few other primates on the continent can match.",
+
+        mammal6_name: "Proboscis Bat",
+        mammal6_desc1: "A small insect-eating bat distinguished by its long, pointed snout and the wavy pattern of pale fur over its darker coat.",
+        mammal6_desc2: "During the day it rests in aligned groups on trunks, roots, or branches hanging directly over the water, blending in with the bark.",
+        mammal6_fact: "It usually perches in a row alongside several other individuals, all facing the same direction, making them look like part of the trunk's own texture.",
+
+        mammal7_name: "Variegated Squirrel",
+        mammal7_desc1: "The most common and visible tree-dwelling rodent in the refuge, with fur combining gray, brown, and reddish tones depending on the subspecies.",
+        mammal7_desc2: "It feeds mainly on fruit, seeds, and nuts, and plays a key role in the forest by dispersing seeds as it buries them for storage.",
+        mammal7_fact: "It often buries more seeds than it ever recovers, unknowingly becoming one of the forest's main tree planters.",
+
         help_title: "How can we help you?",
 
         faq_q1: "📍 Where is Caño Negro located?",
@@ -180,6 +220,11 @@ window.translations.mamiferos = {
         nav_videos: "Vidéos",
         nav_bandera: "Pavillon Bleu Écologique",
         nav_flora_fauna: "Flore et Faune",
+        nav_aves: "Oiseaux",
+        nav_mamiferos: "Mammifères",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibiens",
+        nav_peces: "Poissons",
 
         hero_chip: "Traces • Biodiversité • Zone humide Ramsar",
         hero_title: "Mammifères de <br><span>Caño Negro</span>",
@@ -223,6 +268,21 @@ window.translations.mamiferos = {
         mammal4_desc1: "Il passe la majeure partie de sa vie suspendu aux branches des arbres, se nourrissant de feuilles avec un métabolisme extrêmement lent.",
         mammal4_desc2: "Sa lenteur et son camouflage le protègent des prédateurs, mais le rendent aussi difficile à repérer parmi le feuillage de la forêt inondée.",
         mammal4_fact: "Il ne descend au sol qu'environ une fois par semaine, principalement pour faire ses besoins, l'un des comportements les plus étudiés de l'espèce.",
+
+        mammal5_name: "Singe-araignée",
+        mammal5_desc1: "Le primate le plus agile du refuge, reconnaissable à ses longs membres fins et à sa queue préhensile, qu'il utilise presque comme un cinquième membre.",
+        mammal5_desc2: "Il se déplace rapidement dans la canopée des arbres les plus hauts, sautant de branche en branche à la recherche de fruits mûrs, sa principale source de nourriture.",
+        mammal5_fact: "Il est capable de se suspendre uniquement par la queue tout en utilisant ses quatre membres pour atteindre les fruits, un comportement que peu d'autres primates du continent peuvent égaler.",
+
+        mammal6_name: "Chauve-souris à Nez Pointu",
+        mammal6_desc1: "Une petite chauve-souris insectivore qui se distingue par son museau long et pointu, ainsi que par le motif ondulé de poils clairs sur son pelage plus sombre.",
+        mammal6_desc2: "Pendant la journée, elle se repose en groupes alignés sur des troncs, des racines ou des branches suspendues directement au-dessus de l'eau, se fondant dans l'écorce.",
+        mammal6_fact: "Elle se perche généralement en rangée avec plusieurs autres individus, tous orientés dans la même direction, ce qui les fait ressembler à une partie de la texture du tronc lui-même.",
+
+        mammal7_name: "Écureuil Varié",
+        mammal7_desc1: "Le rongeur arboricole le plus commun et le plus visible du refuge, avec un pelage combinant des tons gris, bruns et roussâtres selon la sous-espèce.",
+        mammal7_desc2: "Il se nourrit principalement de fruits, de graines et de noix, et joue un rôle clé dans la forêt en dispersant des graines qu'il enterre pour les stocker.",
+        mammal7_fact: "Il enterre souvent plus de graines qu'il n'en récupère, devenant sans le savoir l'un des principaux planteurs d'arbres de la forêt.",
 
         help_title: "Comment pouvons-nous vous aider ?",
 

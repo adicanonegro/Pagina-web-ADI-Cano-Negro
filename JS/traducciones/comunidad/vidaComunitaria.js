@@ -7,6 +7,8 @@ window.translations.vidaComunitaria = {
         nav_inicio: "Inicio",
         nav_comunidad: "Comunidad",
         nav_vida: "Vida Comunitaria",
+        nav_Muelles: "Muelles",
+        nav_pesca: "Pesca",
 
         hero_tag: "Tradición, identidad y convivencia",
         hero_title: "Vida Comunitaria<br>en <span>Caño Negro</span>",
@@ -82,6 +84,8 @@ window.translations.vidaComunitaria = {
         nav_inicio: "Home",
         nav_comunidad: "Community",
         nav_vida: "Community Life",
+        nav_Muelles: "Docks",
+        nav_pesca: "Fishing",
 
         hero_tag: "Tradition, identity and coexistence",
         hero_title: "Community Life<br>in <span>Caño Negro</span>",
@@ -157,6 +161,8 @@ window.translations.vidaComunitaria = {
         nav_inicio: "Accueil",
         nav_comunidad: "Communauté",
         nav_vida: "Vie Communautaire",
+        nav_Muelles: "Pontons",
+        nav_pesca: "Pêche",
 
         hero_tag: "Tradition, identité et cohabitation",
         hero_title: "Vie Communautaire<br>à <span>Caño Negro</span>",

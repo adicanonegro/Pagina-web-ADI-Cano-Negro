@@ -10,6 +10,11 @@ window.translations.reptiles = {
         nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
         nav_flora_fauna: "Flora y Fauna",
+        nav_aves: "Aves",
+        nav_mamiferos: "Mamíferos",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Anfibios",
+        nav_peces: "Peces",
 
         hero_chip: "Ríos • Biodiversidad • Humedal Ramsar",
         hero_title: "Reptiles de <br><span>Caño Negro</span>",
@@ -54,6 +59,31 @@ window.translations.reptiles = {
         reptile4_desc2: "Se alimenta tanto de plantas acuáticas como de pequeños animales, complementando su dieta según la disponibilidad de alimento.",
         reptile4_fact: "Tomar sol no es solo cuestión de temperatura: también le ayuda a sintetizar vitamina D y a mantener su caparazón sano.",
 
+        reptile5_name: "Bejuquilla Verde",
+        reptile5_desc1: "Es una serpiente delgada y de un intenso color verde que se camufla a la perfección entre las ramas y el follaje, gracias a su cuerpo alargado muy similar a un bejuco.",
+        reptile5_desc2: "Es una especie diurna y arborícola que caza principalmente lagartijas y pequeñas aves, localizando a sus presas gracias a su excelente visión binocular.",
+        reptile5_fact: "Cuenta con una leve toxina en la saliva que usa para inmovilizar a sus presas pequeñas, pero no representa un peligro significativo para las personas.",
+
+        reptile6_name: "Iguana Verde",
+        reptile6_desc1: "Es uno de los reptiles más comunes y reconocibles del refugio, con una hilera de espinas dorsales que recorre su lomo desde el cuello hasta la cola.",
+        reptile6_desc2: "Es principalmente herbívora, alimentándose de hojas, flores y frutos, y suele asolearse en ramas altas cerca del agua para regular su temperatura.",
+        reptile6_fact: "Durante la temporada reproductiva, los machos dominantes desarrollan una coloración anaranjada o dorada intensa, muy distinta al verde que exhiben el resto del año.",
+
+        reptile7_name: "Lora",
+        reptile7_desc1: "Es una serpiente esbelta y de movimientos ágiles, con ojos grandes y una coloración que puede variar entre tonos verdes, oliva y pardos según el individuo y la luz.",
+        reptile7_desc2: "Es una especie diurna que se desplaza con facilidad entre la vegetación baja y los arbustos cercanos al agua, cazando ranas, lagartijas y pequeños roedores.",
+        reptile7_fact: "Cuando se siente amenazada, puede inflar la parte delantera del cuerpo y abrir la boca para mostrar un interior oscuro, un despliegue defensivo para ahuyentar a posibles depredadores.",
+
+        reptile8_name: "Mica",
+        reptile8_desc1: "Es una de las serpientes más grandes y llamativas del refugio, con un patrón de escamas negras y amarillas que recuerda a las rayas de un tigre.",
+        reptile8_desc2: "A pesar de su tamaño imponente, no es venenosa; caza principalmente aves, huevos y pequeños mamíferos, y es una excelente trepadora de árboles.",
+        reptile8_fact: "Cuando se siente amenazada, puede aplanar su cuerpo y vibrar la cola contra las hojas secas, imitando el sonido de una serpiente de cascabel para intimidar a sus depredadores.",
+
+        reptile9_name: "Cafetalera",
+        reptile9_desc1: "Es una serpiente pequeña y de cuerpo delgado, con un dorso de color rojizo o rosado y una franja negra en la cabeza bordeada por una línea clara.",
+        reptile9_desc2: "Es una especie terrestre y de hábitos nocturnos que se refugia bajo hojarasca, troncos caídos y piedras, alimentándose principalmente de babosas y lombrices.",
+        reptile9_fact: "A pesar de su color llamativo, es completamente inofensiva para las personas; su apariencia funciona más bien como advertencia visual frente a posibles depredadores.",
+
         help_title: "¿En qué podemos ayudarte?",
 
         faq_q1: "📍 ¿Dónde está Caño Negro?",
@@ -95,6 +125,11 @@ window.translations.reptiles = {
         nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
         nav_flora_fauna: "Flora & Fauna",
+        nav_aves: "Birds",
+        nav_mamiferos: "Mammals",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibians",
+        nav_peces: "Fish",
 
         hero_chip: "Rivers • Biodiversity • Ramsar Wetland",
         hero_title: "Reptiles of <br><span>Caño Negro</span>",
@@ -139,6 +174,31 @@ window.translations.reptiles = {
         reptile4_desc2: "It feeds on both aquatic plants and small animals, adjusting its diet to food availability.",
         reptile4_fact: "Basking isn't just about temperature: it also helps it synthesize vitamin D and keep its shell healthy.",
 
+        reptile5_name: "Green Vine Snake",
+        reptile5_desc1: "A slender, vividly green snake that blends in perfectly among branches and foliage, thanks to its elongated body that closely resembles a vine.",
+        reptile5_desc2: "A diurnal, tree-dwelling species that hunts mainly lizards and small birds, spotting its prey thanks to its excellent binocular vision.",
+        reptile5_fact: "It has a mild toxin in its saliva used to subdue small prey, but it poses no significant danger to people.",
+
+        reptile6_name: "Green Iguana",
+        reptile6_desc1: "One of the most common and recognizable reptiles in the refuge, with a row of dorsal spines running along its back from neck to tail.",
+        reptile6_desc2: "It is mainly herbivorous, feeding on leaves, flowers, and fruit, and often basks on high branches near the water to regulate its temperature.",
+        reptile6_fact: "During the breeding season, dominant males develop an intense orange or golden coloration, very different from the green they display the rest of the year.",
+
+        reptile7_name: "Parrot Snake",
+        reptile7_desc1: "A slender, agile snake with large eyes and coloration that can range from green to olive to brown depending on the individual and the light.",
+        reptile7_desc2: "A diurnal species that moves easily through low vegetation and shrubs near the water, hunting frogs, lizards, and small rodents.",
+        reptile7_fact: "When threatened, it can inflate the front part of its body and open its mouth to reveal a dark interior, a defensive display meant to scare off potential predators.",
+
+        reptile8_name: "Tiger Rat Snake",
+        reptile8_desc1: "One of the largest and most striking snakes in the refuge, with a black-and-yellow scale pattern resembling a tiger's stripes.",
+        reptile8_desc2: "Despite its imposing size, it is not venomous; it hunts mainly birds, eggs, and small mammals, and is an excellent tree climber.",
+        reptile8_fact: "When threatened, it can flatten its body and vibrate its tail against dry leaves, mimicking the sound of a rattlesnake to intimidate predators.",
+
+        reptile9_name: "Red Coffee Snake",
+        reptile9_desc1: "A small, slender-bodied snake with a reddish or pinkish back and a black band on the head bordered by a pale line.",
+        reptile9_desc2: "A terrestrial, nocturnal species that shelters under leaf litter, fallen logs, and rocks, feeding mainly on slugs and earthworms.",
+        reptile9_fact: "Despite its striking color, it is completely harmless to people; its appearance works more as a visual warning to potential predators.",
+
         help_title: "How can we help you?",
 
         faq_q1: "📍 Where is Caño Negro located?",
@@ -180,6 +240,11 @@ window.translations.reptiles = {
         nav_videos: "Vidéos",
         nav_bandera: "Pavillon Bleu Écologique",
         nav_flora_fauna: "Flore et Faune",
+        nav_aves: "Oiseaux",
+        nav_mamiferos: "Mammifères",
+        nav_reptiles: "Reptiles",
+        nav_anfibios: "Amphibiens",
+        nav_peces: "Poissons",
 
         hero_chip: "Rivières • Biodiversité • Zone humide Ramsar",
         hero_title: "Reptiles de <br><span>Caño Negro</span>",
@@ -223,6 +288,31 @@ window.translations.reptiles = {
         reptile4_desc1: "C'est l'une des tortues d'eau douce les plus communes du refuge, facile à observer se prélassant sur des troncs et des rochers près de l'eau.",
         reptile4_desc2: "Elle se nourrit à la fois de plantes aquatiques et de petits animaux, adaptant son régime selon la disponibilité de nourriture.",
         reptile4_fact: "Se prélasser au soleil n'est pas qu'une question de température : cela l'aide aussi à synthétiser la vitamine D et à garder sa carapace saine.",
+
+        reptile5_name: "Liane Verte",
+        reptile5_desc1: "Un serpent fin et d'un vert intense qui se camoufle parfaitement parmi les branches et le feuillage, grâce à son corps allongé très semblable à une liane.",
+        reptile5_desc2: "C'est une espèce diurne et arboricole qui chasse principalement des lézards et de petits oiseaux, repérant ses proies grâce à son excellente vision binoculaire.",
+        reptile5_fact: "Elle possède une légère toxine dans sa salive qu'elle utilise pour immobiliser ses petites proies, mais elle ne représente pas de danger significatif pour les personnes.",
+
+        reptile6_name: "Iguane Vert",
+        reptile6_desc1: "L'un des reptiles les plus communs et reconnaissables du refuge, avec une rangée d'épines dorsales qui parcourt son dos, du cou jusqu'à la queue.",
+        reptile6_desc2: "Il est principalement herbivore, se nourrissant de feuilles, de fleurs et de fruits, et se prélasse souvent sur des branches hautes près de l'eau pour réguler sa température.",
+        reptile6_fact: "Pendant la saison de reproduction, les mâles dominants développent une coloration orange ou dorée intense, très différente du vert qu'ils arborent le reste de l'année.",
+
+        reptile7_name: "Liane Verte à Gros Yeux",
+        reptile7_desc1: "Un serpent svelte et agile, aux grands yeux et à la coloration variant entre le vert, l'olive et le brun selon l'individu et la lumière.",
+        reptile7_desc2: "C'est une espèce diurne qui se déplace facilement dans la végétation basse et les buissons près de l'eau, chassant grenouilles, lézards et petits rongeurs.",
+        reptile7_fact: "Lorsqu'il se sent menacé, il peut gonfler l'avant de son corps et ouvrir la gueule pour révéler un intérieur sombre, une parade défensive destinée à effrayer ses prédateurs.",
+
+        reptile8_name: "Serpent Tigre",
+        reptile8_desc1: "L'un des plus grands et des plus remarquables serpents du refuge, avec un motif d'écailles noires et jaunes rappelant les rayures d'un tigre.",
+        reptile8_desc2: "Malgré sa taille imposante, il n'est pas venimeux ; il chasse principalement des oiseaux, des œufs et de petits mammifères, et grimpe très bien aux arbres.",
+        reptile8_fact: "Lorsqu'il se sent menacé, il peut aplatir son corps et faire vibrer sa queue contre les feuilles sèches, imitant le son d'un serpent à sonnette pour intimider ses prédateurs.",
+
+        reptile9_name: "Serpent Café",
+        reptile9_desc1: "Un petit serpent au corps mince, avec un dos rougeâtre ou rosé et une bande noire sur la tête bordée d'une ligne claire.",
+        reptile9_desc2: "C'est une espèce terrestre et nocturne qui se réfugie sous la litière de feuilles, les troncs tombés et les pierres, se nourrissant principalement de limaces et de vers de terre.",
+        reptile9_fact: "Malgré sa couleur frappante, il est totalement inoffensif pour les personnes ; son apparence sert plutôt d'avertissement visuel face à ses prédateurs potentiels.",
 
         help_title: "Comment pouvons-nous vous aider ?",
 

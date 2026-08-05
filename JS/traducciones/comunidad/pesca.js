@@ -5,6 +5,8 @@ window.translations.pesca = {
         nav_inicio: "Inicio",
         nav_comunidad: "Comunidad",
         nav_pesca: "Pesca",
+        nav_Muelles: "Muelles",
+        nav_vida: "Vida Comunitaria",
 
         hero_tag: "Tradición, sostenibilidad y naturaleza",
         hero_title: "Pesca en <span>Caño Negro</span>",
@@ -148,6 +150,8 @@ window.translations.pesca = {
         nav_inicio: "Home",
         nav_comunidad: "Community",
         nav_pesca: "Fishing",
+        nav_Muelles: "Docks",
+        nav_vida: "Community Life",
 
         hero_tag: "Tradition, sustainability and nature",
         hero_title: "Fishing in <span>Caño Negro</span>",
@@ -291,6 +295,8 @@ window.translations.pesca = {
         nav_inicio: "Accueil",
         nav_comunidad: "Communauté",
         nav_pesca: "Pêche",
+        nav_Muelles: "Pontons",
+        nav_vida: "Vie Communautaire",
 
         hero_tag: "Tradition, durabilité et nature",
         hero_title: "Pêche à <span>Caño Negro</span>",

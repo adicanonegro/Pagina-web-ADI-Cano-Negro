@@ -75,6 +75,13 @@ ul {
     min-height: 18px;
 }
 
+.mammal-credit {
+    font-size: 12px;
+    min-height: 18px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
 /* ================= HERO ================= */
 .mammals-hero {
     min-height: 100vh;
@@ -284,18 +291,18 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
+    align-items: start;
 }
 
 .mammal-card {
     background: var(--blanco);
-    border-radius: 28px;
+    border-radius: 30px;
     overflow: hidden;
     box-shadow: var(--sombra);
     transition: 0.35s ease;
-    border: 1px solid rgba(73, 104, 79, 0.08);
+    border: 1.5px solid var(--verde-claro);
     display: flex;
     flex-direction: column;
-    height: 100%;
     position: relative;
 }
 
@@ -308,16 +315,16 @@ ul {
 .mammal-image {
     position: relative;
     overflow: hidden;
-    border-radius: 28px 28px 0 0;
+    border-radius: 30px;
     background: #dfe7df;
-    height: 220px;
+    height: 190px;
     flex-shrink: 0;
 }
 
 .mammal-image.slider-container {
     aspect-ratio: unset;
-    height: 220px;
-    border-radius: 28px 28px 0 0;
+    height: 190px;
+    border-radius: 30px;
 }
 
 .mammal-image img {
@@ -364,10 +371,9 @@ ul {
 
 /* ================= CONTENIDO ================= */
 .mammal-content {
-    padding: 20px 20px 18px;
+    padding: 16px 18px 14px;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .mammal-text {
@@ -388,6 +394,12 @@ ul {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.mammal-text p:first-of-type.expanded {
+    -webkit-line-clamp: unset;
+    overflow: visible;
 }
 
 .mammal-content h3 {
@@ -396,6 +408,7 @@ ul {
     line-height: 1.25;
     color: var(--verde-principal);
     font-weight: 800;
+    min-height: 50px;
 }
 
 .mammal-scientific {
@@ -419,12 +432,13 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 16px 18px 15px;
-    border-radius: 16px;
+    padding: 12px 16px 12px;
+    border-radius: 18px;
     background: #ffffff;
-    border: 1px solid rgba(31, 77, 46, 0.10);
+    border: 1.5px solid var(--verde-claro);
     box-shadow: 0 12px 26px rgba(31, 77, 46, 0.06);
     overflow: hidden;
+    cursor: pointer;
 }
 
 .mammal-fact::before {
@@ -435,6 +449,23 @@ ul {
     width: 100%;
     height: 4px;
     background: linear-gradient(90deg, var(--verde-claro), var(--verde-principal));
+}
+
+.mammal-fact::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    font-size: 11px;
+    color: var(--texto-muted);
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.mammal-fact.expanded::after {
+    transform: rotate(180deg);
 }
 
 .fact-top {
@@ -480,6 +511,12 @@ ul {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+    min-height: 48px;
+}
+
+.mammal-fact.expanded p {
+    -webkit-line-clamp: unset;
+    overflow: visible;
 }
 
 /* ================= PAGINACIÓN DEL CATÁLOGO ================= */
@@ -936,7 +973,7 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 
     .mammal-image {
-        height: 260px;
+        height: 225px;
     }
 }
 
@@ -1015,7 +1052,7 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 
     .mammal-image {
-        height: 230px;
+        height: 195px;
     }
 
     .mammal-content h3 {
@@ -1023,12 +1060,12 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 
     .mammal-content {
-        padding: 22px 18px 18px;
+        padding: 18px 16px 14px;
     }
 
     .mammal-fact {
-        padding: 18px 16px 16px;
-        border-radius: 16px;
+        padding: 14px 14px 13px;
+        border-radius: 18px;
         min-height: auto;
     }
 

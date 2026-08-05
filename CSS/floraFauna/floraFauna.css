@@ -633,12 +633,12 @@ footer{
     gap:8px;
     font-weight:700;
     letter-spacing:0.3px;
-    color:var(--verde-medio);
+    color:var(--naranja-acento);
     transition:0.3s ease;
 }
 
 .btn-ver-mas:hover{
-    color:var(--naranja-acento);
+    color:var(--naranja-hover);
     transform:translateX(4px);
 }
 

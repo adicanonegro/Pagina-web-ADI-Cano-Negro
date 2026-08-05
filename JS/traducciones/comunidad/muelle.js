@@ -6,6 +6,8 @@ window.translations.muelle = {
         nav_inicio: "Inicio",
         nav_comunidad: "Comunidad",
         nav_Muelles: "Muelles",
+        nav_pesca: "Pesca",
+        nav_vida: "Vida Comunitaria",
 
         hero_tag: "Sobre el humedal",
         hero_title: "Muelles<br>en <span>Caño Negro</span>",
@@ -60,6 +62,8 @@ window.translations.muelle = {
         nav_inicio: "Home",
         nav_comunidad: "Community",
         nav_Muelles: "Docks",
+        nav_pesca: "Fishing",
+        nav_vida: "Community Life",
 
         hero_tag: "Over the wetland",
         hero_title: "Docks<br>in <span>Caño Negro</span>",
@@ -114,6 +118,8 @@ window.translations.muelle = {
         nav_inicio: "Accueil",
         nav_comunidad: "Communauté",
         nav_Muelles: "Pontons",
+        nav_pesca: "Pêche",
+        nav_vida: "Vie Communautaire",
 
         hero_tag: "Sur la zone humide",
         hero_title: "Pontons<br>à <span>Caño Negro</span>",

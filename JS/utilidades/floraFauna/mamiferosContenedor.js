@@ -82,6 +82,20 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    /* ================= DATO CURIOSO EXPANDIBLE ================= */
+    document.querySelectorAll(".mammal-fact").forEach((fact) => {
+        fact.addEventListener("click", () => {
+            fact.classList.toggle("expanded");
+        });
+    });
+
+    /* ================= DESCRIPCIÓN EXPANDIBLE ================= */
+    document.querySelectorAll(".mammal-text p:first-of-type").forEach((p) => {
+        p.addEventListener("click", () => {
+            p.classList.toggle("expanded");
+        });
+    });
+
     /* ================= PAGINACIÓN DEL CATÁLOGO DE AVES ================= */
     const ITEMS_PER_PAGE = 9;
     const cards = Array.from(document.querySelectorAll(".mammals-grid .mammal-card"));
