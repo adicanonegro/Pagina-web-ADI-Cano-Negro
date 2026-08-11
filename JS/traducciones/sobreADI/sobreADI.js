@@ -9,7 +9,6 @@ window.translations.sobreADI = {
         nav_comunidad: "Comunidad",
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
-        nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
 
         hero_tag: "Comunidad · Turismo · Desarrollo Integral",
@@ -138,7 +137,6 @@ window.translations.sobreADI = {
         nav_comunidad: "Community",
         nav_flora_fauna: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
 
         hero_tag: "Community · Tourism · Integral Development",
@@ -267,7 +265,6 @@ window.translations.sobreADI = {
         nav_comunidad: "Communauté",
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Vidéos",
         nav_bandera: "Pavillon Bleu Écologique",
 
         hero_tag: "Communauté · Tourisme · Développement Intégral",

@@ -8,7 +8,6 @@ window.translations.comunidad = {
         nav_comunidad: "Comunidad",
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
-        nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
 
         comunidad_hero_tag: "Cultura, tradición y naturaleza",
@@ -81,7 +80,6 @@ window.translations.comunidad = {
         nav_comunidad: "Community",
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
 
         comunidad_hero_tag: "Culture, tradition and nature",
@@ -154,7 +152,6 @@ window.translations.comunidad = {
         nav_comunidad: "Communauté",
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Vidéos",
         nav_bandera: "Drapeau Bleu Écologique",
 
         comunidad_hero_tag: "Culture, tradition et nature",

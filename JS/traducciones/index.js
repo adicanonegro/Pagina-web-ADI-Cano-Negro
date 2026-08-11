@@ -8,7 +8,6 @@ window.translations.index = {
         nav_comunidad: "Comunidad",
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
-        nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
         nav_flora_fauna: "Flora y Fauna",
 
@@ -53,29 +52,29 @@ window.translations.index = {
         explore_title: "Nuestra comunidad y sus espacios",
         explore_subtitle: "Conoce algunos de los elementos que forman parte de la identidad natural, social y cultural de Caño Negro.",
 
-        card_tag_1: "Naturaleza",
-        card_title_1: "Flora y Fauna",
-        card_desc_1: "Descubre especies emblemáticas y la riqueza biológica que distingue a la zona.",
+        card_tag_1: "Organización",
+        card_title_1: "Acerca de Nosotros",
+        card_desc_1: "Conoce a la ADI Caño Negro, su historia, proyectos y compromiso con la comunidad.",
 
         card_tag_2: "Aventura",
         card_title_2: "Sendero Natural",
         card_desc_2: "Recorre espacios llenos de vegetación, paisajes y conexión con el entorno.",
 
-        card_tag_3: "Sostenibilidad",
-        card_title_3: "Bandera Azul Ecológica",
-        card_desc_3: "Conoce iniciativas ambientales que fortalecen el compromiso de la comunidad.",
+        card_tag_3: "Cultura",
+        card_title_3: "Comunidad",
+        card_desc_3: "Conoce las tradiciones, costumbres y vida cotidiana que dan identidad a Caño Negro.",
 
-        card_tag_4: "Comunidad",
-        card_title_4: "Emprendedores",
-        card_desc_4: "Apoya iniciativas locales y conoce proyectos impulsados por la comunidad.",
+        card_tag_4: "Naturaleza",
+        card_title_4: "Flora y Fauna",
+        card_desc_4: "Descubre especies emblemáticas y la riqueza biológica que distingue a la zona.",
 
-        card_tag_5: "Cultura",
-        card_title_5: "Comunidad",
-        card_desc_5: "Conoce las tradiciones, costumbres y vida cotidiana que dan identidad a Caño Negro.",
+        card_tag_5: "Emprendimiento",
+        card_title_5: "Emprendedores",
+        card_desc_5: "Apoya iniciativas locales y conoce proyectos impulsados por la comunidad.",
 
-        card_tag_6: "Videos",
-        card_title_6: "Videos",
-        card_desc_6: "Mira videos sobre el refugio, sus paisajes y la vida en la comunidad.",
+        card_tag_6: "Sostenibilidad",
+        card_title_6: "Bandera Azul Ecológica",
+        card_desc_6: "Conoce iniciativas ambientales que fortalecen el compromiso de la comunidad.",
 
         card_link: "Ver más información",
 
@@ -120,7 +119,6 @@ window.translations.index = {
         nav_comunidad: "Community",
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
         nav_flora_fauna: "Flora & Fauna",
 
@@ -165,29 +163,30 @@ window.translations.index = {
         explore_title: "Our community and its spaces",
         explore_subtitle: "Discover some of the elements that are part of Caño Negro’s natural, social, and cultural identity.",
 
-        card_tag_1: "Nature",
-        card_title_1: "Flora & Fauna",
-        card_desc_1: "Discover emblematic species and the biological richness of the area.",
+        card_tag_1: "Organization",
+        card_title_1: "About Us",
+        card_desc_1: "Get to know ADI Caño Negro, its history, projects, and commitment to the community.",
 
         card_tag_2: "Adventure",
-        card_title_2: "Natural Trails",
+        card_title_2: "Natural Trail",
         card_desc_2: "Explore spaces full of vegetation, landscapes, and connection with nature.",
 
-        card_tag_3: "Sustainability",
-        card_title_3: "Blue Ecological Flag",
-        card_desc_3: "Learn about environmental initiatives that strengthen community commitment.",
+        card_tag_3: "Culture",
+        card_title_3: "Community",
+        card_desc_3: "Discover the traditions, customs, and daily life that give Caño Negro its identity.",
 
-        card_tag_4: "Community",
-        card_title_4: "Entrepreneurs",
-        card_desc_4: "Support local initiatives and discover community-driven projects.",
+        card_tag_4: "Nature",
+        card_title_4: "Flora & Fauna",
+        card_desc_4: "Discover emblematic species and the biological richness of the area.",
 
-        card_tag_5: "Culture",
-        card_title_5: "Community",
-        card_desc_5: "Discover the traditions, customs, and daily life that give Caño Negro its identity.",
+        card_tag_5: "Entrepreneurship",
+        card_title_5: "Entrepreneurs",
+        card_desc_5: "Support local initiatives and discover community-driven projects.",
 
-        card_tag_6: "Videos",
-        card_title_6: "Videos",
-        card_desc_6: "Watch videos about the refuge, its landscapes, and life in the community.",
+        card_tag_6: "Sustainability",
+        card_title_6: "Blue Ecological Flag",
+        card_desc_6: "Learn about environmental initiatives that strengthen community commitment.",
+
 
         card_link: "See more information",
 
@@ -232,7 +231,6 @@ window.translations.index = {
         nav_comunidad: "Communauté",
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Vidéos",
         nav_bandera: "Drapeau Bleu Écologique",
         nav_flora_fauna: "Flore et Faune",
 
@@ -277,29 +275,30 @@ window.translations.index = {
         explore_title: "Notre communauté et ses espaces",
         explore_subtitle: "Découvrez certains des éléments qui font partie de l'identité naturelle, sociale et culturelle de Caño Negro.",
 
-        card_tag_1: "Nature",
-        card_title_1: "Flore et Faune",
-        card_desc_1: "Découvrez des espèces emblématiques et la richesse biologique qui distingue la région.",
+        card_tag_1: "Organisation",
+        card_title_1: "À propos de nous",
+        card_desc_1: "Découvrez l'ADI Caño Negro, son histoire, ses projets et son engagement envers la communauté.",
 
         card_tag_2: "Aventure",
         card_title_2: "Sentier Naturel",
         card_desc_2: "Parcourez des espaces remplis de végétation, de paysages et de connexion avec la nature.",
 
-        card_tag_3: "Durabilité",
-        card_title_3: "Drapeau Bleu Écologique",
-        card_desc_3: "Découvrez les initiatives environnementales qui renforcent l'engagement de la communauté.",
+        card_tag_3: "Culture",
+        card_title_3: "Communauté",
+        card_desc_3: "Découvrez les traditions, coutumes et la vie quotidienne qui donnent son identité à Caño Negro.",
 
-        card_tag_4: "Communauté",
-        card_title_4: "Entrepreneurs",
-        card_desc_4: "Soutenez les initiatives locales et découvrez des projets portés par la communauté.",
+        card_tag_4: "Nature",
+        card_title_4: "Flore et Faune",
+        card_desc_4: "Découvrez des espèces emblématiques et la richesse biologique qui distingue la région.",
 
-        card_tag_5: "Culture",
-        card_title_5: "Communauté",
-        card_desc_5: "Découvrez les traditions, coutumes et la vie quotidienne qui donnent son identité à Caño Negro.",
+        card_tag_5: "Entrepreneuriat",
+        card_title_5: "Entrepreneurs",
+        card_desc_5: "Soutenez les initiatives locales et découvrez des projets portés par la communauté.",
 
-        card_tag_6: "Vidéos",
-        card_title_6: "Vidéos",
-        card_desc_6: "Regardez des vidéos sur le refuge, ses paysages et la vie de la communauté.",
+        card_tag_6: "Durabilité",
+        card_title_6: "Drapeau Bleu Écologique",
+        card_desc_6: "Découvrez les initiatives environnementales qui renforcent l'engagement de la communauté.",
+
 
         card_link: "Voir plus d'informations",
 

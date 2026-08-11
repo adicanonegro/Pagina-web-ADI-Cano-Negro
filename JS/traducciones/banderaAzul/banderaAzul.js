@@ -10,7 +10,6 @@ window.translations.banderaAzul = {
         nav_flora: "Flora y Fauna",
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
-        nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
 
         hero_tag: "Programa AyA · Costa Rica",
@@ -127,7 +126,6 @@ window.translations.banderaAzul = {
         nav_flora: "Flora & Fauna",
         nav_flora_fauna: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
 
         hero_tag: "AyA Program · Costa Rica",
@@ -244,7 +242,6 @@ window.translations.banderaAzul = {
         nav_flora: "Flore et Faune",
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Vidéos",
         nav_bandera: "Drapeau Bleu Écologique",
 
         hero_tag: "Programme AyA · Costa Rica",

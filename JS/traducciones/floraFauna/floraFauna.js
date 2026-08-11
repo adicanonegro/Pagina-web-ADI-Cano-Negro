@@ -8,7 +8,6 @@ window.translations.floraFauna = {
         nav_comunidad: "Comunidad",
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
-        nav_videos: "Videos",
         nav_bandera: "Bandera Azul Ecológica",
 
         hero_tag: "Sitio RAMSAR • Biodiversidad extraordinaria",
@@ -213,7 +212,6 @@ window.translations.floraFauna = {
         nav_comunidad: "Community",
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Videos",
         nav_bandera: "Blue Ecological Flag",
 
         hero_tag: "RAMSAR Site • Extraordinary biodiversity",
@@ -418,7 +416,6 @@ window.translations.floraFauna = {
         nav_comunidad: "Communauté",
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
-        nav_videos: "Vidéos",
         nav_bandera: "Drapeau Bleu Écologique",
 
         hero_tag: "Site RAMSAR • Biodiversité extraordinaire",
