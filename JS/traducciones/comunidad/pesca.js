@@ -3,6 +3,7 @@ window.translations = window.translations || {};
 window.translations.pesca = {
     es: {
         nav_inicio: "Inicio",
+        nav_sobre_adi: "Acerca de Nosotros",
         nav_comunidad: "Comunidad",
         nav_pesca: "Pesca",
         nav_Muelles: "Muelles",
@@ -148,6 +149,7 @@ window.translations.pesca = {
 
     en: {
         nav_inicio: "Home",
+        nav_sobre_adi: "About Us",
         nav_comunidad: "Community",
         nav_pesca: "Fishing",
         nav_Muelles: "Docks",
@@ -293,6 +295,7 @@ window.translations.pesca = {
 
     fr: {
         nav_inicio: "Accueil",
+        nav_sobre_adi: "À propos de nous",
         nav_comunidad: "Communauté",
         nav_pesca: "Pêche",
         nav_Muelles: "Pontons",

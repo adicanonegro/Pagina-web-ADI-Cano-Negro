@@ -3,7 +3,8 @@ window.translations = window.translations || {};
 window.translations.mamiferos = {
     es: {
         nav_inicio: "Inicio",
-        nav_senderos: "Senderos",
+        nav_sobre_adi: "Acerca de Nosotros",
+        nav_senderos: "Sendero",
         nav_comunidad: "Comunidad",
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
@@ -108,7 +109,8 @@ window.translations.mamiferos = {
 
     en: {
         nav_inicio: "Home",
-        nav_senderos: "Trails",
+        nav_sobre_adi: "About Us",
+        nav_senderos: "Trail",
         nav_comunidad: "Community",
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
@@ -213,7 +215,8 @@ window.translations.mamiferos = {
 
     fr: {
         nav_inicio: "Accueil",
-        nav_senderos: "Sentiers",
+        nav_sobre_adi: "À propos de nous",
+        nav_senderos: "Sentier",
         nav_comunidad: "Communauté",
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",

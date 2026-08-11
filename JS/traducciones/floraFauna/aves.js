@@ -3,6 +3,7 @@ window.translations = window.translations || {};
 window.translations.aves = {
     es: {
         nav_inicio: "Inicio",
+        nav_sobre_adi: "Acerca de Nosotros",
         nav_flora: "Flora y Fauna",
         nav_aves: "Aves",
         nav_mamiferos: "Mamíferos",
@@ -200,6 +201,7 @@ window.translations.aves = {
 
     en: {
         nav_inicio: "Home",
+        nav_sobre_adi: "About Us",
         nav_flora: "Flora & Fauna",
         nav_aves: "Birds",
         nav_mamiferos: "Mammals",
@@ -395,6 +397,7 @@ window.translations.aves = {
 
     fr: {
         nav_inicio: "Accueil",
+        nav_sobre_adi: "À propos de nous",
         nav_flora: "Flore et Faune",
         nav_aves: "Oiseaux",
         nav_mamiferos: "Mammifères",

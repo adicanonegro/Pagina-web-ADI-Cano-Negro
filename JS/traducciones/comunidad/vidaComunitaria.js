@@ -5,6 +5,7 @@ window.translations.vidaComunitaria = {
         logo_text: "ADI Caño Negro",
 
         nav_inicio: "Inicio",
+        nav_sobre_adi: "Acerca de Nosotros",
         nav_comunidad: "Comunidad",
         nav_vida: "Vida Comunitaria",
         nav_Muelles: "Muelles",
@@ -82,6 +83,7 @@ window.translations.vidaComunitaria = {
         logo_text: "ADI Caño Negro",
 
         nav_inicio: "Home",
+        nav_sobre_adi: "About Us",
         nav_comunidad: "Community",
         nav_vida: "Community Life",
         nav_Muelles: "Docks",
@@ -159,6 +161,7 @@ window.translations.vidaComunitaria = {
         logo_text: "ADI Caño Negro",
 
         nav_inicio: "Accueil",
+        nav_sobre_adi: "À propos de nous",
         nav_comunidad: "Communauté",
         nav_vida: "Vie Communautaire",
         nav_Muelles: "Pontons",

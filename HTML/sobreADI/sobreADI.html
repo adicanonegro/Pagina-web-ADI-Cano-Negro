@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros - Caño Negro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/header.css">
+    <link rel="stylesheet" href="../../CSS/sobreADI/sobreADI.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
+</head>
+
+<body data-page="sobreADI">
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="main-header">
+        <div class="logo-area">
+            <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img">
+            <div class="logo-text">
+                <span data-i18n="logo_text">ADI Caño Negro</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid p-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="menuNav">
+                    <div class="menu-sidebar-header d-lg-none">
+                        <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="mobile-header-logo">
+                        <span class="mobile-header-title">ADI Caño Negro</span>
+                        <button class="close-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menuNav" aria-label="Cerrar menú">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="#" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../Senderos/senderos.html" data-i18n="nav_senderos">Sendero</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_emprendedores">Emprendedores</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-i18n="nav_videos">Videos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                    </ul>
+                    <div class="language-dropdown ms-lg-3">
+                        <button type="button" class="language-toggle" id="languageToggle">
+                            <span id="currentLanguage">ES</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <button class="language-option active" data-lang="es">ES</button>
+                            <button class="language-option" data-lang="en">EN</button>
+                            <button class="language-option" data-lang="fr">FR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="adi-hero">
+        <div class="hero-content reveal">
+            <p class="hero-tag">
+                <span data-i18n="hero_tag">Comunidad · Turismo · Desarrollo Integral</span>
+            </p>
+            <h1 data-i18n="hero_title">Construyendo juntos el <span>futuro de Caño Negro</span></h1>
+            <p class="description" data-i18n="hero_desc">
+                Trabajamos junto a la comunidad para impulsar el desarrollo turístico, deportivo
+                y comunitario de Caño Negro.
+            </p>
+            <p class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span data-i18n="hero_location">Caño Negro, Los Chiles, Alajuela</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= ¿QUIÉNES SOMOS? ================= -->
+    <section class="quienes-section">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="quienes_label">Nuestra organización</span>
+                <h2 class="section-title" data-i18n="quienes_title">¿Quiénes somos?</h2>
+                <p class="section-subtitle" data-i18n="quienes_subtitle">
+                    Somos una asociación comunitaria que impulsa el desarrollo de Caño Negro junto a
+                    instituciones, organizaciones y personas voluntarias.
+                </p>
+            </div>
+
+            <div class="quienes-quote-card reveal">
+                <i class="fa-solid fa-quote-left quienes-q-icon"></i>
+                <p data-i18n="quienes_text1">
+                    La Asociación de Desarrollo Integral de Caño Negro trabaja junto a la comunidad
+                    para impulsar iniciativas que contribuyan al desarrollo y bienestar de sus
+                    habitantes.
+                </p>
+                <p data-i18n="quienes_text2">
+                    A través de la colaboración con instituciones, organizaciones, universidades y
+                    otros aliados, la ADI participa en proyectos relacionados con turismo,
+                    infraestructura, deporte, seguridad y participación comunitaria.
+                </p>
+                <p data-i18n="quienes_text3">
+                    Entre las iniciativas desarrolladas destaca el Manakin Eco-Trail, así como
+                    diferentes acciones de mantenimiento y mejoramiento de espacios comunitarios.
+                </p>
+            </div>
+
+            <div class="quienes-facts-card reveal">
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h4 data-i18n="quienes_fact1_title">Desarrollo comunitario</h4>
+                    <p data-i18n="quienes_fact1_text">Iniciativas y acciones en beneficio directo de la comunidad de Caño Negro.</p>
+                </div>
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-route"></i></div>
+                    <h4 data-i18n="quienes_fact2_title">Turismo</h4>
+                    <p data-i18n="quienes_fact2_text">Impulso de proyectos turísticos como el Manakin Eco-Trail.</p>
+                </div>
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-trowel-bricks"></i></div>
+                    <h4 data-i18n="quienes_fact3_title">Infraestructura</h4>
+                    <p data-i18n="quienes_fact3_text">Mantenimiento y mejoras en espacios e infraestructura comunitaria.</p>
+                </div>
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-futbol"></i></div>
+                    <h4 data-i18n="quienes_fact4_title">Deporte</h4>
+                    <p data-i18n="quienes_fact4_text">Apoyo a espacios y proyectos relacionados con el deporte y la recreación.</p>
+                </div>
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h4 data-i18n="quienes_fact5_title">Participación ciudadana</h4>
+                    <p data-i18n="quienes_fact5_text">Voluntariado y espacios de participación para vecinos y vecinas.</p>
+                </div>
+                <div class="quienes-fact-tile">
+                    <div class="quienes-fact-icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h4 data-i18n="quienes_fact6_title">Trabajo colaborativo</h4>
+                    <p data-i18n="quienes_fact6_text">Alianzas con instituciones, universidades, organizaciones y empresas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= VOLUNTARIADO ================= -->
+    <section class="volunteer-section">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="vol_label">Voluntariado</span>
+                <h2 class="section-title" data-i18n="vol_title">Sé parte del cambio</h2>
+                <p class="section-subtitle" data-i18n="vol_subtitle">
+                    La participación de las personas de la comunidad es clave para desarrollar
+                    actividades e iniciativas. Estas son algunas de las formas en que la comunidad se
+                    ha involucrado.
+                </p>
+            </div>
+
+            <div class="volunteer-grid">
+                <article class="volunteer-card reveal">
+                    <div class="volunteer-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h3 data-i18n="vol_card1_title">Charity CR</h3>
+                    <p data-i18n="vol_card1_desc">
+                        Actividades para niños y familias de la comunidad, realizadas junto a
+                        Charity CR.
+                    </p>
+                </article>
+
+                <article class="volunteer-card reveal">
+                    <div class="volunteer-icon"><i class="fa-solid fa-broom"></i></div>
+                    <h3 data-i18n="vol_card2_title">Jornadas de limpieza</h3>
+                    <p data-i18n="vol_card2_desc">
+                        Limpieza del Parque y del Campo Ferial junto a personas voluntarias de la
+                        comunidad.
+                    </p>
+                </article>
+
+                <article class="volunteer-card reveal">
+                    <div class="volunteer-icon"><i class="fa-solid fa-handshake"></i></div>
+                    <h3 data-i18n="vol_card3_title">Colaboración con organizaciones</h3>
+                    <p data-i18n="vol_card3_desc">
+                        Trabajo conjunto con diferentes organizaciones e instituciones en beneficio de
+                        Caño Negro.
+                    </p>
+                </article>
+
+                <article class="volunteer-card reveal">
+                    <div class="volunteer-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h3 data-i18n="vol_card4_title">Participación comunitaria</h3>
+                    <p data-i18n="vol_card4_desc">
+                        Participación en actividades, capacitaciones e iniciativas relacionadas con
+                        proyectos comunitarios.
+                    </p>
+                </article>
+            </div>
+
+            <div class="volunteer-cta reveal">
+                <p class="volunteer-note" data-i18n="vol_note">
+                    Dentro del plan de trabajo se contempla el desarrollo de un Programa de
+                    Voluntariado para fortalecer la participación comunitaria.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LO QUE HEMOS CONSTRUIDO ================= -->
+    <section class="proyectos-section">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="proy_label">Nuestro trabajo</span>
+                <h2 class="section-title" data-i18n="proy_title">Lo que hemos construido</h2>
+                <p class="section-subtitle" data-i18n="proy_subtitle">
+                    Estas son algunas de las acciones que hemos desarrollado junto a la comunidad,
+                    instituciones y organizaciones aliadas.
+                </p>
+            </div>
+
+            <div class="proyectos-grid">
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-route"></i></div>
+                    <h4 data-i18n="proy1_title">Manakin Eco-Trail</h4>
+                    <p data-i18n="proy1_desc">
+                        Desarrollo de una iniciativa turística junto a instituciones, organizaciones y
+                        universidades, con trabajo en el sendero y el Centro de Desarrollo Turístico y
+                        Empresarial.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-broom"></i></div>
+                    <h4 data-i18n="proy2_title">Mejoramiento de espacios comunitarios</h4>
+                    <p data-i18n="proy2_desc">
+                        Mantenimiento, limpieza, seguridad y mejoras de infraestructura en diferentes
+                        espacios de la comunidad.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-warehouse"></i></div>
+                    <h4 data-i18n="proy3_title">Campo Ferial</h4>
+                    <p data-i18n="proy3_desc">
+                        Trabajos de mantenimiento y mejoramiento del Campo Ferial.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4 data-i18n="proy4_title">Infraestructura</h4>
+                    <p data-i18n="proy4_desc">
+                        Mejoras relacionadas con electricidad, tuberías y diferentes espacios
+                        comunitarios del sendero.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4 data-i18n="proy5_title">Seguridad comunitaria</h4>
+                    <p data-i18n="proy5_desc">
+                        Trabajo conjunto con Fuerza Pública y desarrollo de Mesas de Seguridad.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h4 data-i18n="proy6_title">Alianzas y colaboración</h4>
+                    <p data-i18n="proy6_desc">
+                        Trabajo conjunto con universidades, instituciones, organizaciones y empresas
+                        aliadas.
+                    </p>
+                    <span class="proyecto-badge" data-i18n="badge_completado">Completado</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SEGUIMOS CONSTRUYENDO ================= -->
+    <section class="proyectos-section futuro-section">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="futuro_label">Hacia el futuro</span>
+                <h2 class="section-title" data-i18n="futuro_title">Seguimos construyendo</h2>
+                <p class="section-subtitle" data-i18n="futuro_subtitle">
+                    El Plan de Trabajo contempla nuevas iniciativas para continuar impulsando el
+                    desarrollo de Caño Negro.
+                </p>
+            </div>
+
+            <div class="futuro-featured reveal">
+                <div class="futuro-featured-img">
+                    <img src="../../img/sobreNosotros/CentroTuristico.png" alt="Centro de Desarrollo Turístico y Empresarial">
+                </div>
+                <div class="futuro-featured-content">
+                    <div class="proyecto-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+                    <h4 data-i18n="fut1_title">Turismo y desarrollo</h4>
+                    <ul class="proyecto-list">
+                        <li data-i18n="fut1_item1">Desarrollo de proyectos turísticos.</li>
+                        <li data-i18n="fut1_item2">Centro de Formación Turística y Empresarial.</li>
+                        <li data-i18n="fut1_item3">Fortalecimiento de espacios relacionados con el turismo.</li>
+                    </ul>
+                    <span class="proyecto-badge" data-i18n="badge_proyectado">Proyectado</span>
+                </div>
+            </div>
+
+            <div class="proyectos-grid futuro-grid-2col">
+                <article class="proyecto-card futuro reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-futbol"></i></div>
+                    <h4 data-i18n="fut2_title">Deporte y recreación</h4>
+                    <ul class="proyecto-list">
+                        <li data-i18n="fut2_item1">Mejoramiento de la Plaza de Fútbol: camerinos, cerramiento y graderías.</li>
+                        <li data-i18n="fut2_item2">Construcción de un espacio multiusos para deportes.</li>
+                        <li data-i18n="fut2_item3">Mejoramiento de espacios deportivos y recreativos.</li>
+                    </ul>
+                    <span class="proyecto-badge" data-i18n="badge_proyectado">Proyectado</span>
+                </article>
+
+                <article class="proyecto-card futuro reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-building"></i></div>
+                    <h4 data-i18n="fut3_title">Infraestructura comunitaria</h4>
+                    <ul class="proyecto-list">
+                        <li data-i18n="fut3_item1">Remodelación y equipamiento del salón comunal.</li>
+                        <li data-i18n="fut3_item2">Mantenimiento y construcción de obras comunales.</li>
+                        <li data-i18n="fut3_item3">Construcción y equipamiento de una cocina comunal.</li>
+                        <li data-i18n="fut3_item4">Mejoras en la red vial cantonal y alcantarillado.</li>
+                    </ul>
+                    <span class="proyecto-badge" data-i18n="badge_proyectado">Proyectado</span>
+                </article>
+
+                <article class="proyecto-card futuro reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-toolbox"></i></div>
+                    <h4 data-i18n="fut4_title">Equipamiento y recursos</h4>
+                    <ul class="proyecto-list">
+                        <li data-i18n="fut4_item1">Herramientas y equipo.</li>
+                        <li data-i18n="fut4_item2">Equipo tecnológico y de sonido.</li>
+                        <li data-i18n="fut4_item3">Suministros, equipo y mobiliario de oficina.</li>
+                        <li data-i18n="fut4_item4">Equipo de primeros auxilios y elementos de seguridad.</li>
+                    </ul>
+                    <span class="proyecto-badge" data-i18n="badge_proyectado">Proyectado</span>
+                </article>
+
+                <article class="proyecto-card futuro reveal">
+                    <div class="proyecto-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h4 data-i18n="fut5_title">Participación comunitaria</h4>
+                    <ul class="proyecto-list">
+                        <li data-i18n="fut5_item1">Programa de Voluntariado.</li>
+                        <li data-i18n="fut5_item2">Reuniones y capacitaciones.</li>
+                        <li data-i18n="fut5_item3">Actividades de participación y colaboración comunitaria.</li>
+                    </ul>
+                    <span class="proyecto-badge" data-i18n="badge_proyectado">Proyectado</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CIERRE ================= -->
+    <section class="banner-section reveal">
+        <div class="container banner-content">
+            <span class="banner-tag" data-i18n="closing_tag">ADI Caño Negro</span>
+            <h2 class="banner-quote" data-i18n="closing_title">
+                "Cuando una comunidad trabaja unida, no solo construye proyectos, construye futuro."
+            </h2>
+            <p data-i18n="closing_desc">
+                Ya seas vecino, visitante o aliado institucional, hay un lugar para vos en los
+                proyectos de la ADI Caño Negro.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="footer-logo">
+                <p data-i18n="footer_about">
+                    Asociación de Desarrollo Integral de Caño Negro, trabajando junto a la comunidad
+                    por el desarrollo turístico, deportivo, empresarial y comunitario.
+                </p>
+            </div>
+            <div class="footer-col footer-links-col">
+                <h4 data-i18n="footer_links_title">Enlaces rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                    <li><a href="#" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
+                    <li><a href="../Senderos/senderos.html" data-i18n="nav_senderos">Sendero</a></li>
+                    <li><a href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                    <li><a href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                    <li><a href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contact_title">Contacto</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span data-i18n="footer_address">Caño Negro, Los Chiles, Alajuela, Costa Rica</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:adicanonegro@gmail.com">adicanonegro@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+50683318263">+506 8331-8263</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Síguenos</h4>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="https://www.facebook.com/adi.canonegro" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_text">© 2026 ADI Caño Negro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- ================= FAB ================= -->
+    <div class="fab-container">
+        <button class="fab-main" id="fabToggle" aria-label="Abrir acciones rápidas">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="fab-options">
+            <a href="#" class="fab-option help" id="openHelp" aria-label="Ayuda">
+                <i class="fa-solid fa-comments"></i>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Refugio+de+Vida+Silvestre+Caño+Negro"
+                target="_blank" class="fab-option map" aria-label="Cómo llegar">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+            <a href="https://wa.me/50683318263" target="_blank" class="fab-option whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- ================= MODAL AYUDA ================= -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-content">
+            <button class="close-modal" id="closeHelp" aria-label="Cerrar ayuda">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 data-i18n="help_title">¿En qué podemos ayudarte?</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q1">🤝 ¿Qué es la ADI Caño Negro?</h3>
+                    <p data-i18n="faq_a1">Es la Asociación de Desarrollo Integral de Caño Negro, una organización comunitaria sin fines de lucro.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q2">🙋 ¿Cómo puedo ser voluntario?</h3>
+                    <p data-i18n="faq_a2">Podés escribirnos por WhatsApp o correo y te contamos las formas activas de participar.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q3">📅 ¿Cuándo se reúne la ADI?</h3>
+                    <p data-i18n="faq_a3">Las reuniones y actividades se coordinan según cada proyecto; contactanos para más información.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q4">📍 ¿Dónde está Caño Negro?</h3>
+                    <p data-i18n="faq_a4">Se ubica en Los Chiles, Alajuela, Costa Rica, cerca de la frontera con Nicaragua.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q5">🚗 ¿Cómo llegar?</h3>
+                    <p data-i18n="faq_a5">Podés acceder por la Ruta 138 desde Upala o Los Chiles. Usá el botón de ubicación para ver la ruta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= PESTAÑA IA ================= -->
+    <div class="chat-ia-tab" id="chatIaTab">
+        <button class="chat-ia-toggle" id="chatIaToggle" aria-label="Abrir acceso a IA">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20la%20ADI%20de%20Ca%C3%B1o%20Negro"
+            target="_blank" class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
+            <span data-i18n="chat_tab">Acerca de Caño Negro</span>
+        </a>
+    </div>
+
+    <!-- ================= LOADER IDIOMA ================= -->
+    <div class="language-loader" id="languageLoader">
+        <div class="language-loader-box">
+            <div class="language-spinner"></div>
+            <p id="languageLoaderText">Cambiando idioma...</p>
+        </div>
+    </div>
+
+    <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/utilidades/imageZoom.js"></script>
+    <script src="../../JS/traducciones/sobreADI/sobreADI.js"></script>
+    <script src="../../JS/utilidades/fab.js"></script>
+    <script src="../../JS/utilidades/modal.js"></script>
+    <script src="../../JS/utilidades/chatIA.js"></script>
+    <script src="../../JS/utilidades/sobreADI/sobreADI.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

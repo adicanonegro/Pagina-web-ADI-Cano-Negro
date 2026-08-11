@@ -3,7 +3,8 @@ window.translations = window.translations || {};
 window.translations.senderos = {
     es: {
         nav_inicio: "Inicio",
-        nav_senderos: "Senderos",
+        nav_sobre_adi: "Acerca de Nosotros",
+        nav_senderos: "Sendero",
         nav_comunidad: "Comunidad",
         nav_flora: "Flora y Fauna",
         nav_flora_fauna: "Flora y Fauna",
@@ -14,14 +15,14 @@ window.translations.senderos = {
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 
         senderos_hero_tag: "Naturaleza, senderismo y conservación",
-        senderos_hero_title: "Senderos Naturales de <span>Caño Negro</span>",
-        senderos_hero_desc: "Recorre senderos rodeados de bosque, humedales y vida silvestre, en un entorno donde cada paso invita a descubrir la riqueza natural de Caño Negro.",
+        senderos_hero_title: "Sendero Natural de <span>Caño Negro</span>",
+        senderos_hero_desc: "Recorre el sendero rodeado de bosque, humedales y vida silvestre, en un entorno donde cada paso invita a descubrir la riqueza natural de Caño Negro.",
 
         senderos_nav_info: "Información General",
         senderos_nav_trails: "Sendero",
 
         senderos_info_label: "Explora con responsabilidad",
-        senderos_info_title: "Información acerca de los senderos",
+        senderos_info_title: "Información acerca del sendero",
         senderos_info_subtitle: "Antes de iniciar tu recorrido, toma en cuenta algunas recomendaciones para disfrutar de una experiencia segura, consciente y respetuosa con la naturaleza.",
 
         senderos_box1_title: "Recomendaciones",
@@ -33,19 +34,9 @@ window.translations.senderos = {
         senderos_box3_title: "Observación",
         senderos_box3_desc: "Lleva cámara o binoculares para disfrutar mejor del paisaje, las aves y los detalles del entorno.",
 
-        senderos_section_label: "Rutas disponibles",
-        senderos_section_title: "Nuestros Senderos",
-        senderos_section_subtitle: "Cada sendero ofrece una experiencia distinta, conectando a los visitantes con paisajes, humedales, bosques y una biodiversidad única.",
-
-        senderos_card1_tag: "Bosque",
-        senderos_card1_title: "Sendero La Montaña",
-        senderos_card1_desc: "Recorrido de 2 km rodeado de bosque primario, vegetación abundante y miradores naturales ideales para contemplar el paisaje.",
-        senderos_card1_time: "1.5 horas",
-
-        senderos_card2_tag: "Humedal",
-        senderos_card2_title: "Sendero El Humedal",
-        senderos_card2_desc: "Ideal para la observación de aves, fotografía natural y una experiencia tranquila en uno de los ecosistemas más valiosos de la zona.",
-        senderos_card2_time: "2 horas",
+        senderos_section_label: "Nuestro sendero",
+        senderos_section_title: "Sendero Eco Trail",
+        senderos_section_subtitle: "Un recorrido pensado para conectar con los paisajes, la flora y la fauna del Refugio de Vida Silvestre Caño Negro.",
 
         help_title: "¿En qué podemos ayudarte?",
 
@@ -85,7 +76,8 @@ window.translations.senderos = {
 
     en: {
         nav_inicio: "Home",
-        nav_senderos: "Trails",
+        nav_sobre_adi: "About Us",
+        nav_senderos: "Trail",
         nav_comunidad: "Community",
         nav_flora: "Flora & Fauna",
         nav_flora_fauna: "Flora & Fauna",
@@ -96,8 +88,8 @@ window.translations.senderos = {
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 
         senderos_hero_tag: "Nature, hiking and conservation",
-        senderos_hero_title: "Nature Trails of <span>Caño Negro</span>",
-        senderos_hero_desc: "Walk through trails surrounded by forest, wetlands, and wildlife, where every step invites you to discover the natural richness of Caño Negro.",
+        senderos_hero_title: "Nature Trail of <span>Caño Negro</span>",
+        senderos_hero_desc: "Walk the trail surrounded by forest, wetlands, and wildlife, where every step invites you to discover the natural richness of Caño Negro.",
 
         senderos_nav_info: "General Information",
         senderos_nav_trails: "Trail",
@@ -115,19 +107,9 @@ window.translations.senderos = {
         senderos_box3_title: "Observation",
         senderos_box3_desc: "Bring a camera or binoculars to better enjoy the scenery, birds, and natural details.",
 
-        senderos_section_label: "Available routes",
-        senderos_section_title: "Our Trails",
-        senderos_section_subtitle: "Each trail offers a different experience, connecting visitors with landscapes, wetlands, forests, and unique biodiversity.",
-
-        senderos_card1_tag: "Forest",
-        senderos_card1_title: "Mountain Trail",
-        senderos_card1_desc: "A 2 km route surrounded by primary forest, abundant vegetation, and natural viewpoints.",
-        senderos_card1_time: "1.5 hours",
-
-        senderos_card2_tag: "Wetland",
-        senderos_card2_title: "Wetland Trail",
-        senderos_card2_desc: "Ideal for birdwatching, nature photography, and a शांत experience in one of the most valuable ecosystems in the area.",
-        senderos_card2_time: "2 hours",
+        senderos_section_label: "Our trail",
+        senderos_section_title: "Eco Trail",
+        senderos_section_subtitle: "A journey designed to connect with the landscapes, flora, and fauna of the Caño Negro Wildlife Refuge.",
 
         help_title: "How can we help you?",
 
@@ -167,7 +149,8 @@ window.translations.senderos = {
     
     fr: {
         nav_inicio: "Accueil",
-        nav_senderos: "Sentiers",
+        nav_sobre_adi: "À propos de nous",
+        nav_senderos: "Sentier",
         nav_comunidad: "Communauté",
         nav_flora: "Flore et Faune",
         nav_flora_fauna: "Flore et Faune",
@@ -178,14 +161,14 @@ window.translations.senderos = {
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 
         senderos_hero_tag: "Nature, randonnée et conservation",
-        senderos_hero_title: "Sentiers Naturels de <span>Caño Negro</span>",
-        senderos_hero_desc: "Parcourez des sentiers entourés de forêts, de zones humides et de faune sauvage, où chaque pas vous invite à découvrir la richesse naturelle de Caño Negro.",
+        senderos_hero_title: "Sentier Naturel de <span>Caño Negro</span>",
+        senderos_hero_desc: "Parcourez le sentier entouré de forêts, de zones humides et de faune sauvage, où chaque pas vous invite à découvrir la richesse naturelle de Caño Negro.",
 
         senderos_nav_info: "Informations Générales",
         senderos_nav_trails: "Sentier",
 
         senderos_info_label: "Explorez de manière responsable",
-        senderos_info_title: "Informations sur les sentiers",
+        senderos_info_title: "Informations sur le sentier",
         senderos_info_subtitle: "Avant de commencer votre parcours, prenez en compte quelques recommandations pour profiter d'une expérience sûre, consciente et respectueuse de la nature.",
 
         senderos_box1_title: "Recommandations",
@@ -197,19 +180,9 @@ window.translations.senderos = {
         senderos_box3_title: "Observation",
         senderos_box3_desc: "Apportez un appareil photo ou des jumelles afin de mieux profiter des paysages, des oiseaux et des détails de la nature.",
 
-        senderos_section_label: "Itinéraires disponibles",
-        senderos_section_title: "Nos Sentiers",
-        senderos_section_subtitle: "Chaque sentier offre une expérience différente, reliant les visiteurs aux paysages, aux zones humides, aux forêts et à une biodiversité unique.",
-
-        senderos_card1_tag: "Forêt",
-        senderos_card1_title: "Sentier de la Montagne",
-        senderos_card1_desc: "Parcours de 2 km entouré de forêt primaire, d'une végétation abondante et de points de vue naturels idéaux pour admirer le paysage.",
-        senderos_card1_time: "1,5 heure",
-
-        senderos_card2_tag: "Zone humide",
-        senderos_card2_title: "Sentier des Zones Humides",
-        senderos_card2_desc: "Idéal pour l'observation des oiseaux, la photographie de nature et une expérience paisible dans l'un des écosystèmes les plus précieux de la région.",
-        senderos_card2_time: "2 heures",
+        senderos_section_label: "Notre sentier",
+        senderos_section_title: "Sentier Eco Trail",
+        senderos_section_subtitle: "Un parcours pensé pour se connecter aux paysages, à la flore et à la faune du Refuge de Vie Sauvage de Caño Negro.",
 
         help_title: "Comment pouvons-nous vous aider ?",
 

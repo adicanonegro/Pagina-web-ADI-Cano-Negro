@@ -4,6 +4,7 @@ window.translations.muelle = {
     es: {
         logo_text: "ADI Caño Negro",
         nav_inicio: "Inicio",
+        nav_sobre_adi: "Acerca de Nosotros",
         nav_comunidad: "Comunidad",
         nav_Muelles: "Muelles",
         nav_pesca: "Pesca",
@@ -60,6 +61,7 @@ window.translations.muelle = {
     en: {
         logo_text: "ADI Caño Negro",
         nav_inicio: "Home",
+        nav_sobre_adi: "About Us",
         nav_comunidad: "Community",
         nav_Muelles: "Docks",
         nav_pesca: "Fishing",
@@ -116,6 +118,7 @@ window.translations.muelle = {
     fr: {
         logo_text: "ADI Caño Negro",
         nav_inicio: "Accueil",
+        nav_sobre_adi: "À propos de nous",
         nav_comunidad: "Communauté",
         nav_Muelles: "Pontons",
         nav_pesca: "Pêche",
