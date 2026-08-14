@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const slides = sliderContainer.querySelectorAll(".reptile-slider img");
         const prevBtn = sliderContainer.querySelector(".slider-btn.prev");
         const nextBtn = sliderContainer.querySelector(".slider-btn.next");
+        const creditNameEl = sliderContainer.closest("article")?.querySelector(".credit-name");
 
         if (!slides.length || !prevBtn || !nextBtn) return;
 
@@ -65,6 +66,9 @@ document.addEventListener("DOMContentLoaded", () => {
         function showSlide(index) {
             slides.forEach((slide) => slide.classList.remove("active"));
             slides[index].classList.add("active");
+            if (creditNameEl && slides[index].dataset.credit) {
+                creditNameEl.textContent = slides[index].dataset.credit;
+            }
         }
 
         prevBtn.addEventListener("click", (e) => {

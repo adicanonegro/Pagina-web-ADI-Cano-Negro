@@ -371,7 +371,7 @@ ul {
 
 /* ================= CONTENIDO ================= */
 .fish-content {
-    padding: 16px 18px 14px;
+    padding: 6px 18px 14px;
     display: flex;
     flex-direction: column;
 }
@@ -403,6 +403,8 @@ ul {
 }
 
 .fish-content h3 {
+    display: flex;
+    align-items: flex-end;
     margin: 0;
     font-size: 20px;
     line-height: 1.25;
@@ -1060,7 +1062,7 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
 
     .fish-content {
-        padding: 18px 16px 14px;
+        padding: 8px 16px 14px;
     }
 
     .fish-fact {

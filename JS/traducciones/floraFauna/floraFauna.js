@@ -9,6 +9,7 @@ window.translations.floraFauna = {
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        "photo_by": "Foto:",
 
         hero_tag: "Sitio RAMSAR • Biodiversidad extraordinaria",
         hero_title: "Flora y Fauna de <span>Caño Negro</span>",
@@ -213,6 +214,7 @@ window.translations.floraFauna = {
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        "photo_by": "Photo:",
 
         hero_tag: "RAMSAR Site • Extraordinary biodiversity",
         hero_title: "Flora and Fauna of <span>Caño Negro</span>",
@@ -417,6 +419,7 @@ window.translations.floraFauna = {
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        "photo_by": "Photo :",
 
         hero_tag: "Site RAMSAR • Biodiversité extraordinaire",
         hero_title: "Flore et Faune de <span>Caño Negro</span>",

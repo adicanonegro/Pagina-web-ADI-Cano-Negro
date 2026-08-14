@@ -15,6 +15,7 @@ window.translations.peces = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Anfibios",
         nav_peces: "Peces",
+        "photo_by": "Foto:",
 
         hero_chip: "Río Frío • Biodiversidad • Humedal Ramsar",
         hero_title: "Peces de <br><span>Caño Negro</span>",
@@ -155,6 +156,7 @@ window.translations.peces = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Amphibians",
         nav_peces: "Fish",
+        "photo_by": "Photo:",
 
         hero_chip: "Frío River • Biodiversity • Ramsar Wetland",
         hero_title: "Fish of <br><span>Caño Negro</span>",
@@ -295,6 +297,7 @@ window.translations.peces = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Amphibiens",
         nav_peces: "Poissons",
+        "photo_by": "Photo :",
 
         hero_chip: "Rivière Frío • Biodiversité • Zone humide Ramsar",
         hero_title: "Poissons de <br><span>Caño Negro</span>",

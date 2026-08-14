@@ -832,6 +832,11 @@ ul {
     object-position: center !important;
 }
 
+/* Foto vertical del macho: la cabeza queda arriba de la imagen, no en el centro */
+.encuadre-aguja-macho {
+    object-position: center 15% !important;
+}
+
 /* Para el Pato Cantil (Sungrebe): Enfocamos abajo */
 .encuadre-pato-cantil {
     object-position: center !important;

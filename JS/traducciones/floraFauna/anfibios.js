@@ -15,6 +15,7 @@ window.translations.anfibios = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Anfibios",
         nav_peces: "Peces",
+        "photo_by": "Foto:",
 
         hero_chip: "Indicadores ambientales • Humedal Ramsar",
         hero_title: "Anfibios de <br><span>Caño Negro</span>",
@@ -110,6 +111,7 @@ window.translations.anfibios = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Amphibians",
         nav_peces: "Fish",
+        "photo_by": "Photo:",
 
         hero_chip: "Environmental indicators • Ramsar Wetland",
         hero_title: "Amphibians of <br><span>Caño Negro</span>",
@@ -205,6 +207,7 @@ window.translations.anfibios = {
         nav_reptiles: "Reptiles",
         nav_anfibios: "Amphibiens",
         nav_peces: "Poissons",
+        "photo_by": "Photo :",
 
         hero_chip: "Indicateurs environnementaux • Zone humide Ramsar",
         hero_title: "Amphibiens de <br><span>Caño Negro</span>",
