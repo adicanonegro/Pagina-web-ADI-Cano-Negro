@@ -441,10 +441,14 @@ footer{
 }
 
 .photo-credit{
+    display: block;
     font-size:12px;
     color:var(--texto-muted);
     font-style:italic;
     line-height:1.4;
+    margin-top: 6px;
+    margin-left: 4px;
+    min-height: 18px;
 }
 
 .info-panel h3{
@@ -532,7 +536,7 @@ footer{
     display:grid;
     grid-template-columns:1.35fr 0.85fr;
     gap:36px;
-    align-items:start;
+    align-items:stretch;
 }
 
 .animal-main{
@@ -542,6 +546,30 @@ footer{
     box-shadow:var(--sombra);
     border:1px solid rgba(47,93,58,0.07);
     border-top:4px solid var(--verde-claro);
+}
+
+@media (min-width:901px){
+    .animal-main{
+        min-height:610px;
+    }
+
+    #anfibios .animal-main{
+        min-height:545px;
+        padding:30px 32px;
+    }
+
+    #anfibios .animal-tag{
+        margin-bottom:12px;
+    }
+
+    #anfibios .animal-main h2{
+        margin-bottom:16px;
+    }
+
+    #anfibios .animal-main p{
+        margin-bottom:12px;
+        line-height:1.75;
+    }
 }
 
 .animal-tag{
@@ -584,6 +612,7 @@ footer{
     display:flex;
     flex-direction:column;
     gap:24px;
+    min-height:0;
 }
 
 .animal-side-card{
@@ -600,10 +629,26 @@ footer{
     grid-template-columns:repeat(2, 1fr);
     grid-template-rows:repeat(2, 1fr);
     gap:16px;
+    min-height:0;
     overflow:hidden;
 }
 
-.animal-side-gallery img{
+@media (min-width:901px){
+    .animal-side-gallery{
+        flex:1 1 0;
+    }
+}
+
+.animal-side-gallery figure {
+    margin: 0;
+    display:grid;
+    grid-template-rows:minmax(0, 1fr) 20px;
+    row-gap:6px;
+    min-width:0;
+    min-height:0;
+}
+
+.animal-side-gallery figure img{
     width:100%;
     height:100%;
     min-width:0;
@@ -612,6 +657,23 @@ footer{
     border-radius:16px;
     box-shadow:var(--sombra);
     display:block;
+}
+
+.animal-side-gallery .photo-credit{
+    position:static;
+    max-width:100%;
+    min-height:0;
+    margin:0;
+    padding:0 4px;
+    background:transparent;
+    color:var(--texto-muted);
+    font-size:12px;
+    font-style:italic;
+    line-height:20px;
+    text-align:left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 
 .animal-side-card h3{

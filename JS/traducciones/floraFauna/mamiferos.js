@@ -96,7 +96,7 @@ window.translations.mamiferos = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un refugio donde cada huella cuenta una historia",
+        closing_title: "« Un refugio donde cada huella cuenta una historia »",
         closing_desc: "Descubre la riqueza de los mamíferos de Caño Negro, guardianes silenciosos de un humedal que depende de la conservación de su bosque y su agua.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -202,7 +202,7 @@ window.translations.mamiferos = {
         chat_link: "https://chat.openai.com/?q=Tell%20me%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "A refuge where every footprint tells a story",
+        closing_title: "“A refuge where every footprint tells a story”",
         closing_desc: "Discover the richness of Caño Negro's mammals, silent guardians of a wetland that depends on the conservation of its forest and water.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, working for the conservation and sustainable development of our community.",
@@ -308,7 +308,7 @@ window.translations.mamiferos = {
         chat_link: "https://chat.openai.com/?q=Parle-moi%20de%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un refuge où chaque empreinte raconte une histoire",
+        closing_title: "« Un refuge où chaque empreinte raconte une histoire »",
         closing_desc: "Découvrez la richesse des mammifères de Caño Negro, gardiens silencieux d'une zone humide qui dépend de la préservation de sa forêt et de son eau.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

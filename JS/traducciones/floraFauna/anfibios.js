@@ -86,7 +86,7 @@ window.translations.anfibios = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Pequeñas especies, grandes señales de un humedal saludable",
+        closing_title: "« Pequeñas especies, grandes señales de un humedal saludable »",
         closing_desc: "Descubre a los anfibios de Caño Negro, indicadores vivos de la salud del agua y la vegetación que sostienen todo el refugio.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -182,7 +182,7 @@ window.translations.anfibios = {
         chat_link: "https://chat.openai.com/?q=Tell%20me%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Small species, big signals of a healthy wetland",
+        closing_title: "“Small species, big signals of a healthy wetland”",
         closing_desc: "Discover the amphibians of Caño Negro, living indicators of the health of the water and vegetation that sustain the whole refuge.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, working for the conservation and sustainable development of our community.",
@@ -278,7 +278,7 @@ window.translations.anfibios = {
         chat_link: "https://chat.openai.com/?q=Parle-moi%20de%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Petites espèces, grands signaux d'une zone humide en bonne santé",
+        closing_title: "« Petites espèces, grands signaux d'une zone humide en bonne santé »",
         closing_desc: "Découvrez les amphibiens de Caño Negro, indicateurs vivants de la santé de l'eau et de la végétation qui soutiennent tout le refuge.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

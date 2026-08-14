@@ -9,6 +9,7 @@ window.translations.comunidad = {
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        "photo_by": "Foto:",
 
         comunidad_hero_tag: "Cultura, tradición y naturaleza",
         comunidad_hero_title: "Comunidad de <span><br> Caño Negro </span>",
@@ -62,7 +63,7 @@ window.translations.comunidad = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         comunidad_closing_tag: "Caño Negro",
-        comunidad_closing_title: "Una comunidad que conserva su esencia mientras cuida su entorno natural",
+        comunidad_closing_title: "« Una comunidad que conserva su esencia mientras cuida su entorno natural »",
         comunidad_closing_desc: "Conocer Caño Negro también es conocer a su gente, sus costumbres, su historia y la forma en que conviven con la naturaleza.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -81,6 +82,7 @@ window.translations.comunidad = {
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        "photo_by": "Photo:",
 
         comunidad_hero_tag: "Culture, tradition and nature",
         comunidad_hero_title: "Community of <span><br> Caño Negro </span>",
@@ -134,7 +136,7 @@ window.translations.comunidad = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         comunidad_closing_tag: "Caño Negro",
-        comunidad_closing_title: "A community that preserves its essence while caring for its natural surroundings",
+        comunidad_closing_title: "“A community that preserves its essence while caring for its natural surroundings”",
         comunidad_closing_desc: "Getting to know Caño Negro also means getting to know its people, customs, history, and the way they live alongside nature.",
 
         footer_about: "Caño Negro Community Development Association, working for conservation and the sustainable development of our community.",
@@ -153,6 +155,7 @@ window.translations.comunidad = {
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        "photo_by": "Photo :",
 
         comunidad_hero_tag: "Culture, tradition et nature",
         comunidad_hero_title: "Communauté de <span><br> Caño Negro </span>",
@@ -206,7 +209,7 @@ window.translations.comunidad = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         comunidad_closing_tag: "Caño Negro",
-        comunidad_closing_title: "Une communauté qui préserve son essence tout en prenant soin de son environnement naturel",
+        comunidad_closing_title: "« Une communauté qui préserve son essence tout en prenant soin de son environnement naturel »",
         comunidad_closing_desc: "Connaître Caño Negro, c'est aussi connaître ses habitants, leurs coutumes, leur histoire et la façon dont ils vivent aux côtés de la nature.",
 
         footer_about: "Association de Développement Intégral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

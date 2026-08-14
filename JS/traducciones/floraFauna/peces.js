@@ -131,7 +131,7 @@ window.translations.peces = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un río que sostiene la vida y la tradición de la comunidad",
+        closing_title: "« Un río que sostiene la vida y la tradición de la comunidad »",
         closing_desc: "Descubre a los peces de Caño Negro, protagonistas silenciosos de un río que une la biodiversidad del refugio con la historia de su gente.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -272,7 +272,7 @@ window.translations.peces = {
         chat_link: "https://chat.openai.com/?q=Tell%20me%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "A river that sustains the community's life and tradition",
+        closing_title: "“A river that sustains the community's life and tradition”",
         closing_desc: "Discover the fish of Caño Negro, silent protagonists of a river that links the refuge's biodiversity with the history of its people.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, working for the conservation and sustainable development of our community.",
@@ -413,7 +413,7 @@ window.translations.peces = {
         chat_link: "https://chat.openai.com/?q=Parle-moi%20de%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Une rivière qui soutient la vie et la tradition de la communauté",
+        closing_title: "« Une rivière qui soutient la vie et la tradition de la communauté »",
         closing_desc: "Découvrez les poissons de Caño Negro, protagonistes silencieux d'une rivière qui unit la biodiversité du refuge à l'histoire de ses habitants.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

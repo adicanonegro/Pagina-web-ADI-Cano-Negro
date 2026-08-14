@@ -798,10 +798,10 @@ h1, h2, h3, p, span, h4, a, small, button {
 
 /* CRÉDITO DE FOTO */
 .photo-credit {
+    display: block;
     font-size: 12px;
     color: #6b746e;
-    margin-top: 6px;
-    margin-left: 4px;
+    padding: 12px 24px 0;
     font-style: italic;
     min-height: 18px;
 }

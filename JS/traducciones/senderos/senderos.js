@@ -62,7 +62,7 @@ window.translations.senderos = {
         senderos_cta_button: "Conocer Eco-Trail",
 
         senderos_closing_tag: "Caño Negro",
-        senderos_closing_title: "Cada sendero es una oportunidad para conectar con la naturaleza y aprender a conservarla",
+        senderos_closing_title: "« Cada sendero es una oportunidad para conectar con la naturaleza y aprender a conservarla »",
         senderos_closing_desc: "Caminar por estos espacios permite descubrir la vida que habita en cada rincón, valorar la biodiversidad y fortalecer el compromiso con su protección.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -134,7 +134,7 @@ window.translations.senderos = {
         senderos_cta_button: "Discover Eco-Trail",
 
         senderos_closing_tag: "Caño Negro",
-        senderos_closing_title: "Each trail is an opportunity to connect with nature and learn to protect it",
+        senderos_closing_title: "“Each trail is an opportunity to connect with nature and learn to protect it”",
         senderos_closing_desc: "Walking these paths allows you to discover life in every corner, appreciate biodiversity, and strengthen your commitment to conservation.",
 
         footer_about: "Caño Negro Community Development Association, working for conservation and the sustainable development of our community.",
@@ -206,7 +206,7 @@ window.translations.senderos = {
         senderos_cta_button: "Découvrir Eco-Trail",
 
         senderos_closing_tag: "Caño Negro",
-        senderos_closing_title: "Chaque sentier est une occasion de se connecter à la nature et d'apprendre à la préserver",
+        senderos_closing_title: "« Chaque sentier est une occasion de se connecter à la nature et d'apprendre à la préserver »",
         senderos_closing_desc: "Parcourir ces espaces permet de découvrir la vie présente dans chaque recoin, d'apprécier la biodiversité et de renforcer l'engagement envers sa protection.",
 
         footer_about: "Association de Développement Intégral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

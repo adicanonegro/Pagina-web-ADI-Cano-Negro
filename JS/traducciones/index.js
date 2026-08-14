@@ -21,6 +21,7 @@ window.translations.index = {
         about_text_1: "El Refugio de Vida Silvestre Caño Negro es uno de los humedales más importantes de Costa Rica y Centroamérica.",
         about_text_2: "Además de su valor ambiental, representa una oportunidad para el ecoturismo y la comunidad.",
         about_credit: "Garza Blanca (Ardea alba)",
+        "photo_by": "Foto:",
 
         stats_label: "Nuestra riqueza natural",
         stats_title: "Caño Negro en cifras",
@@ -100,7 +101,7 @@ window.translations.index = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         banner_tag: "Caño Negro",
-        banner_title: "Un lugar donde la naturaleza y la comunidad conviven en armonía",
+        banner_title: "« Un lugar donde la naturaleza y la comunidad conviven en armonía »",
         banner_desc: "Vive la esencia de un destino lleno de vida, tradición y paisajes que inspiran a valorar y proteger nuestro entorno.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -132,6 +133,7 @@ window.translations.index = {
         about_text_1: "The Caño Negro Wildlife Refuge is one of the most important wetlands in Costa Rica and Central America.",
         about_text_2: "In addition to its environmental value, it represents an opportunity for ecotourism and community development.",
         about_credit: "White Heron (White firefly)",
+        "photo_by": "Photo:",
 
         stats_label: "Our natural richness",
         stats_title: "Caño Negro in numbers",
@@ -212,7 +214,7 @@ window.translations.index = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         banner_tag: "Caño Negro",
-        banner_title: "A place where nature and community live in harmony",
+        banner_title: "“A place where nature and community live in harmony”",
         banner_desc: "Experience a destination full of life, tradition, and landscapes that inspire protection of our environment.",
 
         footer_about: "Caño Negro Community Development Association, working for conservation and the sustainable development of our community.",
@@ -244,6 +246,7 @@ window.translations.index = {
         about_text_1: "Le Refuge de faune sauvage de Caño Negro est l'une des zones humides les plus importantes du Costa Rica et d'Amérique centrale.",
         about_text_2: "En plus de sa valeur environnementale, il représente une opportunité pour l'écotourisme et le développement communautaire.",
         about_credit: "Héron blanc (Luciole blanche)",
+        "photo_by": "Photo :",
 
         stats_label: "Notre richesse naturelle",
         stats_title: "Caño Negro en chiffres",
@@ -324,7 +327,7 @@ window.translations.index = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         banner_tag: "Caño Negro",
-        banner_title: "Un lieu où la nature et la communauté vivent en harmonie",
+        banner_title: "« Un lieu où la nature et la communauté vivent en harmonie »",
         banner_desc: "Découvrez l'essence d'une destination pleine de vie, de tradition et de paysages qui inspirent la protection de notre environnement.",
 
         footer_about: "Association de Développement Intégral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

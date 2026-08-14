@@ -268,6 +268,32 @@ ul { list-style: none; }
     box-shadow: var(--sombra-hover);
 }
 
+/* ---- Créditos dentro del collage ---- */
+.collage-figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.collage-figure img {
+    flex: 1;
+    min-height: 0;
+}
+
+.collage-credit {
+    font-size: 12px;
+    color: #6b746e;
+    margin-top: 6px;
+    margin-left: 4px;
+    font-style: italic;
+    min-height: 18px;
+}
+
+.collage-credit-spacer {
+    min-height: 18px;
+    margin-top: 6px;
+}
+
 /* ================= BANNER / CIERRE ================= */
 .banner-section {
     background: linear-gradient(180deg, var(--fondo-suave) 0%, var(--fondo) 100%);

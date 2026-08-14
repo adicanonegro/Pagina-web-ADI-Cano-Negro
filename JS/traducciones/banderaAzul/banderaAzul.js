@@ -93,7 +93,7 @@ window.translations.banderaAzul = {
         apoyo_10: "Personas y negocios locales de Caño Negro",
 
         closing_tag: "Caño Negro · Bandera Azul",
-        closing_title: "Sigamos sumando hogares, manos y compromisos",
+        closing_title: "« Sigamos sumando hogares, manos y compromisos »",
         closing_desc: "Agradecemos el esfuerzo de todos y los instamos a seguir trabajando. Si querés unirte al programa Bandera Azul Ecológica Hogar Sostenible, tu participación hace la diferencia.",
 
         help_title: "¿En qué podemos ayudarte?",
@@ -209,7 +209,7 @@ window.translations.banderaAzul = {
         apoyo_10: "Local people and businesses of Caño Negro",
 
         closing_tag: "Caño Negro · Blue Flag",
-        closing_title: "Let's keep adding homes, hands, and commitments",
+        closing_title: "“Let's keep adding homes, hands, and commitments”",
         closing_desc: "We are grateful for everyone's effort and encourage you to keep working. If you want to join the Blue Ecological Flag Sustainable Home program, your participation makes a difference.",
 
         help_title: "How can we help you?",
@@ -325,7 +325,7 @@ window.translations.banderaAzul = {
         apoyo_10: "Personnes et commerces locaux de Caño Negro",
 
         closing_tag: "Caño Negro · Drapeau Bleu",
-        closing_title: "Continuons à ajouter des foyers, des mains et des engagements",
+        closing_title: "« Continuons à ajouter des foyers, des mains et des engagements »",
         closing_desc: "Nous remercions les efforts de tous et vous encourageons à continuer. Si vous souhaitez rejoindre le programme Drapeau Bleu Écologique Foyer Durable, votre participation fait la différence.",
 
         help_title: "Comment pouvons-nous vous aider ?",

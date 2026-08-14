@@ -165,33 +165,54 @@ img { max-width: 100%; display: block; }
     background: linear-gradient(180deg, var(--fondo-suave) 0%, var(--fondo) 100%);
 }
 
-.quienes-quote-card {
-    background: var(--blanco);
-    border-radius: 24px;
-    padding: 42px 48px;
-    box-shadow: var(--sombra);
-    border: 1px solid rgba(83, 181, 60, 0.12);
-    border-left: 5px solid var(--verde-claro);
-    position: relative;
-    overflow: hidden;
-    margin: 52px 0 40px;
+.quienes-feature-row {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px 48px;
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+    align-items: center;
+    gap: 70px;
+    margin: 20px 0 56px;
 }
 
-.quienes-quote-card p { grid-column: span 1; }
-.quienes-quote-card p:first-of-type { grid-column: 1 / -1; }
+.quienes-copy-column { min-width: 0; }
+
+.quienes-copy-column .section-heading {
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.quienes-copy-column .section-label.center { text-align: left; }
+.quienes-copy-column .section-title {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.quienes-copy-column .section-title::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.quienes-copy-column .section-subtitle {
+    max-width: none;
+    margin-inline: 0;
+    text-align: left;
+}
+
+.quienes-quote-card {
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+    border: 0;
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+.quienes-quote-card p { grid-column: auto; }
 
 .quienes-q-icon {
-    font-size: 72px;
-    color: var(--verde-claro);
-    opacity: 0.11;
-    position: absolute;
-    top: 14px;
-    left: 18px;
-    line-height: 1;
-    pointer-events: none;
+    display: none;
 }
 
 .quienes-quote-card p {
@@ -203,7 +224,60 @@ img { max-width: 100%; display: block; }
     z-index: 1;
 }
 
-.quienes-quote-card p:nth-last-child(-n+2) { margin-bottom: 0; }
+.quienes-quote-card p:last-child { margin-bottom: 0; }
+
+.quienes-community-card {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+}
+
+.quienes-community-card figure {
+    min-height: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    aspect-ratio: 1.27 / 1;
+}
+
+.quienes-community-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 1px solid var(--verde-oscuro);
+    border-radius: 24px;
+    box-shadow: var(--sombra);
+    transition: transform 0.45s ease;
+}
+
+.quienes-community-card figure:hover img { transform: scale(1.035); }
+
+.quienes-community-card figcaption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 0 2px;
+    margin-top: 10px;
+    color: var(--texto-muted);
+    font-size: 11px;
+    font-style: italic;
+    line-height: 1.35;
+}
+
+.quienes-community-card figcaption span,
+.quienes-community-card figcaption small {
+    min-width: 0;
+}
+
+.quienes-community-card figcaption small {
+    font-size: 11px;
+    font-style: normal;
+    text-align: right;
+}
 
 .quienes-facts-card {
     display: grid;
@@ -746,7 +820,12 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     .hero-content { max-width: 100%; }
     .description { margin-inline: auto; max-width: 100%; }
 
-    .quienes-quote-card { padding: 28px 24px; grid-template-columns: 1fr; }
+    .quienes-quote-card { padding: 0; }
+    .quienes-feature-row { grid-template-columns: 1fr; }
+    .quienes-community-card {
+        grid-template-columns: 1fr;
+    }
+    .quienes-community-card figure { height: 240px; }
     .quienes-facts-card { grid-template-columns: repeat(2, 1fr); }
 
     .futuro-featured { grid-template-columns: 1fr; }
@@ -775,6 +854,12 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     .volunteer-grid,
     .proyectos-grid,
     .quienes-facts-card { grid-template-columns: 1fr; }
+
+    .quienes-community-card {
+        grid-template-columns: 1fr;
+    }
+
+    .quienes-community-card figure { height: 220px; }
 }
 
 @media (max-width: 480px) {

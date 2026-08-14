@@ -8,6 +8,7 @@ window.translations.pesca = {
         nav_pesca: "Pesca",
         nav_Muelles: "Muelles",
         nav_vida: "Vida Comunitaria",
+        "photo_by": "Foto:",
 
         hero_tag: "Tradición, sostenibilidad y naturaleza",
         hero_title: "Pesca en <span>Caño Negro</span>",
@@ -141,7 +142,7 @@ window.translations.pesca = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         cierre_tag: "Caño Negro",
-        cierre_title: "La pesca responsable protege la tradición, la comunidad y la biodiversidad del refugio",
+        cierre_title: "« La pesca responsable protege la tradición, la comunidad y la biodiversidad del refugio »",
         cierre_desc: "Respetar las regulaciones y valorar las especies del río es parte del compromiso con la conservación y el futuro de Caño Negro.",
 
         footer_text: "© 2026 ADI Caño Negro - Todos los derechos reservados"
@@ -154,6 +155,7 @@ window.translations.pesca = {
         nav_pesca: "Fishing",
         nav_Muelles: "Docks",
         nav_vida: "Community Life",
+        "photo_by": "Photo:",
 
         hero_tag: "Tradition, sustainability and nature",
         hero_title: "Fishing in <span>Caño Negro</span>",
@@ -287,7 +289,7 @@ window.translations.pesca = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         cierre_tag: "Caño Negro",
-        cierre_title: "Responsible fishing protects tradition, community, and the refuge’s biodiversity",
+        cierre_title: "“Responsible fishing protects tradition, community, and the refuge’s biodiversity”",
         cierre_desc: "Respecting regulations and valuing river species is part of the commitment to conservation and the future of Caño Negro.",
 
         footer_text: "© 2026 ADI Caño Negro - All rights reserved"
@@ -300,6 +302,7 @@ window.translations.pesca = {
         nav_pesca: "Pêche",
         nav_Muelles: "Pontons",
         nav_vida: "Vie Communautaire",
+        "photo_by": "Photo :",
 
         hero_tag: "Tradition, durabilité et nature",
         hero_title: "Pêche à <span>Caño Negro</span>",
@@ -433,7 +436,7 @@ window.translations.pesca = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         cierre_tag: "Caño Negro",
-        cierre_title: "La pêche responsable protège la tradition, la communauté et la biodiversité du refuge",
+        cierre_title: "« La pêche responsable protège la tradition, la communauté et la biodiversité du refuge »",
         cierre_desc: "Respecter les réglementations et valoriser les espèces de la rivière fait partie de l’engagement envers la conservation et l’avenir de Caño Negro.",
 
         footer_text: "© 2026 ADI Caño Negro - Tous droits réservés"

@@ -22,6 +22,8 @@ window.translations.sobreADI = {
         quienes_text1: "La Asociación de Desarrollo Integral de Caño Negro trabaja junto a la comunidad para impulsar iniciativas que contribuyan al desarrollo y bienestar de sus habitantes.",
         quienes_text2: "A través de la colaboración con instituciones, organizaciones, universidades y otros aliados, la ADI participa en proyectos relacionados con turismo, infraestructura, deporte, seguridad y participación comunitaria.",
         quienes_text3: "Entre las iniciativas desarrolladas destaca el Manakin Eco-Trail, así como diferentes acciones de mantenimiento y mejoramiento de espacios comunitarios.",
+        quienes_photo_credit: "Foto: Paraíso Tropical Caño Negro",
+        quienes_sloth_caption: "Perezoso de tres dedos (<em>Bradypus variegatus</em>)",
 
         quienes_fact1_title: "Desarrollo comunitario",
         quienes_fact1_text: "Iniciativas y acciones en beneficio directo de la comunidad de Caño Negro.",
@@ -150,6 +152,8 @@ window.translations.sobreADI = {
         quienes_text1: "The Caño Negro Integral Development Association works alongside the community to drive initiatives that contribute to the development and well-being of its residents.",
         quienes_text2: "Through collaboration with institutions, organizations, universities, and other partners, ADI takes part in projects related to tourism, infrastructure, sports, security, and community participation.",
         quienes_text3: "Among the initiatives carried out, the Manakin Eco-Trail stands out, along with various maintenance and improvement actions in community spaces.",
+        quienes_photo_credit: "Photo: Paraíso Tropical Caño Negro",
+        quienes_sloth_caption: "Brown-throated three-toed sloth (<em>Bradypus variegatus</em>)",
 
         quienes_fact1_title: "Community development",
         quienes_fact1_text: "Initiatives and actions that directly benefit the Caño Negro community.",
@@ -278,6 +282,8 @@ window.translations.sobreADI = {
         quienes_text1: "L'Association de Développement Intégral de Caño Negro travaille aux côtés de la communauté pour promouvoir des initiatives contribuant au développement et au bien-être de ses habitants.",
         quienes_text2: "Grâce à la collaboration avec des institutions, des organisations, des universités et d'autres partenaires, l'ADI participe à des projets liés au tourisme, aux infrastructures, au sport, à la sécurité et à la participation communautaire.",
         quienes_text3: "Parmi les initiatives réalisées, le Manakin Eco-Trail se distingue, ainsi que diverses actions d'entretien et d'amélioration des espaces communautaires.",
+        quienes_photo_credit: "Photo : Paraíso Tropical Caño Negro",
+        quienes_sloth_caption: "Paresseux à gorge brune (<em>Bradypus variegatus</em>)",
 
         quienes_fact1_title: "Développement communautaire",
         quienes_fact1_text: "Des initiatives et actions au bénéfice direct de la communauté de Caño Negro.",

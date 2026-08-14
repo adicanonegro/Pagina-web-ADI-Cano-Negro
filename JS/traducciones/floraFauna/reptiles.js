@@ -106,7 +106,7 @@ window.translations.reptiles = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un humedal donde el agua sostiene cada forma de vida",
+        closing_title: "« Un humedal donde el agua sostiene cada forma de vida »",
         closing_desc: "Descubre a los reptiles de Caño Negro, especies clave para entender el equilibrio de un ecosistema que depende por completo de sus ríos y lagunas.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación y el desarrollo sostenible de nuestra comunidad.",
@@ -222,7 +222,7 @@ window.translations.reptiles = {
         chat_link: "https://chat.openai.com/?q=Tell%20me%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "A wetland where water sustains every form of life",
+        closing_title: "“A wetland where water sustains every form of life”",
         closing_desc: "Discover the reptiles of Caño Negro, key species for understanding the balance of an ecosystem that depends entirely on its rivers and lagoons.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, working for the conservation and sustainable development of our community.",
@@ -338,7 +338,7 @@ window.translations.reptiles = {
         chat_link: "https://chat.openai.com/?q=Parle-moi%20de%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Une zone humide où l'eau soutient chaque forme de vie",
+        closing_title: "« Une zone humide où l'eau soutient chaque forme de vie »",
         closing_desc: "Découvrez les reptiles de Caño Negro, des espèces clés pour comprendre l'équilibre d'un écosystème qui dépend entièrement de ses rivières et lagunes.",
 
         footer_about: "Asociación de Desarrollo Integral de Caño Negro, œuvrant pour la conservation et le développement durable de notre communauté.",

@@ -193,7 +193,7 @@ window.translations.aves = {
         fact_label: "Dato curioso",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un refugio donde cada ave cuenta una historia",
+        closing_title: "« Un refugio donde cada ave cuenta una historia »",
         closing_desc: "Explorar las aves de Caño Negro es descubrir la riqueza de un humedal vivo, lleno de color, movimiento y especies que convierten cada recorrido en una experiencia inolvidable.",
 
         footer_text: "© 2026 ADI Caño Negro - Todos los derechos reservados"
@@ -389,7 +389,7 @@ window.translations.aves = {
         fact_label: "Fun fact",
 
         closing_tag: "Caño Negro",
-        closing_title: "A refuge where every bird tells a story",
+        closing_title: "“A refuge where every bird tells a story”",
         closing_desc: "Exploring the birds of Caño Negro means discovering the richness of a living wetland, full of color, movement, and species that turn every visit into an unforgettable experience.",
 
         footer_text: "© 2026 ADI Caño Negro - All rights reserved"
@@ -586,7 +586,7 @@ window.translations.aves = {
         fact_label: "Anecdote",
 
         closing_tag: "Caño Negro",
-        closing_title: "Un refuge où chaque oiseau raconte une histoire",
+        closing_title: "« Un refuge où chaque oiseau raconte une histoire »",
         closing_desc: "Explorer les oiseaux de Caño Negro, c'est découvrir la richesse d'une zone humide vivante, pleine de couleurs, de mouvement et d'espèces qui font de chaque visite une expérience inoubliable.",
 
         footer_text: "© 2026 ADI Caño Negro - Tous droits réservés"

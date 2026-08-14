@@ -10,6 +10,7 @@ window.translations.vidaComunitaria = {
         nav_vida: "Vida Comunitaria",
         nav_Muelles: "Muelles",
         nav_pesca: "Pesca",
+        "photo_by": "Foto:",
 
         hero_tag: "Tradición, identidad y convivencia",
         hero_title: "Vida Comunitaria<br>en <span>Caño Negro</span>",
@@ -73,7 +74,7 @@ window.translations.vidaComunitaria = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "La vida comunitaria refleja la unión entre cultura, trabajo y naturaleza",
+        closing_title: "« La vida comunitaria refleja la unión entre cultura, trabajo y naturaleza »",
         closing_description: "Conocer la comunidad de Caño Negro es valorar su historia, sus tradiciones y el compromiso de sus habitantes con el desarrollo local y la conservación del entorno.",
 
         footer_text: "© 2026 ADI Caño Negro - Todos los derechos reservados"
@@ -88,6 +89,7 @@ window.translations.vidaComunitaria = {
         nav_vida: "Community Life",
         nav_Muelles: "Docks",
         nav_pesca: "Fishing",
+        "photo_by": "Photo:",
 
         hero_tag: "Tradition, identity and coexistence",
         hero_title: "Community Life<br>in <span>Caño Negro</span>",
@@ -151,7 +153,7 @@ window.translations.vidaComunitaria = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Community life reflects the union between culture, work, and nature",
+        closing_title: "“Community life reflects the union between culture, work, and nature”",
         closing_description: "Getting to know the community of Caño Negro means appreciating its history, traditions, and the commitment of its residents to local development and environmental conservation.",
 
         footer_text: "© 2026 ADI Caño Negro - All rights reserved"
@@ -166,6 +168,7 @@ window.translations.vidaComunitaria = {
         nav_vida: "Vie Communautaire",
         nav_Muelles: "Pontons",
         nav_pesca: "Pêche",
+        "photo_by": "Photo :",
 
         hero_tag: "Tradition, identité et cohabitation",
         hero_title: "Vie Communautaire<br>à <span>Caño Negro</span>",
@@ -229,7 +232,7 @@ window.translations.vidaComunitaria = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "La vie communautaire reflète l'union entre culture, travail et nature",
+        closing_title: "« La vie communautaire reflète l'union entre culture, travail et nature »",
         closing_description: "Connaître la communauté de Caño Negro, c'est apprécier son histoire, ses traditions et l'engagement de ses habitants envers le développement local et la conservation de l'environnement.",
 
         footer_text: "© 2026 ADI Caño Negro - Tous droits réservés"

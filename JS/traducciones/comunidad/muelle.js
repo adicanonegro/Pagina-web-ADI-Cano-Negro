@@ -52,7 +52,7 @@ window.translations.muelle = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "El agua, el silencio y la naturaleza en un mismo lugar",
+        closing_title: "« El agua, el silencio y la naturaleza en un mismo lugar »",
         closing_description: "Pararse sobre un muelle en Caño Negro es pararse sobre el humedal mismo. Es sentir el río, ver la fauna y entender por qué este lugar es tan especial.",
 
         footer_text: "© 2026 ADI Caño Negro - Todos los derechos reservados"
@@ -109,7 +109,7 @@ window.translations.muelle = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "Water, silence and nature all in one place",
+        closing_title: "“Water, silence and nature all in one place”",
         closing_description: "Standing on a dock in Caño Negro means standing on the wetland itself. You feel the river, see the wildlife, and understand why this place is so special.",
 
         footer_text: "© 2026 ADI Caño Negro - All rights reserved"
@@ -166,7 +166,7 @@ window.translations.muelle = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         closing_tag: "Caño Negro",
-        closing_title: "L'eau, le silence et la nature réunis en un même endroit",
+        closing_title: "« L'eau, le silence et la nature réunis en un même endroit »",
         closing_description: "Se tenir sur un ponton à Caño Negro, c'est se tenir sur la zone humide elle-même. On sent la rivière, on observe la faune et on comprend pourquoi cet endroit est si spécial.",
 
         footer_text: "© 2026 ADI Caño Negro - Tous droits réservés"

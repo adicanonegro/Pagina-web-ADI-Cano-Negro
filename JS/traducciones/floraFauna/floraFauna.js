@@ -199,7 +199,7 @@ window.translations.floraFauna = {
         chat_link: "https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro",
 
         closing_tag: "CAÑO NEGRO",
-        closing_title: "La riqueza del humedal está en la relación entre su flora, su fauna y el agua",
+        closing_title: "« La riqueza del humedal está en la relación entre su flora, su fauna y el agua »",
         closing_desc: "Comprender Caño Negro es entender cómo cada planta, cada espejo de agua y cada especie forman parte de un sistema vivo. Su conservación protege uno de los paisajes ecológicos más valiosos de Costa Rica.",
 
         btn_more_info: "Ver más información",
@@ -404,7 +404,7 @@ window.translations.floraFauna = {
         chat_link: "https://chat.openai.com/?q=I%20want%20information%20about%20Ca%C3%B1o%20Negro",
 
         closing_tag: "CAÑO NEGRO",
-        closing_title: "The richness of the wetland lies in the relationship between its flora, fauna, and water",
+        closing_title: "“The richness of the wetland lies in the relationship between its flora, fauna, and water”",
         closing_desc: "Understanding Caño Negro means understanding how every plant, every water surface, and every species are part of a living system. Its conservation protects one of Costa Rica’s most valuable ecological landscapes.",
 
         btn_more_info: "See more information",
@@ -609,7 +609,7 @@ window.translations.floraFauna = {
         chat_link: "https://chat.openai.com/?q=Je%20veux%20des%20informations%20sur%20Ca%C3%B1o%20Negro",
 
         closing_tag: "CAÑO NEGRO",
-        closing_title: "La richesse de la zone humide réside dans la relation entre sa flore, sa faune et l’eau",
+        closing_title: "« La richesse de la zone humide réside dans la relation entre sa flore, sa faune et l’eau »",
         closing_desc: "Comprendre Caño Negro, c’est comprendre comment chaque plante, chaque miroir d’eau et chaque espèce font partie d’un système vivant. Sa conservation protège l’un des paysages écologiques les plus précieux du Costa Rica.",
 
         btn_more_info: "Voir plus d’informations",
