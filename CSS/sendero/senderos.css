@@ -381,6 +381,12 @@ ul {
     transform: translateY(-2px);
 }
 
+.sendero-cta-button.link-coming-soon:hover {
+    background: var(--amarillo-eco-trail);
+    gap: 10px;
+    transform: none;
+}
+
 .sendero-cta-button i {
     font-size: 14px;
 }

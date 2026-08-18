@@ -2,6 +2,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const pageName = document.body.dataset.page;
     const pageTranslations = window.translations?.[pageName];
 
+    // ── Enlaces "próximamente" (Emprendedores, Sendero Manakin/Eco-Trail, etc.) ──
+    const comingSoonText = {
+        es: "Disponible próximamente",
+        en: "Coming soon",
+        fr: "Bientôt disponible"
+    };
+    const comingSoonLinks = document.querySelectorAll(".link-coming-soon");
+
+    comingSoonLinks.forEach(link => {
+        link.addEventListener("click", (e) => e.preventDefault());
+    });
+
     const elements = document.querySelectorAll("[data-i18n]");
     const languageDropdown = document.querySelector(".language-dropdown");
     const languageToggle = document.getElementById("languageToggle");
@@ -21,6 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (pageTranslations[lang][key] !== undefined) {
                 element.innerHTML = pageTranslations[lang][key];
             }
+        });
+
+        comingSoonLinks.forEach(link => {
+            link.title = comingSoonText[lang] || comingSoonText.es;
         });
 
         if (chatIaLink && pageTranslations[lang].chat_link) {

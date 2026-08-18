@@ -35,7 +35,7 @@ window.translations.pesca = {
         doc_1: "Foto tamaño pasaporte.",
         doc_2: "Presentar documento de identidad.",
         doc_3: "Carta de solicitud (disponible en las oficinas del Refugio Caño Negro).",
-        doc_4: "Pago con tarjeta o transferencia al Banco Nacional (cuenta CR26015100010011121562).",
+        doc_4: "Pago con tarjeta o transferencia al Banco Nacional.",
 
         costos_title: "Costos",
         costo_1: "<strong>Visitantes nacionales:</strong> ₡3.390 (1 año de vigencia).",
@@ -47,7 +47,7 @@ window.translations.pesca = {
         veda_note: "La veda protege la reproducción de las especies y ayuda a conservar el equilibrio del ecosistema del Refugio de Vida Silvestre Caño Negro.",
         veda_text1: "La veda es un periodo en el que se prohíbe o se limita la pesca de ciertas especies con el fin de proteger su reproducción y asegurar la conservación de los recursos naturales del refugio.",
         veda_text2: "Durante este tiempo, los peces se encuentran en su etapa de reproducción, por lo que capturarlos podría afectar el equilibrio del ecosistema.",
-        veda_text3: "<strong>Veda general:</strong> del 1 de abril al 31 de julio de cada año, la pesca deportiva general está prohibida por completo en el refugio.",
+        veda_text3: "<strong>Veda general:</strong> del 1 de abril al 31 de julio de cada año, la pesca general está prohibida por completo en el refugio.",
         veda_text3b: "<strong>Veda del pez gaspar:</strong> aplica un cierre más extenso para esta especie específica, desde el 1 de marzo hasta el 31 de agosto, protegiendo su etapa de desove con el inicio de las lluvias.",
         veda_text4: "Respetar este periodo es una forma directa de contribuir a la conservación de la biodiversidad.",
 
@@ -59,7 +59,7 @@ window.translations.pesca = {
         r3: "Respetar el tamaño mínimo de captura.",
         r4: "Prohibido el uso de atarraya, chinchorro y arbaleta.",
         r5: "No contaminar el entorno natural.",
-        r6: "Horario de pesca permitido: 6:00 a.m. – 8:00 a.m. y 4:00 p.m. – 6:00 p.m.",
+        r6: "Horario de pesca permitido: 6:00 a.m. – 6:00 p.m.",
 
         especies_label: "Biodiversidad acuática",
         especies_title: "Especies en el Río Caño Negro",
@@ -182,7 +182,7 @@ window.translations.pesca = {
         doc_1: "Passport-size photo.",
         doc_2: "Present a valid ID document.",
         doc_3: "Request letter (available at the Caño Negro Refuge offices).",
-        doc_4: "Payment by card or bank transfer to Banco Nacional (account CR26015100010011121562).",
+        doc_4: "Payment by card or bank transfer to Banco Nacional.",
 
         costos_title: "Costs",
         costo_1: "<strong>National visitors:</strong> ₡3,390 (valid for 1 year).",
@@ -194,7 +194,7 @@ window.translations.pesca = {
         veda_note: "The closed season protects species reproduction and helps preserve the ecological balance of the Caño Negro Wildlife Refuge ecosystem.",
         veda_text1: "The closed season is a period during which fishing for certain species is prohibited or limited in order to protect reproduction and ensure the conservation of the refuge’s natural resources.",
         veda_text2: "During this time, fish are in their reproductive stage, so catching them could affect the ecosystem balance.",
-        veda_text3: "<strong>General closed season:</strong> from April 1 to July 31 each year, general sport fishing is completely prohibited in the refuge.",
+        veda_text3: "<strong>General closed season:</strong> from April 1 to July 31 each year, all fishing is completely prohibited in the refuge.",
         veda_text3b: "<strong>Gaspar closed season:</strong> a longer closure applies to this specific species, from March 1 to August 31, protecting its spawning stage at the start of the rainy season.",
         veda_text4: "Respecting this period is a direct way to contribute to biodiversity conservation.",
 
@@ -206,7 +206,7 @@ window.translations.pesca = {
         r3: "Respect the minimum catch size.",
         r4: "The use of cast nets, seine nets, and spearguns is prohibited.",
         r5: "Do not pollute the natural environment.",
-        r6: "Permitted fishing hours: 6:00–8:00 a.m. and 4:00–6:00 p.m.",
+        r6: "Permitted fishing hours: 6:00 a.m. – 6:00 p.m.",
 
         especies_label: "Aquatic biodiversity",
         especies_title: "Species in the Caño Negro River",
@@ -329,7 +329,7 @@ window.translations.pesca = {
         doc_1: "Photo de format passeport.",
         doc_2: "Présenter une pièce d'identité valide.",
         doc_3: "Lettre de demande (disponible aux bureaux du Refuge Caño Negro).",
-        doc_4: "Paiement par carte ou virement à la Banco Nacional (compte CR26015100010011121562).",
+        doc_4: "Paiement par carte ou virement à la Banco Nacional.",
 
         costos_title: "Tarifs",
         costo_1: "<strong>Visiteurs nationaux :</strong> ₡3 390 (validité 1 an).",
@@ -341,7 +341,7 @@ window.translations.pesca = {
         veda_note: "La période de fermeture protège la reproduction des espèces et contribue à préserver l’équilibre écologique de l’écosystème du Refuge de Vie Sauvage de Caño Negro.",
         veda_text1: "La période de fermeture est une période durant laquelle la pêche de certaines espèces est interdite ou limitée afin de protéger leur reproduction et d’assurer la conservation des ressources naturelles du refuge.",
         veda_text2: "Durant cette période, les poissons sont en phase de reproduction, et les capturer pourrait affecter l’équilibre de l’écosystème.",
-        veda_text3: "<strong>Fermeture générale :</strong> du 1er avril au 31 juillet de chaque année, la pêche sportive générale est totalement interdite dans le refuge.",
+        veda_text3: "<strong>Fermeture générale :</strong> du 1er avril au 31 juillet de chaque année, toute pêche est totalement interdite dans le refuge.",
         veda_text3b: "<strong>Fermeture du gaspar :</strong> une fermeture plus longue s’applique à cette espèce spécifique, du 1er mars au 31 août, protégeant sa période de fraie au début des pluies.",
         veda_text4: "Respecter cette période est une façon directe de contribuer à la conservation de la biodiversité.",
 
@@ -353,7 +353,7 @@ window.translations.pesca = {
         r3: "Respecter la taille minimale de capture.",
         r4: "L’utilisation d’épervier, de filet de pêche et de harpon est interdite.",
         r5: "Ne pas polluer l’environnement naturel.",
-        r6: "Horaire de pêche autorisé : 6h00–8h00 et 16h00–18h00.",
+        r6: "Horaire de pêche autorisé : 6h00 – 18h00.",
 
         especies_label: "Biodiversité aquatique",
         especies_title: "Espèces dans la Rivière Caño Negro",

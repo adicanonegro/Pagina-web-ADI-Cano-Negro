@@ -5,6 +5,18 @@
     --verde-claro: #2a6038;
 }
 
+/* ================= ENLACES PRÓXIMAMENTE (deshabilitados) ================= */
+.link-coming-soon {
+    cursor: not-allowed !important;
+    opacity: 0.55;
+    filter: grayscale(35%);
+}
+
+.link-coming-soon:hover,
+.link-coming-soon:focus {
+    opacity: 0.55;
+}
+
 /* ================= HEADER ================= */
 .main-header {
     position: fixed;
