@@ -142,6 +142,10 @@ button {
 }
 
 @media (max-width: 576px) {
+    .coming-soon-section {
+        padding-right: 46px;
+    }
+
     .coming-soon-card {
         padding: 44px 24px;
     }
@@ -420,17 +424,5 @@ button {
 @media (max-width: 991px) {
     body:has(#menuNav.show) .fab-container {
         display: none !important;
-    }
-}
-
-@media (max-width: 576px) {
-    .fab-container {
-        bottom: 18px;
-        right: 18px;
-    }
-
-    .chat-ia-toggle,
-    .chat-ia-link {
-        height: 60px;
     }
 }
