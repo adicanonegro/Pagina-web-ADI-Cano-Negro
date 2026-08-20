@@ -9,6 +9,7 @@ window.translations.index = {
         nav_flora: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        nav_eventos: "Eventos",
         nav_flora_fauna: "Flora y Fauna",
 
         hero_tag: "Naturaleza, cultura y conservación",
@@ -121,6 +122,7 @@ window.translations.index = {
         nav_flora: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        nav_eventos: "Events",
         nav_flora_fauna: "Flora & Fauna",
 
         hero_tag: "Nature, culture and conservation",
@@ -234,6 +236,7 @@ window.translations.index = {
         nav_flora: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        nav_eventos: "Événements",
         nav_flora_fauna: "Flore et Faune",
 
         hero_tag: "Nature, culture et conservation",

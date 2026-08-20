@@ -10,6 +10,7 @@ window.translations.senderos = {
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        nav_eventos: "Eventos",
 
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 
@@ -82,6 +83,7 @@ window.translations.senderos = {
         nav_flora_fauna: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        nav_eventos: "Events",
 
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 
@@ -154,6 +156,7 @@ window.translations.senderos = {
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        nav_eventos: "Événements",
 
         hero_location: "Caño Negro, Los Chiles, Alajuela",
 

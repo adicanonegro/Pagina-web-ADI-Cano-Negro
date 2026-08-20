@@ -4,49 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sendero - ADI Caño Negro</title>
+    <title>Eventos - Caño Negro</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="../../CSS/utlidades/header.css">
-    <link rel="stylesheet" href="../../CSS/sendero/senderos.css?v=2">
+    <link rel="stylesheet" href="../../CSS/eventos/eventos.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
     <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
     <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
-
-
 </head>
 
-<body data-page="senderos">
+<body data-page="eventos">
 
     <div class="scroll-progress" id="scrollProgress"></div>
 
-    <!-- ================= HEADER (igual que index) ================= -->
+    <!-- ================= HEADER ================= -->
     <header class="main-header">
         <div class="logo-area">
             <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img" loading="lazy">
             <div class="logo-text">
-                <span>ADI Caño Negro</span>
+                <span data-i18n="logo_text">ADI Caño Negro</span>
             </div>
         </div>
-
         <nav class="navbar navbar-expand-lg custom-navbar">
             <div class="container-fluid p-0">
-
-                <!-- BOTÓN HAMBURGUESA -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-label="Abrir menú">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-label="Abrir menú">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- MENÚ -->
                 <div class="collapse navbar-collapse justify-content-lg-end" id="menuNav">
-
-                    <!-- Encabezado interno móvil -->
                     <div class="menu-sidebar-header d-lg-none">
                         <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="mobile-header-logo" loading="lazy">
                         <span class="mobile-header-title">ADI Caño Negro</span>
@@ -55,19 +45,16 @@
                             <i class="fa-solid fa-xmark"></i>
                         </button>
                     </div>
-
                     <ul class="navbar-nav align-items-lg-center">
                         <li class="nav-item"><a class="nav-link" href="../../index.html" data-i18n="nav_inicio">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="../sobreADI/sobreADI.html" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
-                        <li class="nav-item active-page"><a class="nav-link active" href="#" data-i18n="nav_senderos">Sendero</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../Senderos/senderos.html" data-i18n="nav_senderos">Sendero</a></li>
                         <li class="nav-item"><a class="nav-link" href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../floraFauna/floraFauna.html" data-i18n="nav_flora">Flora y Fauna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
                         <li class="nav-item"><a class="nav-link" href="../emprendedores.html" data-i18n="nav_emprendedores">Emprendedores</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../eventos/eventos.html" data-i18n="nav_eventos">Eventos</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="#" data-i18n="nav_eventos">Eventos</a></li>
                         <li class="nav-item"><a class="nav-link" href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
                     </ul>
-
-                    <!-- IDIOMA -->
                     <div class="language-dropdown ms-lg-3">
                         <button type="button" class="language-toggle" id="languageToggle">
                             <span id="currentLanguage">ES</span>
@@ -79,24 +66,22 @@
                             <button class="language-option" data-lang="fr">FR</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- ================= HERO ================= -->
-    <section class="hero-senderos reveal">
-        <div class="hero-content">
+    <section class="eventos-hero">
+        <div class="hero-content reveal">
             <p class="hero-tag">
-                <span data-i18n="senderos_hero_tag">Naturaleza, senderismo y conservación</span>
+                <span data-i18n="hero_tag">Arte · Cultura · Vida comunitaria</span>
             </p>
-            <h1 data-i18n="senderos_hero_title">
-                Sendero Natural de <span>Caño Negro</span>
-            </h1>
-            <p class="description" data-i18n="senderos_hero_desc">
-                Recorre el sendero rodeado de bosque, humedales y vida silvestre, en un entorno
-                donde cada paso invita a descubrir la riqueza natural de Caño Negro.
+            <h1 data-i18n="hero_title">Eventos y <span>actividades</span></h1>
+            <p class="description" data-i18n="hero_desc">
+                Un espacio para conocer las actividades que la Asociación de Desarrollo Integral de
+                Caño Negro organiza junto a la comunidad durante el año, desde festivales culturales
+                hasta jornadas comunitarias.
             </p>
             <p class="location">
                 <i class="fa-solid fa-location-dot"></i>
@@ -105,144 +90,110 @@
         </div>
     </section>
 
-    <!-- ================= NAV ANCLAS ================= -->
-    <section class="section-nav reveal">
+    <!-- ================= PIZARRA DE EVENTOS ================= -->
+    <section class="pizarra-section" id="pizarra">
         <div class="container">
-            <div class="section-nav-links">
-                <a href="#infoGeneral">
-                    <i class="fa-solid fa-circle-info"></i>
-                    <span data-i18n="senderos_nav_info">Información General</span>
-                </a>
-                <a href="#senderos">
-                    <i class="fa-solid fa-route"></i>
-                    <span data-i18n="senderos_nav_trails">Sendero</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= INFO GENERAL ================= -->
-    <section class="info-senderos reveal" id="infoGeneral">
-        <div class="container">
-            <span class="section-label center reveal" data-i18n="senderos_info_label">Explora con responsabilidad</span>
-            <h2 class="section-title reveal" data-i18n="senderos_info_title">Información acerca del sendero</h2>
-            <p class="section-subtitle reveal" data-i18n="senderos_info_subtitle">
-                Antes de iniciar tu recorrido, toma en cuenta algunas recomendaciones para
-                disfrutar de una experiencia segura, consciente y respetuosa con la naturaleza.
-            </p>
-
-            <div class="info-grid row g-4">
-                <div class="col-12 col-md-4">
-                    <div class="info-box reveal">
-                        <div class="info-icon">
-                            <i class="fa-solid fa-shoe-prints"></i>
-                        </div>
-                        <h3 data-i18n="senderos_box1_title">Recomendaciones</h3>
-                        <p data-i18n="senderos_box1_desc">
-                            Utiliza calzado cómodo, lleva agua, protector solar y ropa adecuada
-                            para caminar en un entorno natural.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="info-box reveal">
-                        <div class="info-icon">
-                            <i class="fa-solid fa-leaf"></i>
-                        </div>
-                        <h3 data-i18n="senderos_box2_title">Conservación</h3>
-                        <p data-i18n="senderos_box2_desc">
-                            Respeta la flora y la fauna, no dejes residuos y ayuda a proteger
-                            el equilibrio del ecosistema.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4">
-                    <div class="info-box reveal">
-                        <div class="info-icon">
-                            <i class="fa-solid fa-binoculars"></i>
-                        </div>
-                        <h3 data-i18n="senderos_box3_title">Observación</h3>
-                        <p data-i18n="senderos_box3_desc">
-                            Lleva cámara o binoculares para disfrutar mejor del paisaje,
-                            las aves y los detalles del entorno.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= SENDERO (Eco Trail) ================= -->
-    <section class="senderos-section reveal" id="senderos">
-        <div class="container">
-            <span class="section-label center reveal" data-i18n="senderos_section_label">Nuestro sendero</span>
-            <h2 class="section-title reveal" data-i18n="senderos_section_title">Sendero Eco Trail</h2>
-            <p class="section-subtitle reveal" data-i18n="senderos_section_subtitle">
-                Un recorrido pensado para conectar con los paisajes, la flora y la fauna
-                del Refugio de Vida Silvestre Caño Negro.
-            </p>
-
-            <div class="sendero-cta reveal">
-                <!-- TODO: reemplazar por el logo definitivo de Eco Trail cuando lo envíen -->
-                <img src="../../img/senderos/LogoManakin.png" alt="Eco Trail" class="sendero-cta-logo" loading="lazy">
-
-                <p class="sendero-cta-desc" data-i18n="senderos_cta_desc">
-                    Conoce el sendero Eco Trail, una experiencia para recorrer de cerca los
-                    paisajes, la biodiversidad y los atractivos naturales de Caño Negro.
-                    Encuentra toda la información, fotos y detalles del recorrido en su página oficial.
+            <div class="section-heading reveal">
+                <span class="section-label center"><i class="fa-solid fa-thumbtack"></i> <span data-i18n="pizarra_label">Nuestra pizarra</span></span>
+                <h2 class="section-title" data-i18n="pizarra_title">Próximos eventos</h2>
+                <p class="section-subtitle" data-i18n="pizarra_subtitle">
+                    Así como una pizarra comunitaria, aquí anunciamos las próximas actividades de Caño
+                    Negro. Vuelve pronto, la iremos actualizando.
                 </p>
+            </div>
 
-                <!-- TODO: reemplazar "#" por el link real de Eco Trail cuando esté disponible -->
-                <a href="#" class="sendero-cta-button link-coming-soon" aria-disabled="true">
-                    <span data-i18n="senderos_cta_button">Conocer Eco-Trail</span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
+            <!--
+                Pizarra estilo corcho: cada tarjeta lleva un ".card-pin" (la chinche) y una leve
+                rotación definida en CSS/eventos/eventos.css. Para agregar un nuevo evento, duplica
+                una columna ".col-12.col-md-6.col-lg-4" completa con su tarjeta ".card-item" y
+                actualiza foto, etiqueta, título, descripción y enlace. Recuerda agregar las
+                traducciones correspondientes en JS/traducciones/eventos/eventos.js
+            -->
+            <div class="pizarra-board reveal-zoom">
+                <div class="pizarra-cards row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <a href="festivalLaLlena.html" class="card-item">
+                            <span class="card-pin pin-top"><i class="fa-solid fa-thumbtack"></i></span>
+                            <span class="card-pin pin-bottom"><i class="fa-solid fa-thumbtack"></i></span>
+                            <div class="card-image">
+                                <img src="../../img/llena/fondo2.png" alt="Festival La Llena" loading="lazy">
+                                <span class="card-tag" data-i18n="event1_badge">Evento anual</span>
+                            </div>
+                            <div class="card-content">
+                                <h3 data-i18n="event1_title">Festival La Llena</h3>
+                                <p class="card-date"><i class="fa-solid fa-calendar-days"></i> <span data-i18n="event1_date">21 de noviembre de 2026</span></p>
+                                <p data-i18n="event1_desc">
+                                    Arte, cultura y emprendimiento local, con charlas de educación ambiental
+                                    y actividades para toda la familia.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="pizarra-note">
+                            <span class="card-pin pin-top"><i class="fa-solid fa-thumbtack"></i></span>
+                            <span class="card-pin pin-bottom"><i class="fa-solid fa-thumbtack"></i></span>
+                            <i class="fa-solid fa-clipboard-list pizarra-note-icon"></i>
+                            <h3 data-i18n="event2_title">Más actividades muy pronto</h3>
+                            <p data-i18n="event2_desc">
+                                Estamos organizando nuevas jornadas y encuentros comunitarios. Síguenos en
+                                redes sociales o escríbenos por WhatsApp para enterarte primero.
+                            </p>
+                            <span class="pizarra-note-tag">
+                                <i class="fa-solid fa-bell"></i> <span data-i18n="event2_link">Vuelve pronto</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ================= BANNER CIERRE ================= -->
+    <!-- ================= CIERRE ================= -->
     <section class="banner-section reveal">
         <div class="container banner-content">
-            <p class="banner-tag" data-i18n="senderos_closing_tag">Caño Negro</p>
-            <h2 data-i18n="senderos_closing_title">
-                « Cada sendero es una oportunidad para conectar con la naturaleza y aprender a conservarla »
+            <span class="banner-tag" data-i18n="closing_tag">ADI Caño Negro</span>
+            <h2 class="banner-quote" data-i18n="closing_title">
+                Cada evento es una excusa más para encontrarnos como comunidad.
             </h2>
-            <p data-i18n="senderos_closing_desc">
-                Caminar por estos espacios permite descubrir la vida que habita en cada rincón,
-                valorar la biodiversidad y fortalecer el compromiso con su protección.
+            <p data-i18n="closing_desc">
+                ¿Tenés una idea de actividad para Caño Negro? Contanos, la ADI está abierta a nuevas
+                propuestas de la comunidad.
             </p>
+            <div class="banner-cta-row">
+                <a href="https://wa.me/50683318263" target="_blank" class="btn-cta">
+                    <i class="fab fa-whatsapp"></i> <span data-i18n="closing_btn">Escribinos por WhatsApp</span>
+                </a>
+                <a href="../sobreADI/sobreADI.html" class="btn-outline">
+                    <i class="fa-solid fa-people-group"></i> <span data-i18n="closing_btn2">Conocer a la ADI</span>
+                </a>
+            </div>
         </div>
     </section>
 
     <!-- ================= FOOTER ================= -->
     <footer>
         <div class="footer-grid">
-
             <div class="footer-col footer-brand">
                 <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="footer-logo" loading="lazy">
                 <p data-i18n="footer_about">
-                    Asociación de Desarrollo Integral de Caño Negro, trabajando por la conservación
-                    y el desarrollo sostenible de nuestra comunidad.
+                    Asociación de Desarrollo Integral de Caño Negro, trabajando junto a la comunidad
+                    por el desarrollo turístico, deportivo, empresarial y comunitario.
                 </p>
             </div>
-
             <div class="footer-col footer-links-col">
                 <h4 data-i18n="footer_links_title">Enlaces rápidos</h4>
                 <ul class="footer-links">
                     <li><a href="../../index.html" data-i18n="nav_inicio">Inicio</a></li>
                     <li><a href="../sobreADI/sobreADI.html" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
-                    <li><a href="#" data-i18n="nav_senderos">Sendero</a></li>
+                    <li><a href="../Senderos/senderos.html" data-i18n="nav_senderos">Sendero</a></li>
                     <li><a href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
                     <li><a href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
-                    <li><a href="../emprendedores.html" data-i18n="nav_emprendedores">Emprendedores</a></li>
-                    <li><a href="../eventos/eventos.html" data-i18n="nav_eventos">Eventos</a></li>
+                    <li><a href="#" data-i18n="nav_eventos">Eventos</a></li>
                     <li><a href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
                 </ul>
             </div>
-
             <div class="footer-col">
                 <h4 data-i18n="footer_contact_title">Contacto</h4>
                 <ul class="footer-contact">
@@ -260,7 +211,6 @@
                     </li>
                 </ul>
             </div>
-
             <div class="footer-col">
                 <h4 data-i18n="footer_social_title">Síguenos</h4>
                 <ul class="footer-social-list">
@@ -284,9 +234,7 @@
                     </li>
                 </ul>
             </div>
-
         </div>
-
         <div class="footer-bottom">
             <p data-i18n="footer_text">© 2026 ADI Caño Negro - Todos los derechos reservados</p>
         </div>
@@ -320,24 +268,24 @@
             <h2 data-i18n="help_title">¿En qué podemos ayudarte?</h2>
             <div class="faq-list">
                 <div class="faq-item">
-                    <h3 data-i18n="faq_q1">📍 ¿Dónde está Caño Negro?</h3>
-                    <p data-i18n="faq_a1">Se ubica en Los Chiles, Alajuela, Costa Rica, cerca de la frontera con Nicaragua.</p>
+                    <h3 data-i18n="faq_q1">🎉 ¿Cuál es el próximo evento?</h3>
+                    <p data-i18n="faq_a1">El Festival La Llena, que se celebra cada año entre septiembre y noviembre. La fecha exacta se anuncia con antelación.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 data-i18n="faq_q2">🚗 ¿Cómo llegar?</h3>
-                    <p data-i18n="faq_a2">Puedes acceder por la Ruta 138 desde Upala o Los Chiles. Usa el botón de ubicación para ver la ruta.</p>
+                    <h3 data-i18n="faq_q2">💡 ¿Cómo propongo una actividad?</h3>
+                    <p data-i18n="faq_a2">Podés escribirnos por WhatsApp o correo y con gusto revisamos tu propuesta.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 data-i18n="faq_q3">🦜 ¿Qué se puede ver?</h3>
-                    <p data-i18n="faq_a3">Más de 300 especies de aves, además de reptiles, mamíferos y una gran diversidad de flora.</p>
+                    <h3 data-i18n="faq_q3">💵 ¿Los eventos tienen costo?</h3>
+                    <p data-i18n="faq_a3">Depende de la actividad; en general buscamos que sean accesibles para toda la comunidad.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 data-i18n="faq_q4">📅 ¿Mejor época para visitar?</h3>
-                    <p data-i18n="faq_a4">Durante la estación seca para senderismo, o época lluviosa para ver aves migratorias.</p>
+                    <h3 data-i18n="faq_q4">📍 ¿Dónde se realizan?</h3>
+                    <p data-i18n="faq_a4">La mayoría se desarrollan en espacios comunitarios de Caño Negro, como el Campo Ferial o el parque.</p>
                 </div>
                 <div class="faq-item">
-                    <h3 data-i18n="faq_q5">🎒 ¿Qué llevar?</h3>
-                    <p data-i18n="faq_a5">Ropa cómoda, repelente, agua, cámara y protección solar.</p>
+                    <h3 data-i18n="faq_q5">🔔 ¿Cómo me entero de nuevos eventos?</h3>
+                    <p data-i18n="faq_a5">Revisando esta página o siguiendo nuestras redes sociales.</p>
                 </div>
             </div>
         </div>
@@ -348,8 +296,8 @@
         <button class="chat-ia-toggle" id="chatIaToggle" aria-label="Abrir acceso a IA">
             <i class="fa-solid fa-chevron-left"></i>
         </button>
-        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20Ca%C3%B1o%20Negro" target="_blank"
-            class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
+        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20eventos%20en%20Ca%C3%B1o%20Negro"
+            target="_blank" class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
             <span data-i18n="chat_tab">Acerca de Caño Negro</span>
         </a>
     </div>
@@ -364,11 +312,11 @@
 
     <script src="../../JS/traductor.js"></script>
     <script src="../../JS/utilidades/imageZoom.js"></script>
-    <script src="../../JS/traducciones/senderos/senderos.js"></script>
-    <script src="../../JS/utilidades/senderos/senderos.js"></script>
-    <script src="../../JS/utilidades/modal.js"></script>
+    <script src="../../JS/traducciones/eventos/eventos.js"></script>
     <script src="../../JS/utilidades/fab.js"></script>
+    <script src="../../JS/utilidades/modal.js"></script>
     <script src="../../JS/utilidades/chatIA.js"></script>
+    <script src="../../JS/utilidades/eventos/eventos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

@@ -10,6 +10,7 @@ window.translations.sobreADI = {
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        nav_eventos: "Eventos",
 
         hero_tag: "Comunidad · Turismo · Desarrollo Integral",
         hero_title: "Construyendo juntos el <span>futuro de Caño Negro</span>",
@@ -37,6 +38,15 @@ window.translations.sobreADI = {
         quienes_fact5_text: "Voluntariado y espacios de participación para vecinos y vecinas.",
         quienes_fact6_title: "Trabajo colaborativo",
         quienes_fact6_text: "Alianzas con instituciones, universidades, organizaciones y empresas.",
+
+        festival_label: "Cultura y comunidad",
+        festival_title: "Festival La Llena",
+        festival_subtitle: "Un encuentro anual dedicado al arte, la cultura y la vida comunitaria de Caño Negro.",
+        festival_card_title: "Cada año en noviembre",
+        festival_card_desc1: "El Festival La Llena conecta a emprendedores de la zona, promueve la educación ambiental y celebra la identidad de Caño Negro a través del arte y la cultura.",
+        festival_card_desc2: "Su nombre nace de una expresión muy nuestra: cuando el caudal del río sube entre septiembre y noviembre, todos los cañonegrenses dicen con orgullo \"¡Se vino la llena!\".",
+        festival_badge: "Evento anual",
+        btn_more_info: "Ver más información",
 
         vol_label: "Voluntariado",
         vol_title: "Sé parte del cambio",
@@ -140,6 +150,7 @@ window.translations.sobreADI = {
         nav_flora_fauna: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        nav_eventos: "Events",
 
         hero_tag: "Community · Tourism · Integral Development",
         hero_title: "Building the <span>future of Caño Negro together</span>",
@@ -167,6 +178,15 @@ window.translations.sobreADI = {
         quienes_fact5_text: "Volunteering and participation spaces for neighbors.",
         quienes_fact6_title: "Collaborative work",
         quienes_fact6_text: "Partnerships with institutions, universities, organizations, and businesses.",
+
+        festival_label: "Culture and community",
+        festival_title: "La Llena Festival",
+        festival_subtitle: "An annual gathering dedicated to art, culture, and community life in Caño Negro.",
+        festival_card_title: "Every year in November",
+        festival_card_desc1: "The La Llena Festival connects local entrepreneurs, promotes environmental education, and celebrates Caño Negro's identity through art and culture.",
+        festival_card_desc2: "Its name comes from a local expression: when the river's flow rises between September and November, everyone in Caño Negro proudly says \"¡Se vino la llena!\" (\"The flood is here!\").",
+        festival_badge: "Annual event",
+        btn_more_info: "See more information",
 
         vol_label: "Volunteering",
         vol_title: "Be part of the change",
@@ -270,6 +290,7 @@ window.translations.sobreADI = {
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Pavillon Bleu Écologique",
+        nav_eventos: "Événements",
 
         hero_tag: "Communauté · Tourisme · Développement Intégral",
         hero_title: "Construire ensemble l'<span>avenir de Caño Negro</span>",
@@ -297,6 +318,15 @@ window.translations.sobreADI = {
         quienes_fact5_text: "Bénévolat et espaces de participation pour les voisins.",
         quienes_fact6_title: "Travail collaboratif",
         quienes_fact6_text: "Partenariats avec des institutions, des universités, des organisations et des entreprises.",
+
+        festival_label: "Culture et communauté",
+        festival_title: "Festival La Llena",
+        festival_subtitle: "Une rencontre annuelle dédiée à l'art, à la culture et à la vie communautaire de Caño Negro.",
+        festival_card_title: "Chaque année en novembre",
+        festival_card_desc1: "Le Festival La Llena réunit les entrepreneurs locaux, favorise l'éducation environnementale et célèbre l'identité de Caño Negro à travers l'art et la culture.",
+        festival_card_desc2: "Son nom vient d'une expression bien de chez nous : quand le débit de la rivière monte entre septembre et novembre, tout le monde à Caño Negro dit fièrement « ¡Se vino la llena! » (« la crue est arrivée ! »).",
+        festival_badge: "Événement annuel",
+        btn_more_info: "Voir plus d'informations",
 
         vol_label: "Bénévolat",
         vol_title: "Faites partie du changement",

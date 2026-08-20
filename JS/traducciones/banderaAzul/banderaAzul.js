@@ -11,6 +11,7 @@ window.translations.banderaAzul = {
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        nav_eventos: "Eventos",
 
         hero_tag: "Programa AyA · Costa Rica",
         hero_title: "Bandera Azul<br>Ecológica en <span>Caño Negro</span>",
@@ -127,6 +128,7 @@ window.translations.banderaAzul = {
         nav_flora_fauna: "Flora & Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Blue Ecological Flag",
+        nav_eventos: "Events",
 
         hero_tag: "AyA Program · Costa Rica",
         hero_title: "Blue Ecological<br>Flag in <span>Caño Negro</span>",
@@ -243,6 +245,7 @@ window.translations.banderaAzul = {
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        nav_eventos: "Événements",
 
         hero_tag: "Programme AyA · Costa Rica",
         hero_title: "Drapeau Bleu<br>Écologique à <span>Caño Negro</span>",

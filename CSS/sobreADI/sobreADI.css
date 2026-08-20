@@ -333,6 +333,95 @@ img { max-width: 100%; display: block; }
     line-height: 1.6;
 }
 
+/* ================= FESTIVAL LA LLENA ================= */
+.festival-teaser-section {
+    padding: 90px 0;
+    background: var(--fondo);
+}
+
+/* Foto y texto flotando por separado, como en Comunidad (Pesca, Muelles...) */
+.info-row {
+    margin-top: 10px;
+}
+
+.info-img {
+    min-width: 0;
+}
+
+.info-img img {
+    width: 100%;
+    border-radius: 24px;
+    object-fit: cover;
+    box-shadow: var(--sombra);
+    transition: 0.4s ease;
+    border: 1px solid var(--verde-oscuro);
+}
+
+.info-img img:hover {
+    transform: scale(1.02);
+    box-shadow: var(--sombra-hover);
+}
+
+.info-img .photo-credit {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--texto-muted);
+    font-style: italic;
+}
+
+.info-text {
+    flex: 1 1 460px;
+    min-width: 280px;
+}
+
+.info-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--verde-claro);
+    margin-bottom: 12px;
+}
+
+/* En la tarjeta del festival, el label funciona como subtítulo: más grande y
+   con el mismo verde que usan los títulos del resto del sitio. */
+.festival-teaser-section .info-label {
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: none;
+    letter-spacing: normal;
+    color: var(--verde-principal);
+    margin-bottom: 14px;
+}
+
+.info-text p {
+    line-height: 1.9;
+    font-size: 16px;
+    color: var(--texto-suave);
+    margin-bottom: 18px;
+}
+
+.festival-teaser-section .info-text p { margin-bottom: 14px; }
+
+.btn-ver-mas {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: var(--naranja-acento);
+    transition: 0.3s ease;
+}
+
+.btn-ver-mas:hover {
+    color: var(--naranja-hover);
+    transform: translateX(4px);
+}
+
+.festival-btn-ver-mas { margin-top: 16px; }
+
 /* ================= VOLUNTARIADO ================= */
 .volunteer-section {
     padding: 90px 0;
@@ -827,6 +916,9 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
     }
     .quienes-community-card figure { height: 240px; }
     .quienes-facts-card { grid-template-columns: repeat(2, 1fr); }
+
+    .info-label { display: block; text-align: center; }
+    .festival-btn-ver-mas { justify-content: center; }
 
     .futuro-featured { grid-template-columns: 1fr; }
     .futuro-featured-img { min-height: 220px; }

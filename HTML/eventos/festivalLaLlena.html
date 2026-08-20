@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival La Llena - Caño Negro</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/header.css">
+    <link rel="stylesheet" href="../../CSS/eventos/eventos.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectoIdioma.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/efectosGlobales.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/efectos/imageZoom.css">
+    <link rel="stylesheet" href="../../CSS/utlidades/footer.css">
+</head>
+
+<body data-page="festivalLaLlena">
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="main-header">
+        <div class="logo-area">
+            <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="logo-img" loading="lazy">
+            <div class="logo-text">
+                <span data-i18n="logo_text">ADI Caño Negro</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid p-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav"
+                    aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="menuNav">
+                    <div class="menu-sidebar-header d-lg-none">
+                        <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="mobile-header-logo" loading="lazy">
+                        <span class="mobile-header-title">ADI Caño Negro</span>
+                        <button class="close-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#menuNav" aria-label="Cerrar menú">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="../sobreADI/sobreADI.html" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
+                        <li class="nav-item active-page"><a class="nav-link active" href="festivalLaLlena.html" data-i18n="nav_festival">Festival La Llena</a></li>
+                    </ul>
+                    <div class="language-dropdown ms-lg-3">
+                        <button type="button" class="language-toggle" id="languageToggle">
+                            <span id="currentLanguage">ES</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="language-menu" id="languageMenu">
+                            <button class="language-option active" data-lang="es">ES</button>
+                            <button class="language-option" data-lang="en">EN</button>
+                            <button class="language-option" data-lang="fr">FR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="eventos-hero festival-hero">
+        <div class="hero-content reveal">
+            <p class="hero-tag">
+                <span data-i18n="hero_tag">Cultura · Arte · Comunidad</span>
+            </p>
+            <h1 data-i18n="hero_title">Festival <span>La Llena</span></h1>
+            <p class="description" data-i18n="hero_desc">
+                El encuentro anual que celebra el arte, la cultura y la vida comunitaria de Caño Negro.
+                Un espacio para conectar con emprendedores locales, disfrutar de actividades para toda
+                la familia y aprender a valorar el entorno natural que nos rodea.
+            </p>
+            <p class="location">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span data-i18n="hero_location">Noviembre · Caño Negro</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= INTRODUCCIÓN ================= -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-row reveal">
+                <div class="intro-logo-col reveal-left">
+                    <img src="../../img/llena/logo.jpg" alt="Logo Festival La Llena" class="festival-logo" loading="lazy">
+                </div>
+                <div class="intro-text-col reveal-right">
+                    <span class="section-label" data-i18n="intro_label">Sobre el festival</span>
+                    <h2 class="section-title" data-i18n="intro_title">Arte, cultura y vida comunitaria</h2>
+                    <p class="section-subtitle" data-i18n="intro_text">
+                        El Festival de La Llena es un encuentro dedicado al arte, la cultura y la vida
+                        comunitaria. Es el espacio ideal para conectar con emprendedores de la zona,
+                        compartir saberes, promover la educación ambiental y aprender a valorar el
+                        entorno único de Caño Negro.
+                    </p>
+                    <p class="section-subtitle" data-i18n="intro_text2">
+                        Se celebra cada año en <strong>noviembre</strong>, coincidiendo con la temporada
+                        en que el caudal del río sube y "se viene la llena".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SU IMPORTANCIA ================= -->
+    <section class="importance-section" id="importancia">
+        <div class="container">
+            <div class="section-heading reveal">
+                <span class="section-label center" data-i18n="importance_label">Su importancia</span>
+                <h2 class="section-title" data-i18n="importance_title">Más que una celebración</h2>
+                <p class="section-subtitle" data-i18n="importance_subtitle">
+                    El principal objetivo del festival es fortalecer la identidad local a través de una
+                    celebración anual que la comunidad espere con ansias.
+                </p>
+            </div>
+
+            <div class="importance-grid">
+                <article class="importance-card reveal">
+                    <div class="importance-icon"><i class="fa-solid fa-store"></i></div>
+                    <h3 data-i18n="importance_card1_title">Impulsar la economía local</h3>
+                    <p data-i18n="importance_card1_desc">
+                        Visibilizar a emprendedores de la zona que muchas veces pasan desapercibidos.
+                    </p>
+                </article>
+
+                <article class="importance-card reveal">
+                    <div class="importance-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3 data-i18n="importance_card2_title">Inculcar el arte</h3>
+                    <p data-i18n="importance_card2_desc">
+                        Inspirar y abrir espacios creativos para niños y jóvenes.
+                    </p>
+                </article>
+
+                <article class="importance-card reveal">
+                    <div class="importance-icon"><i class="fa-solid fa-leaf"></i></div>
+                    <h3 data-i18n="importance_card3_title">Generar conciencia ambiental</h3>
+                    <p data-i18n="importance_card3_desc">
+                        Fomentar la reducción de residuos y ofrecer charlas de protección de los recursos
+                        naturales.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CIERRE ================= -->
+    <section class="banner-section reveal">
+        <div class="container banner-content">
+            <span class="banner-tag" data-i18n="closing_tag">Festival La Llena</span>
+            <h2 class="banner-quote" data-i18n="closing_title">
+                "¡Se vino la llena!"
+            </h2>
+            <p data-i18n="closing_desc">
+                Guardá noviembre en tu calendario: el mes en que Caño Negro se llena de arte, cultura
+                y comunidad.
+            </p>
+            <div class="banner-cta-row">
+                <a href="eventos.html" class="btn-cta">
+                    <i class="fa-solid fa-arrow-left"></i> <span data-i18n="closing_btn">Ver todos los eventos</span>
+                </a>
+                <a href="https://wa.me/50683318263" target="_blank" class="btn-outline">
+                    <i class="fab fa-whatsapp"></i> <span data-i18n="closing_btn2">Escribinos por WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <img src="../../img/Logo.png" alt="Logo ADI Caño Negro" class="footer-logo" loading="lazy">
+                <p data-i18n="footer_about">
+                    Asociación de Desarrollo Integral de Caño Negro, trabajando junto a la comunidad
+                    por el desarrollo turístico, deportivo, empresarial y comunitario.
+                </p>
+            </div>
+            <div class="footer-col footer-links-col">
+                <h4 data-i18n="footer_links_title">Enlaces rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="../../index.html" data-i18n="nav_inicio">Inicio</a></li>
+                    <li><a href="../sobreADI/sobreADI.html" data-i18n="nav_sobre_adi">Acerca de Nosotros</a></li>
+                    <li><a href="../Senderos/senderos.html" data-i18n="nav_senderos">Sendero</a></li>
+                    <li><a href="../comunidad/comunidad.html" data-i18n="nav_comunidad">Comunidad</a></li>
+                    <li><a href="../floraFauna/floraFauna.html" data-i18n="nav_flora_fauna">Flora y Fauna</a></li>
+                    <li><a href="eventos.html" data-i18n="nav_eventos">Eventos</a></li>
+                    <li><a href="../banderaAzul/banderaAzul.html" data-i18n="nav_bandera">Bandera Azul Ecológica</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contact_title">Contacto</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span data-i18n="footer_address">Caño Negro, Los Chiles, Alajuela, Costa Rica</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:adicanonegro@gmail.com">adicanonegro@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+50683318263">+506 8331-8263</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Síguenos</h4>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="https://www.facebook.com/adi.canonegro" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-tiktok"></i>
+                            <span>TikTok</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_text">© 2026 ADI Caño Negro - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- ================= FAB ================= -->
+    <div class="fab-container">
+        <button class="fab-main" id="fabToggle" aria-label="Abrir acciones rápidas">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <div class="fab-options">
+            <a href="#" class="fab-option help" id="openHelp" aria-label="Ayuda">
+                <i class="fa-solid fa-comments"></i>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Refugio+de+Vida+Silvestre+Caño+Negro"
+                target="_blank" class="fab-option map" aria-label="Cómo llegar">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+            <a href="https://wa.me/50683318263" target="_blank" class="fab-option whatsapp" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- ================= MODAL AYUDA ================= -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-content">
+            <button class="close-modal" id="closeHelp" aria-label="Cerrar ayuda">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 data-i18n="help_title">¿En qué podemos ayudarte?</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q1">📅 ¿Cuándo es el Festival La Llena?</h3>
+                    <p data-i18n="faq_a1">Se celebra cada año en noviembre. La fecha exacta se anuncia con antelación en esta página.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q2">👨‍👩‍👧 ¿Es una actividad familiar?</h3>
+                    <p data-i18n="faq_a2">Sí, está pensado para toda la familia, con espacios y actividades para niños y jóvenes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q3">🎨 ¿Qué actividades incluye?</h3>
+                    <p data-i18n="faq_a3">Arte, cultura, espacios para emprendedores locales y charlas de educación ambiental.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q4">🛍️ ¿Cómo participo como emprendedor?</h3>
+                    <p data-i18n="faq_a4">Podés escribirnos por WhatsApp o correo para conocer los espacios disponibles.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 data-i18n="faq_q5">📍 ¿Dónde se realiza?</h3>
+                    <p data-i18n="faq_a5">En espacios comunitarios de Caño Negro, como el Campo Ferial.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= PESTAÑA IA ================= -->
+    <div class="chat-ia-tab" id="chatIaTab">
+        <button class="chat-ia-toggle" id="chatIaToggle" aria-label="Abrir acceso a IA">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <a href="https://chat.openai.com/?q=Quiero%20informaci%C3%B3n%20sobre%20el%20Festival%20La%20Llena%20de%20Ca%C3%B1o%20Negro"
+            target="_blank" class="chat-ia-link" id="chatIaLink" aria-label="Abrir IA sobre Caño Negro">
+            <span data-i18n="chat_tab">Acerca de Caño Negro</span>
+        </a>
+    </div>
+
+    <!-- ================= LOADER IDIOMA ================= -->
+    <div class="language-loader" id="languageLoader">
+        <div class="language-loader-box">
+            <div class="language-spinner"></div>
+            <p id="languageLoaderText">Cambiando idioma...</p>
+        </div>
+    </div>
+
+    <script src="../../JS/traductor.js"></script>
+    <script src="../../JS/utilidades/imageZoom.js"></script>
+    <script src="../../JS/traducciones/eventos/festivalLaLlena.js"></script>
+    <script src="../../JS/utilidades/fab.js"></script>
+    <script src="../../JS/utilidades/modal.js"></script>
+    <script src="../../JS/utilidades/chatIA.js"></script>
+    <script src="../../JS/utilidades/eventos/eventos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

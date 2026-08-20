@@ -10,6 +10,7 @@ window.translations.emprendedores = {
         nav_flora_fauna: "Flora y Fauna",
         nav_emprendedores: "Emprendedores",
         nav_bandera: "Bandera Azul Ecológica",
+        nav_eventos: "Eventos",
 
         coming_soon_tag: "Emprendedores de Caño Negro",
         coming_soon_title: "Estamos preparando esta sección",
@@ -46,6 +47,7 @@ window.translations.emprendedores = {
         nav_flora_fauna: "Flora and Fauna",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Ecological Blue Flag",
+        nav_eventos: "Events",
 
         coming_soon_tag: "Caño Negro Entrepreneurs",
         coming_soon_title: "We're working on this section",
@@ -82,6 +84,7 @@ window.translations.emprendedores = {
         nav_flora_fauna: "Flore et Faune",
         nav_emprendedores: "Entrepreneurs",
         nav_bandera: "Drapeau Bleu Écologique",
+        nav_eventos: "Événements",
 
         coming_soon_tag: "Entrepreneurs de Caño Negro",
         coming_soon_title: "Nous préparons cette section",
