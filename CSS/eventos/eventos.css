@@ -735,6 +735,11 @@ body:has(#menuNav.show) .fab-container { display: none !important; }
 @media (max-width: 768px) {
     .eventos-hero h1 { font-size: 50px; }
     .importance-grid { grid-template-columns: repeat(2, 1fr); }
+
+    /* Las tarjetas se apilan en una sola columna: se agranda el espacio entre
+       filas para que las chinches (que sobresalen del borde de cada tarjeta)
+       no queden pegadas entre sí. */
+    .pizarra-cards { --bs-gutter-y: 4rem; }
 }
 
 @media (max-width: 600px) {
